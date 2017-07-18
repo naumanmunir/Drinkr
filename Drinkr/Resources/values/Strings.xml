@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">Drinkr</string>
+
+  <string name="next">NEXT</string>
+  <string name="skip">SKIP</string>
+  <string name="start">GOT IT</string>
+
+  <string name="slide_1_title">Find your mood!</string>
+  <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+  <string name="slide_1_title">Hello Drinks!</string>
+  <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+  <string name="slide_1_title">Locate the drinks near you!</string>
+  <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
 </resources>
