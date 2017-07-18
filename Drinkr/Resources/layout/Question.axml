@@ -18,6 +18,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/lvAnswers"
         android:choiceMode="singleChoice" />
+  <Button
+    android:text="Back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24px"
+    android:textColor="#ffffff"
+    android:layout_gravity="left"
+    android:id="@+id/btnBack" />
+  
     <Button
         android:text="Next"
         android:layout_width="wrap_content"

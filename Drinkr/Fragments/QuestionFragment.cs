@@ -11,6 +11,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Drinkr.Adapters;
+using Drinkr.Models;
 
 namespace Drinkr.Fragments
 {
@@ -19,16 +20,15 @@ namespace Drinkr.Fragments
         View view;
         ListView answerListview;
         AnswerAdapter aa;
-        string Question;
-        List<string> Answers;
-        int currIndex = -1;
+        List<Question> Question;
+        int currQuestion = 0;
         Button btnNext;
+        Button btnBack;
         TextView txtQuestion;
 
-        public QuestionFragment(string question, List<string> answers)
+        public QuestionFragment(List<Question> questions)
         {
-            Question = question;
-            Answers = answers;
+            Question = questions;
         }
 
         public override void OnCreate(Bundle savedInstanceState)
@@ -45,27 +45,90 @@ namespace Drinkr.Fragments
             view = inflater.Inflate(Resource.Layout.Question, container, false);
 
             btnNext = view.FindViewById<Button>(Resource.Id.btnNext);
+            btnBack = view.FindViewById<Button>(Resource.Id.btnBack);
             answerListview = view.FindViewById<ListView>(Resource.Id.lvAnswers);
-            aa = new AnswerAdapter(Context);
-            answerListview.Adapter = aa;
+            txtQuestion = view.FindViewById<TextView>(Resource.Id.txtQuestion);
+
+            btnBack.Visibility = ViewStates.Gone;
+            ChangeQuestion();
+            
             answerListview.ItemClick += AnswerListview_ItemClick;
             btnNext.Click += BtnNext_Click;
+            btnBack.Click += BtnBack_Click;
             return view;
+        }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            currQuestion -= 1;
+
+            if (currQuestion == 0)
+            {
+                btnBack.Visibility = ViewStates.Gone;
+                btnNext.Visibility = ViewStates.Visible;
+                ChangeQuestion();
+            }
+            else
+            {
+                btnBack.Visibility = ViewStates.Visible;
+                btnNext.Visibility = ViewStates.Visible;
+                ChangeQuestion();
+            }
+            
+
+
         }
 
         private void BtnNext_Click(object sender, EventArgs e)
         {
-            ChangeQuestionAnswers();
+            currQuestion += 1;
+
+            if (currQuestion == Question.Count)
+            {
+                btnNext.Visibility = ViewStates.Gone;
+                btnBack.Visibility = ViewStates.Visible;
+                ChangeQuestion();
+            }
+            else
+            {
+                btnBack.Visibility = ViewStates.Visible;
+                btnNext.Visibility = ViewStates.Visible;
+                ChangeQuestion();
+            }
         }
 
         private void PopulateListViewWithAnswers()
         {
-
+            aa = new AnswerAdapter(Context, Question[currQuestion].Answers);
+            answerListview.Adapter = aa;
         }
 
-        private void ChangeQuestionAnswers()
+        private void ChangeQuestion()
         {
-            
+            txtQuestion.Text = Question[currQuestion]._Question;
+
+            PopulateListViewWithAnswers();
+        }
+
+        private void TrackNavigation()
+        {
+            if (currQuestion == 0)
+            {
+                btnBack.Visibility = ViewStates.Invisible;
+            }
+            else
+            {
+                btnBack.Visibility = ViewStates.Visible;
+            }
+
+            if (currQuestion == Question.Count)
+            {
+                btnNext.Visibility = ViewStates.Invisible;
+            }
+            else
+            {
+                btnBack.Visibility = ViewStates.Visible;
+            }
         }
 
         private void AnswerListview_ItemClick(object sender, AdapterView.ItemClickEventArgs e)

@@ -14,12 +14,8 @@ namespace Drinkr.Models
 {
     public class Question
     {
-        public string pQuestion { get; set; }
+        public string _Question { get; set; }
         public List<string> Answers { get; set; }
 
-        public void GetQuestion()
-        {
-
-        }
     }
 }

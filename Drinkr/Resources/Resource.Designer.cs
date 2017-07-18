@@ -1778,7 +1778,10 @@ namespace Drinkr
 			public const int bottom = 2131361826;
 			
 			// aapt resource value: 0x7f0a0071
-			public const int btnNext = 2131361905;
+			public const int btnBack = 2131361905;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int btnNext = 2131361906;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int buttonPanel = 2131361838;

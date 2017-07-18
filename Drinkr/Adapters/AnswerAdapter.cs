@@ -14,26 +14,22 @@ namespace Drinkr.Adapters
 {
     class AnswerAdapter : BaseAdapter
     {
-        public List<string> answers;
+        public List<string> Answers;
 
         Context context;
 
-        public AnswerAdapter(Context context)
+        public AnswerAdapter(Context context, List<string> answers)
         {
             this.context = context;
 
-            answers = new List<string>();
-            answers.Add("Red");
-            answers.Add("Yellow");
-            answers.Add("Orange");
-            answers.Add("Blue");
-            answers.Add("I don't have a favorite color!");
+            Answers = answers;
+
         }
 
 
         public override Java.Lang.Object GetItem(int position)
         {
-            return answers[position];
+            return Answers[position];
         }
 
         public override long GetItemId(int position)
@@ -65,7 +61,7 @@ namespace Drinkr.Adapters
 
             //fill in your items
 
-            holder.Answer.Text = answers[position];
+            holder.Answer.Text = Answers[position];
 
             
 
@@ -76,7 +72,7 @@ namespace Drinkr.Adapters
         {
             get
             {
-                return answers.Count;
+                return Answers.Count;
             }
         }
 
