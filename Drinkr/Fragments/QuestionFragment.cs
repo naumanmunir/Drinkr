@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Android.Support.V7.App;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -24,11 +24,13 @@ namespace Drinkr.Fragments
         int currQuestion = 0;
         Button btnNext;
         Button btnBack;
+        Button btnDone;
         TextView txtQuestion;
 
         public QuestionFragment(List<Question> questions)
         {
             Question = questions;
+            
         }
 
         public override void OnCreate(Bundle savedInstanceState)
@@ -46,6 +48,7 @@ namespace Drinkr.Fragments
 
             btnNext = view.FindViewById<Button>(Resource.Id.btnNext);
             btnBack = view.FindViewById<Button>(Resource.Id.btnBack);
+            btnDone = view.FindViewById<Button>(Resource.Id.btnDone);
             answerListview = view.FindViewById<ListView>(Resource.Id.lvAnswers);
             txtQuestion = view.FindViewById<TextView>(Resource.Id.txtQuestion);
 
@@ -55,7 +58,13 @@ namespace Drinkr.Fragments
             answerListview.ItemClick += AnswerListview_ItemClick;
             btnNext.Click += BtnNext_Click;
             btnBack.Click += BtnBack_Click;
+            btnDone.Click += BtnDone_Click;
             return view;
+        }
+
+        private void BtnDone_Click(object sender, EventArgs e)
+        {
+            NextFragment();
         }
 
         private void BtnBack_Click(object sender, EventArgs e)
@@ -83,9 +92,10 @@ namespace Drinkr.Fragments
         {
             currQuestion += 1;
 
-            if (currQuestion == Question.Count)
+            if (currQuestion == Question.Count - 1)
             {
                 btnNext.Visibility = ViewStates.Gone;
+                btnDone.Visibility = ViewStates.Visible;
                 btnBack.Visibility = ViewStates.Visible;
                 ChangeQuestion();
             }
@@ -133,6 +143,7 @@ namespace Drinkr.Fragments
 
         private void AnswerListview_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
+            
             var p = e.Parent;
             var v = e.View.FindViewById<RadioButton>(Resource.Id.radioButton1);
 
@@ -146,6 +157,21 @@ namespace Drinkr.Fragments
 
             v.Checked = true;
             Toast.MakeText(Context, v.Text, ToastLength.Short).Show();
+
+
+        }
+
+
+        private void NextFragment()
+        {
+            MoodFragment mf = new MoodFragment();
+
+            Android.Support.V4.App.FragmentManager fm = FragmentManager;
+
+            Android.Support.V4.App.FragmentTransaction fragmentTransaction = fm.BeginTransaction();
+            fragmentTransaction.Replace(Resource.Id.fragmentContainer, mf);
+            fragmentTransaction.AddToBackStack(null);
+            fragmentTransaction.Commit();
         }
     }
 }
