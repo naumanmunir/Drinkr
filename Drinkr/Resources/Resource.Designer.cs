@@ -1861,11 +1861,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f060023
 			public const int bottom = 2131099683;
 			
-			// aapt resource value: 0x7f06007a
-			public const int btnBack = 2131099770;
+			// aapt resource value: 0x7f06007b
+			public const int btnBack = 2131099771;
 			
-			// aapt resource value: 0x7f06007c
-			public const int btnDone = 2131099772;
+			// aapt resource value: 0x7f06007d
+			public const int btnDone = 2131099773;
 			
 			// aapt resource value: 0x7f06005b
 			public const int btnFindNearBy = 2131099739;
@@ -1873,8 +1873,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f06005a
 			public const int btnFindRecipe = 2131099738;
 			
-			// aapt resource value: 0x7f06007b
-			public const int btnNext = 2131099771;
+			// aapt resource value: 0x7f06007c
+			public const int btnNext = 2131099772;
 			
 			// aapt resource value: 0x7f06002f
 			public const int buttonPanel = 2131099695;
@@ -1948,8 +1948,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f060057
 			public const int imageView1 = 2131099735;
 			
-			// aapt resource value: 0x7f06007d
-			public const int imgDrink = 2131099773;
+			// aapt resource value: 0x7f06007e
+			public const int imgDrink = 2131099774;
 			
 			// aapt resource value: 0x7f06006e
 			public const int info = 2131099758;
@@ -1969,8 +1969,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f06002c
 			public const int list_item = 2131099692;
 			
-			// aapt resource value: 0x7f060079
-			public const int lvAnswers = 2131099769;
+			// aapt resource value: 0x7f06007a
+			public const int lvAnswers = 2131099770;
 			
 			// aapt resource value: 0x7f060067
 			public const int media_actions = 2131099751;
@@ -2022,6 +2022,9 @@ namespace Drinkr
 			
 			// aapt resource value: 0x7f06006b
 			public const int right_side = 2131099755;
+			
+			// aapt resource value: 0x7f060079
+			public const int rlAnswers = 2131099769;
 			
 			// aapt resource value: 0x7f060016
 			public const int screen = 2131099670;
@@ -2146,8 +2149,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f06003a
 			public const int topPanel = 2131099706;
 			
-			// aapt resource value: 0x7f06007e
-			public const int txtDrinkName = 2131099774;
+			// aapt resource value: 0x7f06007f
+			public const int txtDrinkName = 2131099775;
 			
 			// aapt resource value: 0x7f060078
 			public const int txtQuestion = 2131099768;

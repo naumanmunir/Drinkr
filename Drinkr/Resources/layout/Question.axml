@@ -4,49 +4,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="30px">
-    <TextView
-        android:text="What's your favorite color?"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtQuestion" />
-    <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lvAnswers"
-        android:choiceMode="singleChoice" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp">
-        <Button
-            android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:text="What's your favorite color?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:textColor="#ffffff"
-            android:layout_alignParentLeft="true"
-            android:id="@+id/btnBack" />
-        <Button
-            android:text="Next"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtQuestion"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/rlAnswers">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:textColor="#ffffff"
-            android:layout_alignParentRight="true"
-            android:id="@+id/btnNext" />
-        <Button
-            android:text="Done"
-            android:layout_width="wrap_content"
+            android:id="@+id/lvAnswers"
+            android:choiceMode="singleChoice" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:textColor="#ffffff"
-            android:layout_gravity="right"
-            android:id="@+id/btnDone"
-            android:layout_alignParentRight="true"
-            android:visibility="gone" />
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24px"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/btnBack" />
+            <Button
+                android:text="Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24px"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:id="@+id/btnNext" />
+            <Button
+                android:text="Done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24px"
+                android:textColor="#ffffff"
+                android:layout_gravity="right"
+                android:id="@+id/btnDone"
+                android:layout_alignParentRight="true"
+                android:visibility="gone" />
+        </RelativeLayout>
     </RelativeLayout>
 </LinearLayout>
