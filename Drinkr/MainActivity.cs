@@ -13,8 +13,9 @@ namespace Drinkr
     [Activity(Label = "Drinkr", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
     public class MainActivity : AppCompatActivity
     {
-        int numOfFragments = 5;
-        //private FrameLayout questionFrag;
+        FrameLayout frameLayout;
+        LinearLayout llIntro;
+        Button btnEnter;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -22,7 +23,14 @@ namespace Drinkr
             
             SetContentView (Resource.Layout.Main);
 
-            //questionFrag = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
+            SupportActionBar.Hide();
+
+            frameLayout = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
+            btnEnter = FindViewById<Button>(Resource.Id.btnEnter);
+            llIntro = FindViewById<LinearLayout>(Resource.Id.llIntro);
+
+            frameLayout.Visibility = Android.Views.ViewStates.Gone;
+            btnEnter.Click += BtnEnter_Click;
 
             List<Question> Question = new List<Question>();
 
@@ -48,6 +56,13 @@ namespace Drinkr
             //List<QuestionFragment> fff = new List<QuestionFragment>();
 
             //fff.Add()
+        }
+
+        private void BtnEnter_Click(object sender, System.EventArgs e)
+        {
+            SupportActionBar.Show();
+            llIntro.Visibility = Android.Views.ViewStates.Gone;
+            frameLayout.Visibility = Android.Views.ViewStates.Visible;
         }
 
         private void ShowFragment(SupportFragment frag)
