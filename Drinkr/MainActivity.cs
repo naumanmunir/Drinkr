@@ -7,12 +7,15 @@ using SupportFragment = Android.Support.V4.App.Fragment;
 using Android.Support.V7.App;
 using System.Collections.Generic;
 using Drinkr.Models;
+using Android.Views.Animations;
+using Drinkr.Data;
 
 namespace Drinkr
 {
     [Activity(Label = "Drinkr", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
     public class MainActivity : AppCompatActivity
     {
+        public static RestManager RestManager { get; private set; }
         FrameLayout frameLayout;
         LinearLayout llIntro;
         Button btnEnter;
@@ -23,6 +26,8 @@ namespace Drinkr
             
             SetContentView (Resource.Layout.Main);
 
+            RestManager = new RestManager(new RestService());
+
             SupportActionBar.Hide();
 
             frameLayout = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
@@ -32,24 +37,9 @@ namespace Drinkr
             frameLayout.Visibility = Android.Views.ViewStates.Gone;
             btnEnter.Click += BtnEnter_Click;
 
-            List<Question> Question = new List<Question>();
+            var questionsList = RestManager.GetQuestionsAsync().Result;
 
-            Question q = new Models.Question();
-            q._Question = "Whats your favorite color?";
-            q.Answers = new List<string>() { "Red", "Yellow", "Black" };
-
-            Question q1 = new Models.Question();
-            q1._Question = "How are you feeling?";
-            q1.Answers = new List<string>() { "Tired", "Happy", "Fu*k you!" };
-
-            Question q2 = new Models.Question();
-            q2._Question = "How was your lunch today?";
-            q2.Answers = new List<string>() { "Boring!", "fulling!", "It was O.K" };
-
-            Question.Add(q);
-            Question.Add(q1);
-            Question.Add(q2);
-            QuestionFragment qf = new QuestionFragment(Question);
+            QuestionFragment qf = new QuestionFragment(questionsList);
 
             ShowFragment(qf);
 
@@ -63,7 +53,15 @@ namespace Drinkr
             SupportActionBar.Show();
             llIntro.Visibility = Android.Views.ViewStates.Gone;
             frameLayout.Visibility = Android.Views.ViewStates.Visible;
+
+            //Animation slideUp = AnimationUtils.LoadAnimation(this, Resource.Animation.slide_up);
+            //Animation slideDown = AnimationUtils.LoadAnimation(this, Resource.Animation.slide_down);
+
+            //llIntro.StartAnimation(slideUp);
+
+
         }
+
 
         private void ShowFragment(SupportFragment frag)
         {

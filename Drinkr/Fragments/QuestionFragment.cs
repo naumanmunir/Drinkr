@@ -20,16 +20,16 @@ namespace Drinkr.Fragments
         View view;
         ListView answerListview;
         AnswerAdapter aa;
-        List<Question> Question;
+        QuestionList questionList;
         int currQuestion = 0;
         Button btnNext;
         Button btnBack;
         Button btnDone;
         TextView txtQuestion;
 
-        public QuestionFragment(List<Question> questions)
+        public QuestionFragment(QuestionList questions)
         {
-            Question = questions;
+            questionList = questions;
             
         }
 
@@ -92,7 +92,7 @@ namespace Drinkr.Fragments
         {
             currQuestion += 1;
 
-            if (currQuestion == Question.Count - 1)
+            if (currQuestion == questionList.Questions.Count - 1)
             {
                 btnNext.Visibility = ViewStates.Gone;
                 btnDone.Visibility = ViewStates.Visible;
@@ -109,13 +109,13 @@ namespace Drinkr.Fragments
 
         private void PopulateListViewWithAnswers()
         {
-            aa = new AnswerAdapter(Context, Question[currQuestion].Answers);
+            aa = new AnswerAdapter(Context, questionList.Questions[currQuestion].Answers);
             answerListview.Adapter = aa;
         }
 
         private void ChangeQuestion()
         {
-            txtQuestion.Text = Question[currQuestion]._Question;
+            txtQuestion.Text = questionList.Questions[currQuestion]._Question;
 
             PopulateListViewWithAnswers();
         }
@@ -131,7 +131,7 @@ namespace Drinkr.Fragments
                 btnBack.Visibility = ViewStates.Visible;
             }
 
-            if (currQuestion == Question.Count)
+            if (currQuestion == questionList.Questions.Count)
             {
                 btnNext.Visibility = ViewStates.Invisible;
             }

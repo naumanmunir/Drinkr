@@ -18,4 +18,9 @@ namespace Drinkr.Models
         public List<string> Answers { get; set; }
 
     }
+
+    public class QuestionList
+    {
+        public List<Question> Questions { get; set; }
+    }
 }

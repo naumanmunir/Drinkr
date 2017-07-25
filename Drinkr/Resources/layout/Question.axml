@@ -28,38 +28,36 @@
             android:layout_height="wrap_content"
             android:id="@+id/lvAnswers"
             android:choiceMode="singleChoice" />
-        <RelativeLayout
-            android:layout_width="fill_parent"
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_alignParentBottom="true">
-            <Button
-                android:text="Back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24px"
-                android:textColor="#ffffff"
-                android:layout_alignParentLeft="true"
-                android:id="@+id/btnBack" />
-            <Button
-                android:text="Next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24px"
-                android:textColor="#ffffff"
-                android:layout_alignParentRight="true"
-                android:id="@+id/btnNext" />
-            <Button
-                android:text="Done"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24px"
-                android:textColor="#ffffff"
-                android:layout_gravity="right"
-                android:id="@+id/btnDone"
-                android:layout_alignParentRight="true"
-                android:visibility="gone" />
-        </RelativeLayout>
+            android:textSize="24px"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btnBack" />
+        <Button
+            android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnNext" />
+        <Button
+            android:text="Done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:id="@+id/btnDone"
+            android:layout_alignParentRight="true"
+            android:visibility="gone" />
     </RelativeLayout>
 </LinearLayout>
