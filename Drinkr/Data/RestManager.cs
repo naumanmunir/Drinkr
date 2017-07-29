@@ -27,5 +27,10 @@ namespace Drinkr.Data
         {
             return restService.GetQuestions();
         }
+
+        public Task<List<string>> GetCurrentMoods(List<string> answers)
+        {
+            return restService.GetCurrentMoods(answers);
+        }
     }
 }

@@ -26,6 +26,7 @@ namespace Drinkr.Fragments
         Button btnBack;
         Button btnDone;
         TextView txtQuestion;
+        List<string> selectedAnswers;
 
         public QuestionFragment(QuestionList questions)
         {
@@ -51,6 +52,8 @@ namespace Drinkr.Fragments
             btnDone = view.FindViewById<Button>(Resource.Id.btnDone);
             answerListview = view.FindViewById<ListView>(Resource.Id.lvAnswers);
             txtQuestion = view.FindViewById<TextView>(Resource.Id.txtQuestion);
+
+            selectedAnswers = new List<string>();
 
             btnBack.Visibility = ViewStates.Gone;
             ChangeQuestion();
@@ -157,14 +160,14 @@ namespace Drinkr.Fragments
 
             v.Checked = true;
             Toast.MakeText(Context, v.Text, ToastLength.Short).Show();
-
+            selectedAnswers.Add(v.Text);
 
         }
 
 
         private void NextFragment()
         {
-            MoodFragment mf = new MoodFragment();
+            MoodFragment mf = new MoodFragment(selectedAnswers);
 
             Android.Support.V4.App.FragmentManager fm = FragmentManager;
 

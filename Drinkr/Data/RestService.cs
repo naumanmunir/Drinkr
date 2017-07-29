@@ -38,7 +38,7 @@ namespace Drinkr.Data
 
             try
             {
-                var response = client.GetAsync("/api/question").Result;
+                var response = client.GetAsync("/api/question/getquestions").Result;
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
@@ -51,6 +51,37 @@ namespace Drinkr.Data
             }
 
             return questionList;
+        }
+
+        public async Task<List<string>> GetCurrentMoods(List<string> answers)
+        {
+            var moods = new List<string>();
+            string pass = null;
+
+            foreach (var item in answers)
+            {
+                pass += item + "&answers=";
+            }
+
+            try
+            {
+                string sParams = JsonConvert.SerializeObject(answers);
+                
+                var h = "/api/question/GetMoodResult?answers=" + sParams;
+
+                var response = client.GetAsync("/api/question/GetMoodResult?answers=" + pass).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    moods = JsonConvert.DeserializeObject<List<string>>(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return moods;
         }
     }
 }

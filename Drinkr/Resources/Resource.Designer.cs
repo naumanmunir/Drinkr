@@ -2137,9 +2137,6 @@ namespace Drinkr
 			// aapt resource value: 0x7f060058
 			public const int textView1 = 2131099736;
 			
-			// aapt resource value: 0x7f060062
-			public const int textView2 = 2131099746;
-			
 			// aapt resource value: 0x7f060063
 			public const int textView3 = 2131099747;
 			
@@ -2166,6 +2163,9 @@ namespace Drinkr
 			
 			// aapt resource value: 0x7f060083
 			public const int txtDrinkName = 2131099779;
+			
+			// aapt resource value: 0x7f060062
+			public const int txtMood = 2131099746;
 			
 			// aapt resource value: 0x7f06007c
 			public const int txtQuestion = 2131099772;
