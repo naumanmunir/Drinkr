@@ -9,7 +9,13 @@
         android:layout_height="140dp"
         android:id="@+id/imageView1"
         android:scaleType="fitXY" />
+    <FrameLayout
+        android:id="@+id/drinkDetailFragContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
     <LinearLayout
+        android:id="@+id/llDrinkDetail"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

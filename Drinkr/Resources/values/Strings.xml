@@ -14,4 +14,7 @@
 
   <string name="slide_1_title">Locate the drinks near you!</string>
   <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+  <string name="google_maps_key">AIzaSyC8ivqxZGmjdWno61T-b1lZgdyKqETPBsI</string>
+  
 </resources>
