@@ -3,21 +3,29 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-              android:padding="8dp">
+    android:layout_marginTop="150dp"
+    android:padding="15dp">
 
-  <TextView
-  android:textAppearance="?android:attr/textAppearanceMedium"
-  android:layout_height="wrap_content"
-  android:layout_width="match_parent"
-  android:id="@+id/txtDrinkTitle"
-  android:paddingTop="8dp" />
-
-  <TextView
+    <TextView
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:id="@+id/txtRecipe"
-    android:paddingTop="8dp" />
-  
-  
+    android:id="@+id/txtDrinkTitle"
+    android:textSize="24dp"
+    android:paddingBottom="8dp" />
+
+  <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtRecipe"
+        android:paddingTop="8dp"
+        />
+  </ScrollView>
 </LinearLayout>

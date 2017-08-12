@@ -2035,6 +2035,9 @@ namespace Drinkr
 			// aapt resource value: 0x7f090073
 			public const int DrinksRecyclerView = 2131296371;
 			
+			// aapt resource value: 0x7f09009a
+			public const int SCROLLER_ID = 2131296410;
+			
 			// aapt resource value: 0x7f090077
 			public const int action0 = 2131296375;
 			
@@ -2221,8 +2224,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090062
 			public const int imageView1 = 2131296354;
 			
-			// aapt resource value: 0x7f09009b
-			public const int imgDrink = 2131296411;
+			// aapt resource value: 0x7f09009c
+			public const int imgDrink = 2131296412;
 			
 			// aapt resource value: 0x7f090081
 			public const int info = 2131296385;
@@ -2470,8 +2473,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090065
 			public const int txtDrinkDesc = 2131296357;
 			
-			// aapt resource value: 0x7f09009c
-			public const int txtDrinkName = 2131296412;
+			// aapt resource value: 0x7f09009d
+			public const int txtDrinkName = 2131296413;
 			
 			// aapt resource value: 0x7f090099
 			public const int txtDrinkTitle = 2131296409;
@@ -2482,8 +2485,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090093
 			public const int txtQuestion = 2131296403;
 			
-			// aapt resource value: 0x7f09009a
-			public const int txtRecipe = 2131296410;
+			// aapt resource value: 0x7f09009b
+			public const int txtRecipe = 2131296411;
 			
 			// aapt resource value: 0x7f09006b
 			public const int txtTitle = 2131296363;
