@@ -19,5 +19,7 @@ namespace Drinkr.Data
         Task<QuestionList> GetQuestions();
 
         Task<List<string>> GetCurrentMoods(List<string> answers);
+
+        Task<List<Drink>> GetDrinks(string currMood);
     }
 }

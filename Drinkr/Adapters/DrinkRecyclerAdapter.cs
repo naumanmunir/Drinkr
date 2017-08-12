@@ -7,19 +7,21 @@ using Drinkr.Fragments;
 using Android.Content;
 using Android.App;
 using Android.Support.V7.App;
+using System.Collections.Generic;
+using Drinkr.Models;
 
 namespace Drinkr.Adapters
 {
     class DrinkRecyclerAdapter : RecyclerView.Adapter
     {
-        string[] items;
+        List<Drink> DrinkList;
         private Context Context { get; set; }
 
-        public override int ItemCount => items.Length;
+        public override int ItemCount => DrinkList.Count;
 
-        public DrinkRecyclerAdapter(string[] data, Context context)
+        public DrinkRecyclerAdapter(List<Drink> data, Context context)
         {
-            items = data;
+            DrinkList = data;
             Context = context;
         }
 
@@ -33,12 +35,12 @@ namespace Drinkr.Adapters
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder viewHolder, int position)
         {
-            var item = items[position];
+            var item = DrinkList[position];
 
             // Replace the contents of the view with that element
             var holder = viewHolder as DrinkRecyclerAdapterViewHolder;
-            holder.txtDrinkName.Text = items[position];
-            //holder.btnDrink.Click += BtnDrink_Click;
+            holder.txtDrinkName.Text = DrinkList[position].Name;
+            holder.drink = DrinkList[position];
         }
 
     }
@@ -48,6 +50,7 @@ namespace Drinkr.Adapters
         private Context Context { get; set; }
         public TextView txtDrinkName { get; set; }
         public ImageButton btnDrink { get; set; }
+        public Drink drink { get; set; }
 
         public DrinkRecyclerAdapterViewHolder(View itemView, Context context)  : base(itemView)
         {
@@ -60,7 +63,7 @@ namespace Drinkr.Adapters
 
         private void BtnDrink_Click(object sender, EventArgs e)
         {
-            DrinkDetailFragment ddf = new DrinkDetailFragment();
+            DrinkDetailFragment ddf = new DrinkDetailFragment(drink);
 
             Android.Support.V4.App.FragmentManager fm = ((AppCompatActivity)Context).SupportFragmentManager;
 

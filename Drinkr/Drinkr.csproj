@@ -125,6 +125,7 @@
     <Compile Include="Fragments\QuestionFragment.cs" />
     <Compile Include="Fragments\RecipeFragment.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Models\Drink.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

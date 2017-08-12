@@ -54,17 +54,19 @@ namespace Drinkr.Fragments
 
             currMood.Text = mood;
 
-            var items = new string[8];
-            items[0] = "Pepsi";
-            items[1] = "Coke";
-            items[2] = "Chai Tea";
-            items[3] = "Coolatta";
-            items[4] = "Coffee";
-            items[5] = "Red Bull";
-            items[6] = "5 Hour Energy";
-            items[7] = "Gatorade";
+            var drinksList = RestManager.GetDrinks(mood).Result;
 
-            DrinkRecyclerAdapter drv = new DrinkRecyclerAdapter(items, Context);
+            //var items = new string[8];
+            //items[0] = "Pepsi";
+            //items[1] = "Coke";
+            //items[2] = "Chai Tea";
+            //items[3] = "Coolatta";
+            //items[4] = "Coffee";
+            //items[5] = "Red Bull";
+            //items[6] = "5 Hour Energy";
+            //items[7] = "Gatorade";
+
+            DrinkRecyclerAdapter drv = new DrinkRecyclerAdapter(drinksList, Context);
             DrinksRecyclerView.SetAdapter(drv);
 
             return view;

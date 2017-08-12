@@ -83,5 +83,26 @@ namespace Drinkr.Data
 
             return moods;
         }
+
+        public async Task<List<Drink>> GetDrinks(string currMood)
+        {
+            var drinkList = new List<Drink>();
+
+            try
+            {
+                var response = client.GetAsync("/api/question/getdrinks?currmood=" + currMood).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    drinkList = JsonConvert.DeserializeObject<List<Drink>>(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return drinkList;
+        }
     }
 }

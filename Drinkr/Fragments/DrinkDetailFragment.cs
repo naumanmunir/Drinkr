@@ -10,15 +10,23 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Drinkr.Models;
 
 namespace Drinkr.Fragments
 {
     public class DrinkDetailFragment : Android.Support.V4.App.Fragment
     {
+        Drink drink;
         Button btnGetRecipe;
         Button btnFindNearBy;
+        TextView drinkDesc;
         FrameLayout frameLayout;
         LinearLayout linearLayout;
+
+        public DrinkDetailFragment(Drink d)
+        {
+            drink = d;
+        }
 
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -38,12 +46,18 @@ namespace Drinkr.Fragments
             frameLayout = view.FindViewById<FrameLayout>(Resource.Id.drinkDetailFragContainer);
             btnFindNearBy = view.FindViewById<Button>(Resource.Id.btnFindNearBy);
             btnGetRecipe = view.FindViewById<Button>(Resource.Id.btnFindRecipe);
+            drinkDesc = view.FindViewById<TextView>(Resource.Id.txtDrinkDesc);
 
             btnGetRecipe.Click += BtnGetRecipe_Click;
             btnFindNearBy.Click += BtnFindNearBy_Click;
 
-            //frameLayout.Visibility = ViewStates.Gone;
-          
+            if (string.IsNullOrEmpty(drink.Recipe))
+            {
+                btnGetRecipe.Visibility = ViewStates.Gone;
+            }
+
+            drinkDesc.Text = drink.Description;
+
             return view;
         }
 
@@ -51,7 +65,7 @@ namespace Drinkr.Fragments
         {
             //linearLayout.Visibility = ViewStates.Visible;
             frameLayout.Visibility = ViewStates.Visible;
-            RecipeFragment rf = new RecipeFragment();
+            RecipeFragment rf = new RecipeFragment(drink);
             ShowFragment(rf);
         }
 

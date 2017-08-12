@@ -6,7 +6,6 @@
               android:padding="8dp">
 
   <TextView
-  android:text="Chai Tea"
   android:textAppearance="?android:attr/textAppearanceMedium"
   android:layout_height="wrap_content"
   android:layout_width="match_parent"
@@ -14,7 +13,6 @@
   android:paddingTop="8dp" />
 
   <TextView
-    android:text="Hello, drink recipe goes here"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
