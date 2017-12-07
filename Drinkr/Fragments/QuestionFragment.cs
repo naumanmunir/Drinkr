@@ -28,6 +28,10 @@ namespace Drinkr.Fragments
         TextView txtQuestion;
         List<string> selectedAnswers;
 
+        public QuestionFragment()
+        {
+        }
+
         public QuestionFragment(QuestionList questions)
         {
             questionList = questions;
@@ -118,6 +122,8 @@ namespace Drinkr.Fragments
 
         private void ChangeQuestion()
         {
+            btnNext.Enabled = false;
+            btnDone.Enabled = false;
             txtQuestion.Text = questionList.Questions[currQuestion]._Question;
 
             PopulateListViewWithAnswers();
@@ -149,6 +155,9 @@ namespace Drinkr.Fragments
             
             var p = e.Parent;
             var v = e.View.FindViewById<RadioButton>(Resource.Id.radioButton1);
+
+            btnNext.Enabled = true;
+            btnDone.Enabled = true;
 
             for (int i = 0; i < aa.Count; i++)
             {

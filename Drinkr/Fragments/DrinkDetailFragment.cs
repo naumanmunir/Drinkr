@@ -23,6 +23,9 @@ namespace Drinkr.Fragments
         FrameLayout frameLayout;
         LinearLayout linearLayout;
 
+        public DrinkDetailFragment() { }
+
+
         public DrinkDetailFragment(Drink d)
         {
             drink = d;
@@ -72,9 +75,15 @@ namespace Drinkr.Fragments
         private void BtnFindNearBy_Click(object sender, EventArgs e)
         {
             //linearLayout.Visibility = ViewStates.Visible;
-            frameLayout.Visibility = ViewStates.Visible;
-            MapFragment mf = new MapFragment();
-            ShowFragment(mf);
+            //frameLayout.Visibility = ViewStates.Visible;
+            //MapFragment mf = new MapFragment();
+            //ShowFragment(mf);
+
+
+            var uri = Android.Net.Uri.Parse("geo:" + "40.6059579" + "," + "-74.1533448" + "?q=" + drink.Name);
+            Intent intent = new Intent(Intent.ActionView, uri);
+            intent.SetPackage("com.google.android.apps.maps");
+            StartActivity(intent);
         }
 
         private void ShowFragment(Android.Support.V4.App.Fragment frag)

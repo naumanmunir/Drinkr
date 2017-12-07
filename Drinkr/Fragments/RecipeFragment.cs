@@ -21,6 +21,9 @@ namespace Drinkr.Fragments
         TextView txtDrinkTitle;
         TextView txtRecipe;
 
+        public RecipeFragment() { }
+
+
         public RecipeFragment(Drink d)
         {
             drink = d;

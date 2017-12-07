@@ -23,6 +23,10 @@ namespace Drinkr.Fragments
         RecyclerView DrinksRecyclerView;
         TextView currMood;
 
+        public MoodFragment()
+        {
+        }
+
         public MoodFragment(List<string> answersSelected)
         {
             AnswersSelected = answersSelected;

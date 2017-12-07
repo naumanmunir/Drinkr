@@ -19,6 +19,8 @@ namespace Drinkr
         FrameLayout frameLayout;
         LinearLayout llIntro;
         Button btnEnter;
+        Button btnAdmin;
+        //Spinner spin;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -32,11 +34,15 @@ namespace Drinkr
 
             frameLayout = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
             btnEnter = FindViewById<Button>(Resource.Id.btnEnter);
+            btnAdmin = FindViewById<Button>(Resource.Id.btnAdmin);
             llIntro = FindViewById<LinearLayout>(Resource.Id.llIntro);
 
+            spin = FindViewById<Spinner>(Resource.Id.llIntro);
+
+            
             frameLayout.Visibility = Android.Views.ViewStates.Gone;
             btnEnter.Click += BtnEnter_Click;
-
+            btnAdmin.Click += BtnAdmin_Click;
             var questionsList = RestManager.GetQuestionsAsync().Result;
 
             QuestionFragment qf = new QuestionFragment(questionsList);
@@ -46,6 +52,11 @@ namespace Drinkr
             //List<QuestionFragment> fff = new List<QuestionFragment>();
 
             //fff.Add()
+        }
+
+        private void BtnAdmin_Click(object sender, System.EventArgs e)
+        {
+            
         }
 
         private void BtnEnter_Click(object sender, System.EventArgs e)
