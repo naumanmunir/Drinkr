@@ -16,6 +16,7 @@ namespace Drinkr.Adapters
     {
         List<Drink> DrinkList;
         private Context Context { get; set; }
+        //ImageButton imgDrink;
 
         public override int ItemCount => DrinkList.Count;
 
@@ -29,6 +30,7 @@ namespace Drinkr.Adapters
         {
 
             View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.RecyclerViewItem, parent, false);
+            //imgDrink = itemView.FindViewById<ImageButton>(Resource.Id.imgDrink);
 
             return new DrinkRecyclerAdapterViewHolder(itemView, Context);
         }

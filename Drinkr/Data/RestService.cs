@@ -104,5 +104,26 @@ namespace Drinkr.Data
 
             return drinkList;
         }
+
+        public async Task<string> AddDrink(string name, string moodID, string desc)
+        {
+            string res = null;
+
+            try
+            {
+                var response = client.GetAsync("/api/question/adddrink/" + name + "/" + moodID + "/" + desc).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    res = content;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return res;
+        }
     }
 }

@@ -21,5 +21,7 @@ namespace Drinkr.Data
         Task<List<string>> GetCurrentMoods(List<string> answers);
 
         Task<List<Drink>> GetDrinks(string currMood);
+
+        Task<string> AddDrink(string name, string moodID, string desc);
     }
 }

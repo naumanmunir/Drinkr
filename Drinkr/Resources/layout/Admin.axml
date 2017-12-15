@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="15dp">
     <TextView
         android:text="Add a drink:"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -12,16 +13,33 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1"
-        android:hint="Name" />
+        android:id="@+id/editTxtDrinkName"
+        android:hint="Name"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp" />
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner1" />
+        android:layout_height="45dp"
+        android:id="@+id/spinner1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:hint="Description" />
+        android:id="@+id/editTxtDesc"
+        android:hint="Description"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:text="Add Drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddDrink"
+        android:height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp" />
 </LinearLayout>

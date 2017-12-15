@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using Drinkr.Models;
 using Android.Views.Animations;
 using Drinkr.Data;
+using Android.Content;
 
 namespace Drinkr
 {
@@ -20,13 +21,15 @@ namespace Drinkr
         LinearLayout llIntro;
         Button btnEnter;
         Button btnAdmin;
-        //Spinner spin;
+
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             
             SetContentView (Resource.Layout.Main);
+
+            Intent intent = new Intent(this, new IntroActivity().Class);
 
             RestManager = new RestManager(new RestService());
 
@@ -36,31 +39,38 @@ namespace Drinkr
             btnEnter = FindViewById<Button>(Resource.Id.btnEnter);
             btnAdmin = FindViewById<Button>(Resource.Id.btnAdmin);
             llIntro = FindViewById<LinearLayout>(Resource.Id.llIntro);
-
-            spin = FindViewById<Spinner>(Resource.Id.llIntro);
-
-            
+        
             frameLayout.Visibility = Android.Views.ViewStates.Gone;
             btnEnter.Click += BtnEnter_Click;
             btnAdmin.Click += BtnAdmin_Click;
-            var questionsList = RestManager.GetQuestionsAsync().Result;
+            //var questionsList = RestManager.GetQuestionsAsync().Result;
 
-            QuestionFragment qf = new QuestionFragment(questionsList);
+            //QuestionFragment qf = new QuestionFragment(questionsList);
 
-            ShowFragment(qf);
+            //ShowFragment(qf);
 
             //List<QuestionFragment> fff = new List<QuestionFragment>();
-
+            StartActivity(intent);
             //fff.Add()
         }
 
         private void BtnAdmin_Click(object sender, System.EventArgs e)
         {
-            
+            AdminFragment af = new AdminFragment();
+            SupportActionBar.Show();
+            llIntro.Visibility = Android.Views.ViewStates.Gone;
+            frameLayout.Visibility = Android.Views.ViewStates.Visible;
+
+            ShowFragment(af);
+
+
         }
 
         private void BtnEnter_Click(object sender, System.EventArgs e)
         {
+            var questionsList = RestManager.GetQuestionsAsync().Result;
+            QuestionFragment qf = new QuestionFragment(questionsList);
+
             SupportActionBar.Show();
             llIntro.Visibility = Android.Views.ViewStates.Gone;
             frameLayout.Visibility = Android.Views.ViewStates.Visible;
@@ -70,7 +80,7 @@ namespace Drinkr
 
             //llIntro.StartAnimation(slideUp);
 
-
+            ShowFragment(qf);
         }
 
 

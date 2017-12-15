@@ -48,6 +48,12 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppIntro, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AppIntro.1.0.0\lib\monoandroid70\AppIntro.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.Android.Lottie.2.2.5.0\lib\MonoAndroid40\Lottie.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
@@ -119,11 +125,13 @@
     <Compile Include="Data\IRestService.cs" />
     <Compile Include="Data\RestManager.cs" />
     <Compile Include="Data\RestService.cs" />
+    <Compile Include="Fragments\AdminFragment.cs" />
     <Compile Include="Fragments\DrinkDetailFragment.cs" />
     <Compile Include="Fragments\MapFragment.cs" />
     <Compile Include="Fragments\MoodFragment.cs" />
     <Compile Include="Fragments\QuestionFragment.cs" />
     <Compile Include="Fragments\RecipeFragment.cs" />
+    <Compile Include="IntroActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Drink.cs" />
     <Compile Include="Models\Question.cs" />
@@ -131,6 +139,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\drinks.json" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />

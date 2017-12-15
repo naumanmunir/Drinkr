@@ -26,6 +26,1398 @@ namespace Drinkr
 		
 		public static void UpdateIdValues()
 		{
+			global::AppIntro.Resource.Animation.abc_fade_in = global::Drinkr.Resource.Animation.abc_fade_in;
+			global::AppIntro.Resource.Animation.abc_fade_out = global::Drinkr.Resource.Animation.abc_fade_out;
+			global::AppIntro.Resource.Animation.abc_grow_fade_in_from_bottom = global::Drinkr.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::AppIntro.Resource.Animation.abc_popup_enter = global::Drinkr.Resource.Animation.abc_popup_enter;
+			global::AppIntro.Resource.Animation.abc_popup_exit = global::Drinkr.Resource.Animation.abc_popup_exit;
+			global::AppIntro.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Drinkr.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::AppIntro.Resource.Animation.abc_slide_in_bottom = global::Drinkr.Resource.Animation.abc_slide_in_bottom;
+			global::AppIntro.Resource.Animation.abc_slide_in_top = global::Drinkr.Resource.Animation.abc_slide_in_top;
+			global::AppIntro.Resource.Animation.abc_slide_out_bottom = global::Drinkr.Resource.Animation.abc_slide_out_bottom;
+			global::AppIntro.Resource.Animation.abc_slide_out_top = global::Drinkr.Resource.Animation.abc_slide_out_top;
+			global::AppIntro.Resource.Attribute.actionBarDivider = global::Drinkr.Resource.Attribute.actionBarDivider;
+			global::AppIntro.Resource.Attribute.actionBarItemBackground = global::Drinkr.Resource.Attribute.actionBarItemBackground;
+			global::AppIntro.Resource.Attribute.actionBarPopupTheme = global::Drinkr.Resource.Attribute.actionBarPopupTheme;
+			global::AppIntro.Resource.Attribute.actionBarSize = global::Drinkr.Resource.Attribute.actionBarSize;
+			global::AppIntro.Resource.Attribute.actionBarSplitStyle = global::Drinkr.Resource.Attribute.actionBarSplitStyle;
+			global::AppIntro.Resource.Attribute.actionBarStyle = global::Drinkr.Resource.Attribute.actionBarStyle;
+			global::AppIntro.Resource.Attribute.actionBarTabBarStyle = global::Drinkr.Resource.Attribute.actionBarTabBarStyle;
+			global::AppIntro.Resource.Attribute.actionBarTabStyle = global::Drinkr.Resource.Attribute.actionBarTabStyle;
+			global::AppIntro.Resource.Attribute.actionBarTabTextStyle = global::Drinkr.Resource.Attribute.actionBarTabTextStyle;
+			global::AppIntro.Resource.Attribute.actionBarTheme = global::Drinkr.Resource.Attribute.actionBarTheme;
+			global::AppIntro.Resource.Attribute.actionBarWidgetTheme = global::Drinkr.Resource.Attribute.actionBarWidgetTheme;
+			global::AppIntro.Resource.Attribute.actionButtonStyle = global::Drinkr.Resource.Attribute.actionButtonStyle;
+			global::AppIntro.Resource.Attribute.actionDropDownStyle = global::Drinkr.Resource.Attribute.actionDropDownStyle;
+			global::AppIntro.Resource.Attribute.actionLayout = global::Drinkr.Resource.Attribute.actionLayout;
+			global::AppIntro.Resource.Attribute.actionMenuTextAppearance = global::Drinkr.Resource.Attribute.actionMenuTextAppearance;
+			global::AppIntro.Resource.Attribute.actionMenuTextColor = global::Drinkr.Resource.Attribute.actionMenuTextColor;
+			global::AppIntro.Resource.Attribute.actionModeBackground = global::Drinkr.Resource.Attribute.actionModeBackground;
+			global::AppIntro.Resource.Attribute.actionModeCloseButtonStyle = global::Drinkr.Resource.Attribute.actionModeCloseButtonStyle;
+			global::AppIntro.Resource.Attribute.actionModeCloseDrawable = global::Drinkr.Resource.Attribute.actionModeCloseDrawable;
+			global::AppIntro.Resource.Attribute.actionModeCopyDrawable = global::Drinkr.Resource.Attribute.actionModeCopyDrawable;
+			global::AppIntro.Resource.Attribute.actionModeCutDrawable = global::Drinkr.Resource.Attribute.actionModeCutDrawable;
+			global::AppIntro.Resource.Attribute.actionModeFindDrawable = global::Drinkr.Resource.Attribute.actionModeFindDrawable;
+			global::AppIntro.Resource.Attribute.actionModePasteDrawable = global::Drinkr.Resource.Attribute.actionModePasteDrawable;
+			global::AppIntro.Resource.Attribute.actionModePopupWindowStyle = global::Drinkr.Resource.Attribute.actionModePopupWindowStyle;
+			global::AppIntro.Resource.Attribute.actionModeSelectAllDrawable = global::Drinkr.Resource.Attribute.actionModeSelectAllDrawable;
+			global::AppIntro.Resource.Attribute.actionModeShareDrawable = global::Drinkr.Resource.Attribute.actionModeShareDrawable;
+			global::AppIntro.Resource.Attribute.actionModeSplitBackground = global::Drinkr.Resource.Attribute.actionModeSplitBackground;
+			global::AppIntro.Resource.Attribute.actionModeStyle = global::Drinkr.Resource.Attribute.actionModeStyle;
+			global::AppIntro.Resource.Attribute.actionModeWebSearchDrawable = global::Drinkr.Resource.Attribute.actionModeWebSearchDrawable;
+			global::AppIntro.Resource.Attribute.actionOverflowButtonStyle = global::Drinkr.Resource.Attribute.actionOverflowButtonStyle;
+			global::AppIntro.Resource.Attribute.actionOverflowMenuStyle = global::Drinkr.Resource.Attribute.actionOverflowMenuStyle;
+			global::AppIntro.Resource.Attribute.actionProviderClass = global::Drinkr.Resource.Attribute.actionProviderClass;
+			global::AppIntro.Resource.Attribute.actionViewClass = global::Drinkr.Resource.Attribute.actionViewClass;
+			global::AppIntro.Resource.Attribute.activityChooserViewStyle = global::Drinkr.Resource.Attribute.activityChooserViewStyle;
+			global::AppIntro.Resource.Attribute.alertDialogButtonGroupStyle = global::Drinkr.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::AppIntro.Resource.Attribute.alertDialogCenterButtons = global::Drinkr.Resource.Attribute.alertDialogCenterButtons;
+			global::AppIntro.Resource.Attribute.alertDialogStyle = global::Drinkr.Resource.Attribute.alertDialogStyle;
+			global::AppIntro.Resource.Attribute.alertDialogTheme = global::Drinkr.Resource.Attribute.alertDialogTheme;
+			global::AppIntro.Resource.Attribute.allowStacking = global::Drinkr.Resource.Attribute.allowStacking;
+			global::AppIntro.Resource.Attribute.alpha = global::Drinkr.Resource.Attribute.alpha;
+			global::AppIntro.Resource.Attribute.arrowHeadLength = global::Drinkr.Resource.Attribute.arrowHeadLength;
+			global::AppIntro.Resource.Attribute.arrowShaftLength = global::Drinkr.Resource.Attribute.arrowShaftLength;
+			global::AppIntro.Resource.Attribute.autoCompleteTextViewStyle = global::Drinkr.Resource.Attribute.autoCompleteTextViewStyle;
+			global::AppIntro.Resource.Attribute.background = global::Drinkr.Resource.Attribute.background;
+			global::AppIntro.Resource.Attribute.backgroundSplit = global::Drinkr.Resource.Attribute.backgroundSplit;
+			global::AppIntro.Resource.Attribute.backgroundStacked = global::Drinkr.Resource.Attribute.backgroundStacked;
+			global::AppIntro.Resource.Attribute.backgroundTint = global::Drinkr.Resource.Attribute.backgroundTint;
+			global::AppIntro.Resource.Attribute.backgroundTintMode = global::Drinkr.Resource.Attribute.backgroundTintMode;
+			global::AppIntro.Resource.Attribute.barLength = global::Drinkr.Resource.Attribute.barLength;
+			global::AppIntro.Resource.Attribute.borderlessButtonStyle = global::Drinkr.Resource.Attribute.borderlessButtonStyle;
+			global::AppIntro.Resource.Attribute.buttonBarButtonStyle = global::Drinkr.Resource.Attribute.buttonBarButtonStyle;
+			global::AppIntro.Resource.Attribute.buttonBarNegativeButtonStyle = global::Drinkr.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::AppIntro.Resource.Attribute.buttonBarNeutralButtonStyle = global::Drinkr.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::AppIntro.Resource.Attribute.buttonBarPositiveButtonStyle = global::Drinkr.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::AppIntro.Resource.Attribute.buttonBarStyle = global::Drinkr.Resource.Attribute.buttonBarStyle;
+			global::AppIntro.Resource.Attribute.buttonGravity = global::Drinkr.Resource.Attribute.buttonGravity;
+			global::AppIntro.Resource.Attribute.buttonPanelSideLayout = global::Drinkr.Resource.Attribute.buttonPanelSideLayout;
+			global::AppIntro.Resource.Attribute.buttonStyle = global::Drinkr.Resource.Attribute.buttonStyle;
+			global::AppIntro.Resource.Attribute.buttonStyleSmall = global::Drinkr.Resource.Attribute.buttonStyleSmall;
+			global::AppIntro.Resource.Attribute.buttonTint = global::Drinkr.Resource.Attribute.buttonTint;
+			global::AppIntro.Resource.Attribute.buttonTintMode = global::Drinkr.Resource.Attribute.buttonTintMode;
+			global::AppIntro.Resource.Attribute.checkboxStyle = global::Drinkr.Resource.Attribute.checkboxStyle;
+			global::AppIntro.Resource.Attribute.checkedTextViewStyle = global::Drinkr.Resource.Attribute.checkedTextViewStyle;
+			global::AppIntro.Resource.Attribute.closeIcon = global::Drinkr.Resource.Attribute.closeIcon;
+			global::AppIntro.Resource.Attribute.closeItemLayout = global::Drinkr.Resource.Attribute.closeItemLayout;
+			global::AppIntro.Resource.Attribute.collapseContentDescription = global::Drinkr.Resource.Attribute.collapseContentDescription;
+			global::AppIntro.Resource.Attribute.collapseIcon = global::Drinkr.Resource.Attribute.collapseIcon;
+			global::AppIntro.Resource.Attribute.color = global::Drinkr.Resource.Attribute.color;
+			global::AppIntro.Resource.Attribute.colorAccent = global::Drinkr.Resource.Attribute.colorAccent;
+			global::AppIntro.Resource.Attribute.colorBackgroundFloating = global::Drinkr.Resource.Attribute.colorBackgroundFloating;
+			global::AppIntro.Resource.Attribute.colorButtonNormal = global::Drinkr.Resource.Attribute.colorButtonNormal;
+			global::AppIntro.Resource.Attribute.colorControlActivated = global::Drinkr.Resource.Attribute.colorControlActivated;
+			global::AppIntro.Resource.Attribute.colorControlHighlight = global::Drinkr.Resource.Attribute.colorControlHighlight;
+			global::AppIntro.Resource.Attribute.colorControlNormal = global::Drinkr.Resource.Attribute.colorControlNormal;
+			global::AppIntro.Resource.Attribute.colorPrimary = global::Drinkr.Resource.Attribute.colorPrimary;
+			global::AppIntro.Resource.Attribute.colorPrimaryDark = global::Drinkr.Resource.Attribute.colorPrimaryDark;
+			global::AppIntro.Resource.Attribute.colorSwitchThumbNormal = global::Drinkr.Resource.Attribute.colorSwitchThumbNormal;
+			global::AppIntro.Resource.Attribute.commitIcon = global::Drinkr.Resource.Attribute.commitIcon;
+			global::AppIntro.Resource.Attribute.contentInsetEnd = global::Drinkr.Resource.Attribute.contentInsetEnd;
+			global::AppIntro.Resource.Attribute.contentInsetEndWithActions = global::Drinkr.Resource.Attribute.contentInsetEndWithActions;
+			global::AppIntro.Resource.Attribute.contentInsetLeft = global::Drinkr.Resource.Attribute.contentInsetLeft;
+			global::AppIntro.Resource.Attribute.contentInsetRight = global::Drinkr.Resource.Attribute.contentInsetRight;
+			global::AppIntro.Resource.Attribute.contentInsetStart = global::Drinkr.Resource.Attribute.contentInsetStart;
+			global::AppIntro.Resource.Attribute.contentInsetStartWithNavigation = global::Drinkr.Resource.Attribute.contentInsetStartWithNavigation;
+			global::AppIntro.Resource.Attribute.controlBackground = global::Drinkr.Resource.Attribute.controlBackground;
+			global::AppIntro.Resource.Attribute.customNavigationLayout = global::Drinkr.Resource.Attribute.customNavigationLayout;
+			global::AppIntro.Resource.Attribute.defaultQueryHint = global::Drinkr.Resource.Attribute.defaultQueryHint;
+			global::AppIntro.Resource.Attribute.dialogPreferredPadding = global::Drinkr.Resource.Attribute.dialogPreferredPadding;
+			global::AppIntro.Resource.Attribute.dialogTheme = global::Drinkr.Resource.Attribute.dialogTheme;
+			global::AppIntro.Resource.Attribute.displayOptions = global::Drinkr.Resource.Attribute.displayOptions;
+			global::AppIntro.Resource.Attribute.divider = global::Drinkr.Resource.Attribute.divider;
+			global::AppIntro.Resource.Attribute.dividerHorizontal = global::Drinkr.Resource.Attribute.dividerHorizontal;
+			global::AppIntro.Resource.Attribute.dividerPadding = global::Drinkr.Resource.Attribute.dividerPadding;
+			global::AppIntro.Resource.Attribute.dividerVertical = global::Drinkr.Resource.Attribute.dividerVertical;
+			global::AppIntro.Resource.Attribute.drawableSize = global::Drinkr.Resource.Attribute.drawableSize;
+			global::AppIntro.Resource.Attribute.drawerArrowStyle = global::Drinkr.Resource.Attribute.drawerArrowStyle;
+			global::AppIntro.Resource.Attribute.dropDownListViewStyle = global::Drinkr.Resource.Attribute.dropDownListViewStyle;
+			global::AppIntro.Resource.Attribute.dropdownListPreferredItemHeight = global::Drinkr.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::AppIntro.Resource.Attribute.editTextBackground = global::Drinkr.Resource.Attribute.editTextBackground;
+			global::AppIntro.Resource.Attribute.editTextColor = global::Drinkr.Resource.Attribute.editTextColor;
+			global::AppIntro.Resource.Attribute.editTextStyle = global::Drinkr.Resource.Attribute.editTextStyle;
+			global::AppIntro.Resource.Attribute.elevation = global::Drinkr.Resource.Attribute.elevation;
+			global::AppIntro.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Drinkr.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::AppIntro.Resource.Attribute.gapBetweenBars = global::Drinkr.Resource.Attribute.gapBetweenBars;
+			global::AppIntro.Resource.Attribute.goIcon = global::Drinkr.Resource.Attribute.goIcon;
+			global::AppIntro.Resource.Attribute.height = global::Drinkr.Resource.Attribute.height;
+			global::AppIntro.Resource.Attribute.hideOnContentScroll = global::Drinkr.Resource.Attribute.hideOnContentScroll;
+			global::AppIntro.Resource.Attribute.homeAsUpIndicator = global::Drinkr.Resource.Attribute.homeAsUpIndicator;
+			global::AppIntro.Resource.Attribute.homeLayout = global::Drinkr.Resource.Attribute.homeLayout;
+			global::AppIntro.Resource.Attribute.icon = global::Drinkr.Resource.Attribute.icon;
+			global::AppIntro.Resource.Attribute.iconifiedByDefault = global::Drinkr.Resource.Attribute.iconifiedByDefault;
+			global::AppIntro.Resource.Attribute.imageButtonStyle = global::Drinkr.Resource.Attribute.imageButtonStyle;
+			global::AppIntro.Resource.Attribute.indeterminateProgressStyle = global::Drinkr.Resource.Attribute.indeterminateProgressStyle;
+			global::AppIntro.Resource.Attribute.initialActivityCount = global::Drinkr.Resource.Attribute.initialActivityCount;
+			global::AppIntro.Resource.Attribute.isLightTheme = global::Drinkr.Resource.Attribute.isLightTheme;
+			global::AppIntro.Resource.Attribute.itemPadding = global::Drinkr.Resource.Attribute.itemPadding;
+			global::AppIntro.Resource.Attribute.layout = global::Drinkr.Resource.Attribute.layout;
+			global::AppIntro.Resource.Attribute.listChoiceBackgroundIndicator = global::Drinkr.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::AppIntro.Resource.Attribute.listDividerAlertDialog = global::Drinkr.Resource.Attribute.listDividerAlertDialog;
+			global::AppIntro.Resource.Attribute.listItemLayout = global::Drinkr.Resource.Attribute.listItemLayout;
+			global::AppIntro.Resource.Attribute.listLayout = global::Drinkr.Resource.Attribute.listLayout;
+			global::AppIntro.Resource.Attribute.listMenuViewStyle = global::Drinkr.Resource.Attribute.listMenuViewStyle;
+			global::AppIntro.Resource.Attribute.listPopupWindowStyle = global::Drinkr.Resource.Attribute.listPopupWindowStyle;
+			global::AppIntro.Resource.Attribute.listPreferredItemHeight = global::Drinkr.Resource.Attribute.listPreferredItemHeight;
+			global::AppIntro.Resource.Attribute.listPreferredItemHeightLarge = global::Drinkr.Resource.Attribute.listPreferredItemHeightLarge;
+			global::AppIntro.Resource.Attribute.listPreferredItemHeightSmall = global::Drinkr.Resource.Attribute.listPreferredItemHeightSmall;
+			global::AppIntro.Resource.Attribute.listPreferredItemPaddingLeft = global::Drinkr.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::AppIntro.Resource.Attribute.listPreferredItemPaddingRight = global::Drinkr.Resource.Attribute.listPreferredItemPaddingRight;
+			global::AppIntro.Resource.Attribute.logo = global::Drinkr.Resource.Attribute.logo;
+			global::AppIntro.Resource.Attribute.logoDescription = global::Drinkr.Resource.Attribute.logoDescription;
+			global::AppIntro.Resource.Attribute.maxButtonHeight = global::Drinkr.Resource.Attribute.maxButtonHeight;
+			global::AppIntro.Resource.Attribute.measureWithLargestChild = global::Drinkr.Resource.Attribute.measureWithLargestChild;
+			global::AppIntro.Resource.Attribute.multiChoiceItemLayout = global::Drinkr.Resource.Attribute.multiChoiceItemLayout;
+			global::AppIntro.Resource.Attribute.navigationContentDescription = global::Drinkr.Resource.Attribute.navigationContentDescription;
+			global::AppIntro.Resource.Attribute.navigationIcon = global::Drinkr.Resource.Attribute.navigationIcon;
+			global::AppIntro.Resource.Attribute.navigationMode = global::Drinkr.Resource.Attribute.navigationMode;
+			global::AppIntro.Resource.Attribute.overlapAnchor = global::Drinkr.Resource.Attribute.overlapAnchor;
+			global::AppIntro.Resource.Attribute.paddingEnd = global::Drinkr.Resource.Attribute.paddingEnd;
+			global::AppIntro.Resource.Attribute.paddingStart = global::Drinkr.Resource.Attribute.paddingStart;
+			global::AppIntro.Resource.Attribute.panelBackground = global::Drinkr.Resource.Attribute.panelBackground;
+			global::AppIntro.Resource.Attribute.panelMenuListTheme = global::Drinkr.Resource.Attribute.panelMenuListTheme;
+			global::AppIntro.Resource.Attribute.panelMenuListWidth = global::Drinkr.Resource.Attribute.panelMenuListWidth;
+			global::AppIntro.Resource.Attribute.popupMenuStyle = global::Drinkr.Resource.Attribute.popupMenuStyle;
+			global::AppIntro.Resource.Attribute.popupTheme = global::Drinkr.Resource.Attribute.popupTheme;
+			global::AppIntro.Resource.Attribute.popupWindowStyle = global::Drinkr.Resource.Attribute.popupWindowStyle;
+			global::AppIntro.Resource.Attribute.preserveIconSpacing = global::Drinkr.Resource.Attribute.preserveIconSpacing;
+			global::AppIntro.Resource.Attribute.progressBarPadding = global::Drinkr.Resource.Attribute.progressBarPadding;
+			global::AppIntro.Resource.Attribute.progressBarStyle = global::Drinkr.Resource.Attribute.progressBarStyle;
+			global::AppIntro.Resource.Attribute.queryBackground = global::Drinkr.Resource.Attribute.queryBackground;
+			global::AppIntro.Resource.Attribute.queryHint = global::Drinkr.Resource.Attribute.queryHint;
+			global::AppIntro.Resource.Attribute.radioButtonStyle = global::Drinkr.Resource.Attribute.radioButtonStyle;
+			global::AppIntro.Resource.Attribute.ratingBarStyle = global::Drinkr.Resource.Attribute.ratingBarStyle;
+			global::AppIntro.Resource.Attribute.ratingBarStyleIndicator = global::Drinkr.Resource.Attribute.ratingBarStyleIndicator;
+			global::AppIntro.Resource.Attribute.ratingBarStyleSmall = global::Drinkr.Resource.Attribute.ratingBarStyleSmall;
+			global::AppIntro.Resource.Attribute.searchHintIcon = global::Drinkr.Resource.Attribute.searchHintIcon;
+			global::AppIntro.Resource.Attribute.searchIcon = global::Drinkr.Resource.Attribute.searchIcon;
+			global::AppIntro.Resource.Attribute.searchViewStyle = global::Drinkr.Resource.Attribute.searchViewStyle;
+			global::AppIntro.Resource.Attribute.seekBarStyle = global::Drinkr.Resource.Attribute.seekBarStyle;
+			global::AppIntro.Resource.Attribute.selectableItemBackground = global::Drinkr.Resource.Attribute.selectableItemBackground;
+			global::AppIntro.Resource.Attribute.selectableItemBackgroundBorderless = global::Drinkr.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::AppIntro.Resource.Attribute.showAsAction = global::Drinkr.Resource.Attribute.showAsAction;
+			global::AppIntro.Resource.Attribute.showDividers = global::Drinkr.Resource.Attribute.showDividers;
+			global::AppIntro.Resource.Attribute.showText = global::Drinkr.Resource.Attribute.showText;
+			global::AppIntro.Resource.Attribute.singleChoiceItemLayout = global::Drinkr.Resource.Attribute.singleChoiceItemLayout;
+			global::AppIntro.Resource.Attribute.spinBars = global::Drinkr.Resource.Attribute.spinBars;
+			global::AppIntro.Resource.Attribute.spinnerDropDownItemStyle = global::Drinkr.Resource.Attribute.spinnerDropDownItemStyle;
+			global::AppIntro.Resource.Attribute.spinnerStyle = global::Drinkr.Resource.Attribute.spinnerStyle;
+			global::AppIntro.Resource.Attribute.splitTrack = global::Drinkr.Resource.Attribute.splitTrack;
+			global::AppIntro.Resource.Attribute.srcCompat = global::Drinkr.Resource.Attribute.srcCompat;
+			global::AppIntro.Resource.Attribute.state_above_anchor = global::Drinkr.Resource.Attribute.state_above_anchor;
+			global::AppIntro.Resource.Attribute.subMenuArrow = global::Drinkr.Resource.Attribute.subMenuArrow;
+			global::AppIntro.Resource.Attribute.submitBackground = global::Drinkr.Resource.Attribute.submitBackground;
+			global::AppIntro.Resource.Attribute.subtitle = global::Drinkr.Resource.Attribute.subtitle;
+			global::AppIntro.Resource.Attribute.subtitleTextAppearance = global::Drinkr.Resource.Attribute.subtitleTextAppearance;
+			global::AppIntro.Resource.Attribute.subtitleTextColor = global::Drinkr.Resource.Attribute.subtitleTextColor;
+			global::AppIntro.Resource.Attribute.subtitleTextStyle = global::Drinkr.Resource.Attribute.subtitleTextStyle;
+			global::AppIntro.Resource.Attribute.suggestionRowLayout = global::Drinkr.Resource.Attribute.suggestionRowLayout;
+			global::AppIntro.Resource.Attribute.switchMinWidth = global::Drinkr.Resource.Attribute.switchMinWidth;
+			global::AppIntro.Resource.Attribute.switchPadding = global::Drinkr.Resource.Attribute.switchPadding;
+			global::AppIntro.Resource.Attribute.switchStyle = global::Drinkr.Resource.Attribute.switchStyle;
+			global::AppIntro.Resource.Attribute.switchTextAppearance = global::Drinkr.Resource.Attribute.switchTextAppearance;
+			global::AppIntro.Resource.Attribute.textAllCaps = global::Drinkr.Resource.Attribute.textAllCaps;
+			global::AppIntro.Resource.Attribute.textAppearanceLargePopupMenu = global::Drinkr.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::AppIntro.Resource.Attribute.textAppearanceListItem = global::Drinkr.Resource.Attribute.textAppearanceListItem;
+			global::AppIntro.Resource.Attribute.textAppearanceListItemSmall = global::Drinkr.Resource.Attribute.textAppearanceListItemSmall;
+			global::AppIntro.Resource.Attribute.textAppearancePopupMenuHeader = global::Drinkr.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::AppIntro.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Drinkr.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::AppIntro.Resource.Attribute.textAppearanceSearchResultTitle = global::Drinkr.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::AppIntro.Resource.Attribute.textAppearanceSmallPopupMenu = global::Drinkr.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::AppIntro.Resource.Attribute.textColorAlertDialogListItem = global::Drinkr.Resource.Attribute.textColorAlertDialogListItem;
+			global::AppIntro.Resource.Attribute.textColorSearchUrl = global::Drinkr.Resource.Attribute.textColorSearchUrl;
+			global::AppIntro.Resource.Attribute.theme = global::Drinkr.Resource.Attribute.theme;
+			global::AppIntro.Resource.Attribute.thickness = global::Drinkr.Resource.Attribute.thickness;
+			global::AppIntro.Resource.Attribute.thumbTextPadding = global::Drinkr.Resource.Attribute.thumbTextPadding;
+			global::AppIntro.Resource.Attribute.thumbTint = global::Drinkr.Resource.Attribute.thumbTint;
+			global::AppIntro.Resource.Attribute.thumbTintMode = global::Drinkr.Resource.Attribute.thumbTintMode;
+			global::AppIntro.Resource.Attribute.tickMark = global::Drinkr.Resource.Attribute.tickMark;
+			global::AppIntro.Resource.Attribute.tickMarkTint = global::Drinkr.Resource.Attribute.tickMarkTint;
+			global::AppIntro.Resource.Attribute.tickMarkTintMode = global::Drinkr.Resource.Attribute.tickMarkTintMode;
+			global::AppIntro.Resource.Attribute.title = global::Drinkr.Resource.Attribute.title;
+			global::AppIntro.Resource.Attribute.titleMargin = global::Drinkr.Resource.Attribute.titleMargin;
+			global::AppIntro.Resource.Attribute.titleMarginBottom = global::Drinkr.Resource.Attribute.titleMarginBottom;
+			global::AppIntro.Resource.Attribute.titleMarginEnd = global::Drinkr.Resource.Attribute.titleMarginEnd;
+			global::AppIntro.Resource.Attribute.titleMarginStart = global::Drinkr.Resource.Attribute.titleMarginStart;
+			global::AppIntro.Resource.Attribute.titleMarginTop = global::Drinkr.Resource.Attribute.titleMarginTop;
+			global::AppIntro.Resource.Attribute.titleMargins = global::Drinkr.Resource.Attribute.titleMargins;
+			global::AppIntro.Resource.Attribute.titleTextAppearance = global::Drinkr.Resource.Attribute.titleTextAppearance;
+			global::AppIntro.Resource.Attribute.titleTextColor = global::Drinkr.Resource.Attribute.titleTextColor;
+			global::AppIntro.Resource.Attribute.titleTextStyle = global::Drinkr.Resource.Attribute.titleTextStyle;
+			global::AppIntro.Resource.Attribute.toolbarNavigationButtonStyle = global::Drinkr.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::AppIntro.Resource.Attribute.toolbarStyle = global::Drinkr.Resource.Attribute.toolbarStyle;
+			global::AppIntro.Resource.Attribute.track = global::Drinkr.Resource.Attribute.track;
+			global::AppIntro.Resource.Attribute.trackTint = global::Drinkr.Resource.Attribute.trackTint;
+			global::AppIntro.Resource.Attribute.trackTintMode = global::Drinkr.Resource.Attribute.trackTintMode;
+			global::AppIntro.Resource.Attribute.voiceIcon = global::Drinkr.Resource.Attribute.voiceIcon;
+			global::AppIntro.Resource.Attribute.windowActionBar = global::Drinkr.Resource.Attribute.windowActionBar;
+			global::AppIntro.Resource.Attribute.windowActionBarOverlay = global::Drinkr.Resource.Attribute.windowActionBarOverlay;
+			global::AppIntro.Resource.Attribute.windowActionModeOverlay = global::Drinkr.Resource.Attribute.windowActionModeOverlay;
+			global::AppIntro.Resource.Attribute.windowFixedHeightMajor = global::Drinkr.Resource.Attribute.windowFixedHeightMajor;
+			global::AppIntro.Resource.Attribute.windowFixedHeightMinor = global::Drinkr.Resource.Attribute.windowFixedHeightMinor;
+			global::AppIntro.Resource.Attribute.windowFixedWidthMajor = global::Drinkr.Resource.Attribute.windowFixedWidthMajor;
+			global::AppIntro.Resource.Attribute.windowFixedWidthMinor = global::Drinkr.Resource.Attribute.windowFixedWidthMinor;
+			global::AppIntro.Resource.Attribute.windowMinWidthMajor = global::Drinkr.Resource.Attribute.windowMinWidthMajor;
+			global::AppIntro.Resource.Attribute.windowMinWidthMinor = global::Drinkr.Resource.Attribute.windowMinWidthMinor;
+			global::AppIntro.Resource.Attribute.windowNoTitle = global::Drinkr.Resource.Attribute.windowNoTitle;
+			global::AppIntro.Resource.Boolean.abc_action_bar_embed_tabs = global::Drinkr.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::AppIntro.Resource.Boolean.abc_allow_stacked_button_bar = global::Drinkr.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::AppIntro.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Drinkr.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::AppIntro.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Drinkr.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::AppIntro.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Drinkr.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::AppIntro.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Drinkr.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::AppIntro.Resource.Color.abc_background_cache_hint_selector_material_light = global::Drinkr.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::AppIntro.Resource.Color.abc_btn_colored_borderless_text_material = global::Drinkr.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::AppIntro.Resource.Color.abc_color_highlight_material = global::Drinkr.Resource.Color.abc_color_highlight_material;
+			global::AppIntro.Resource.Color.abc_input_method_navigation_guard = global::Drinkr.Resource.Color.abc_input_method_navigation_guard;
+			global::AppIntro.Resource.Color.abc_primary_text_disable_only_material_dark = global::Drinkr.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::AppIntro.Resource.Color.abc_primary_text_disable_only_material_light = global::Drinkr.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::AppIntro.Resource.Color.abc_primary_text_material_dark = global::Drinkr.Resource.Color.abc_primary_text_material_dark;
+			global::AppIntro.Resource.Color.abc_primary_text_material_light = global::Drinkr.Resource.Color.abc_primary_text_material_light;
+			global::AppIntro.Resource.Color.abc_search_url_text = global::Drinkr.Resource.Color.abc_search_url_text;
+			global::AppIntro.Resource.Color.abc_search_url_text_normal = global::Drinkr.Resource.Color.abc_search_url_text_normal;
+			global::AppIntro.Resource.Color.abc_search_url_text_pressed = global::Drinkr.Resource.Color.abc_search_url_text_pressed;
+			global::AppIntro.Resource.Color.abc_search_url_text_selected = global::Drinkr.Resource.Color.abc_search_url_text_selected;
+			global::AppIntro.Resource.Color.abc_secondary_text_material_dark = global::Drinkr.Resource.Color.abc_secondary_text_material_dark;
+			global::AppIntro.Resource.Color.abc_secondary_text_material_light = global::Drinkr.Resource.Color.abc_secondary_text_material_light;
+			global::AppIntro.Resource.Color.abc_tint_btn_checkable = global::Drinkr.Resource.Color.abc_tint_btn_checkable;
+			global::AppIntro.Resource.Color.abc_tint_default = global::Drinkr.Resource.Color.abc_tint_default;
+			global::AppIntro.Resource.Color.abc_tint_edittext = global::Drinkr.Resource.Color.abc_tint_edittext;
+			global::AppIntro.Resource.Color.abc_tint_seek_thumb = global::Drinkr.Resource.Color.abc_tint_seek_thumb;
+			global::AppIntro.Resource.Color.abc_tint_spinner = global::Drinkr.Resource.Color.abc_tint_spinner;
+			global::AppIntro.Resource.Color.abc_tint_switch_thumb = global::Drinkr.Resource.Color.abc_tint_switch_thumb;
+			global::AppIntro.Resource.Color.abc_tint_switch_track = global::Drinkr.Resource.Color.abc_tint_switch_track;
+			global::AppIntro.Resource.Color.accent_material_dark = global::Drinkr.Resource.Color.accent_material_dark;
+			global::AppIntro.Resource.Color.accent_material_light = global::Drinkr.Resource.Color.accent_material_light;
+			global::AppIntro.Resource.Color.background_floating_material_dark = global::Drinkr.Resource.Color.background_floating_material_dark;
+			global::AppIntro.Resource.Color.background_floating_material_light = global::Drinkr.Resource.Color.background_floating_material_light;
+			global::AppIntro.Resource.Color.background_material_dark = global::Drinkr.Resource.Color.background_material_dark;
+			global::AppIntro.Resource.Color.background_material_light = global::Drinkr.Resource.Color.background_material_light;
+			global::AppIntro.Resource.Color.bright_foreground_disabled_material_dark = global::Drinkr.Resource.Color.bright_foreground_disabled_material_dark;
+			global::AppIntro.Resource.Color.bright_foreground_disabled_material_light = global::Drinkr.Resource.Color.bright_foreground_disabled_material_light;
+			global::AppIntro.Resource.Color.bright_foreground_inverse_material_dark = global::Drinkr.Resource.Color.bright_foreground_inverse_material_dark;
+			global::AppIntro.Resource.Color.bright_foreground_inverse_material_light = global::Drinkr.Resource.Color.bright_foreground_inverse_material_light;
+			global::AppIntro.Resource.Color.bright_foreground_material_dark = global::Drinkr.Resource.Color.bright_foreground_material_dark;
+			global::AppIntro.Resource.Color.bright_foreground_material_light = global::Drinkr.Resource.Color.bright_foreground_material_light;
+			global::AppIntro.Resource.Color.button_material_dark = global::Drinkr.Resource.Color.button_material_dark;
+			global::AppIntro.Resource.Color.button_material_light = global::Drinkr.Resource.Color.button_material_light;
+			global::AppIntro.Resource.Color.dim_foreground_disabled_material_dark = global::Drinkr.Resource.Color.dim_foreground_disabled_material_dark;
+			global::AppIntro.Resource.Color.dim_foreground_disabled_material_light = global::Drinkr.Resource.Color.dim_foreground_disabled_material_light;
+			global::AppIntro.Resource.Color.dim_foreground_material_dark = global::Drinkr.Resource.Color.dim_foreground_material_dark;
+			global::AppIntro.Resource.Color.dim_foreground_material_light = global::Drinkr.Resource.Color.dim_foreground_material_light;
+			global::AppIntro.Resource.Color.foreground_material_dark = global::Drinkr.Resource.Color.foreground_material_dark;
+			global::AppIntro.Resource.Color.foreground_material_light = global::Drinkr.Resource.Color.foreground_material_light;
+			global::AppIntro.Resource.Color.highlighted_text_material_dark = global::Drinkr.Resource.Color.highlighted_text_material_dark;
+			global::AppIntro.Resource.Color.highlighted_text_material_light = global::Drinkr.Resource.Color.highlighted_text_material_light;
+			global::AppIntro.Resource.Color.material_blue_grey_800 = global::Drinkr.Resource.Color.material_blue_grey_800;
+			global::AppIntro.Resource.Color.material_blue_grey_900 = global::Drinkr.Resource.Color.material_blue_grey_900;
+			global::AppIntro.Resource.Color.material_blue_grey_950 = global::Drinkr.Resource.Color.material_blue_grey_950;
+			global::AppIntro.Resource.Color.material_deep_teal_200 = global::Drinkr.Resource.Color.material_deep_teal_200;
+			global::AppIntro.Resource.Color.material_deep_teal_500 = global::Drinkr.Resource.Color.material_deep_teal_500;
+			global::AppIntro.Resource.Color.material_grey_100 = global::Drinkr.Resource.Color.material_grey_100;
+			global::AppIntro.Resource.Color.material_grey_300 = global::Drinkr.Resource.Color.material_grey_300;
+			global::AppIntro.Resource.Color.material_grey_50 = global::Drinkr.Resource.Color.material_grey_50;
+			global::AppIntro.Resource.Color.material_grey_600 = global::Drinkr.Resource.Color.material_grey_600;
+			global::AppIntro.Resource.Color.material_grey_800 = global::Drinkr.Resource.Color.material_grey_800;
+			global::AppIntro.Resource.Color.material_grey_850 = global::Drinkr.Resource.Color.material_grey_850;
+			global::AppIntro.Resource.Color.material_grey_900 = global::Drinkr.Resource.Color.material_grey_900;
+			global::AppIntro.Resource.Color.primary_dark_material_dark = global::Drinkr.Resource.Color.primary_dark_material_dark;
+			global::AppIntro.Resource.Color.primary_dark_material_light = global::Drinkr.Resource.Color.primary_dark_material_light;
+			global::AppIntro.Resource.Color.primary_material_dark = global::Drinkr.Resource.Color.primary_material_dark;
+			global::AppIntro.Resource.Color.primary_material_light = global::Drinkr.Resource.Color.primary_material_light;
+			global::AppIntro.Resource.Color.primary_text_default_material_dark = global::Drinkr.Resource.Color.primary_text_default_material_dark;
+			global::AppIntro.Resource.Color.primary_text_default_material_light = global::Drinkr.Resource.Color.primary_text_default_material_light;
+			global::AppIntro.Resource.Color.primary_text_disabled_material_dark = global::Drinkr.Resource.Color.primary_text_disabled_material_dark;
+			global::AppIntro.Resource.Color.primary_text_disabled_material_light = global::Drinkr.Resource.Color.primary_text_disabled_material_light;
+			global::AppIntro.Resource.Color.ripple_material_dark = global::Drinkr.Resource.Color.ripple_material_dark;
+			global::AppIntro.Resource.Color.ripple_material_light = global::Drinkr.Resource.Color.ripple_material_light;
+			global::AppIntro.Resource.Color.secondary_text_default_material_dark = global::Drinkr.Resource.Color.secondary_text_default_material_dark;
+			global::AppIntro.Resource.Color.secondary_text_default_material_light = global::Drinkr.Resource.Color.secondary_text_default_material_light;
+			global::AppIntro.Resource.Color.secondary_text_disabled_material_dark = global::Drinkr.Resource.Color.secondary_text_disabled_material_dark;
+			global::AppIntro.Resource.Color.secondary_text_disabled_material_light = global::Drinkr.Resource.Color.secondary_text_disabled_material_light;
+			global::AppIntro.Resource.Color.switch_thumb_disabled_material_dark = global::Drinkr.Resource.Color.switch_thumb_disabled_material_dark;
+			global::AppIntro.Resource.Color.switch_thumb_disabled_material_light = global::Drinkr.Resource.Color.switch_thumb_disabled_material_light;
+			global::AppIntro.Resource.Color.switch_thumb_material_dark = global::Drinkr.Resource.Color.switch_thumb_material_dark;
+			global::AppIntro.Resource.Color.switch_thumb_material_light = global::Drinkr.Resource.Color.switch_thumb_material_light;
+			global::AppIntro.Resource.Color.switch_thumb_normal_material_dark = global::Drinkr.Resource.Color.switch_thumb_normal_material_dark;
+			global::AppIntro.Resource.Color.switch_thumb_normal_material_light = global::Drinkr.Resource.Color.switch_thumb_normal_material_light;
+			global::AppIntro.Resource.Dimension.abc_action_bar_content_inset_material = global::Drinkr.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Drinkr.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::AppIntro.Resource.Dimension.abc_action_bar_default_height_material = global::Drinkr.Resource.Dimension.abc_action_bar_default_height_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Drinkr.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Drinkr.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_elevation_material = global::Drinkr.Resource.Dimension.abc_action_bar_elevation_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Drinkr.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Drinkr.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Drinkr.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_progress_bar_size = global::Drinkr.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::AppIntro.Resource.Dimension.abc_action_bar_stacked_max_height = global::Drinkr.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::AppIntro.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Drinkr.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::AppIntro.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Drinkr.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::AppIntro.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Drinkr.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::AppIntro.Resource.Dimension.abc_action_button_min_height_material = global::Drinkr.Resource.Dimension.abc_action_button_min_height_material;
+			global::AppIntro.Resource.Dimension.abc_action_button_min_width_material = global::Drinkr.Resource.Dimension.abc_action_button_min_width_material;
+			global::AppIntro.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Drinkr.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::AppIntro.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Drinkr.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::AppIntro.Resource.Dimension.abc_button_inset_horizontal_material = global::Drinkr.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::AppIntro.Resource.Dimension.abc_button_inset_vertical_material = global::Drinkr.Resource.Dimension.abc_button_inset_vertical_material;
+			global::AppIntro.Resource.Dimension.abc_button_padding_horizontal_material = global::Drinkr.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::AppIntro.Resource.Dimension.abc_button_padding_vertical_material = global::Drinkr.Resource.Dimension.abc_button_padding_vertical_material;
+			global::AppIntro.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Drinkr.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::AppIntro.Resource.Dimension.abc_config_prefDialogWidth = global::Drinkr.Resource.Dimension.abc_config_prefDialogWidth;
+			global::AppIntro.Resource.Dimension.abc_control_corner_material = global::Drinkr.Resource.Dimension.abc_control_corner_material;
+			global::AppIntro.Resource.Dimension.abc_control_inset_material = global::Drinkr.Resource.Dimension.abc_control_inset_material;
+			global::AppIntro.Resource.Dimension.abc_control_padding_material = global::Drinkr.Resource.Dimension.abc_control_padding_material;
+			global::AppIntro.Resource.Dimension.abc_dialog_fixed_height_major = global::Drinkr.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::AppIntro.Resource.Dimension.abc_dialog_fixed_height_minor = global::Drinkr.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::AppIntro.Resource.Dimension.abc_dialog_fixed_width_major = global::Drinkr.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::AppIntro.Resource.Dimension.abc_dialog_fixed_width_minor = global::Drinkr.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::AppIntro.Resource.Dimension.abc_dialog_min_width_major = global::Drinkr.Resource.Dimension.abc_dialog_min_width_major;
+			global::AppIntro.Resource.Dimension.abc_dialog_min_width_minor = global::Drinkr.Resource.Dimension.abc_dialog_min_width_minor;
+			global::AppIntro.Resource.Dimension.abc_dialog_padding_material = global::Drinkr.Resource.Dimension.abc_dialog_padding_material;
+			global::AppIntro.Resource.Dimension.abc_dialog_padding_top_material = global::Drinkr.Resource.Dimension.abc_dialog_padding_top_material;
+			global::AppIntro.Resource.Dimension.abc_disabled_alpha_material_dark = global::Drinkr.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::AppIntro.Resource.Dimension.abc_disabled_alpha_material_light = global::Drinkr.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::AppIntro.Resource.Dimension.abc_dropdownitem_icon_width = global::Drinkr.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::AppIntro.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Drinkr.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::AppIntro.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Drinkr.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::AppIntro.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Drinkr.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::AppIntro.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Drinkr.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::AppIntro.Resource.Dimension.abc_edit_text_inset_top_material = global::Drinkr.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::AppIntro.Resource.Dimension.abc_floating_window_z = global::Drinkr.Resource.Dimension.abc_floating_window_z;
+			global::AppIntro.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Drinkr.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::AppIntro.Resource.Dimension.abc_panel_menu_list_width = global::Drinkr.Resource.Dimension.abc_panel_menu_list_width;
+			global::AppIntro.Resource.Dimension.abc_progress_bar_height_material = global::Drinkr.Resource.Dimension.abc_progress_bar_height_material;
+			global::AppIntro.Resource.Dimension.abc_search_view_preferred_height = global::Drinkr.Resource.Dimension.abc_search_view_preferred_height;
+			global::AppIntro.Resource.Dimension.abc_search_view_preferred_width = global::Drinkr.Resource.Dimension.abc_search_view_preferred_width;
+			global::AppIntro.Resource.Dimension.abc_seekbar_track_background_height_material = global::Drinkr.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::AppIntro.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Drinkr.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::AppIntro.Resource.Dimension.abc_select_dialog_padding_start_material = global::Drinkr.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::AppIntro.Resource.Dimension.abc_switch_padding = global::Drinkr.Resource.Dimension.abc_switch_padding;
+			global::AppIntro.Resource.Dimension.abc_text_size_body_1_material = global::Drinkr.Resource.Dimension.abc_text_size_body_1_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_body_2_material = global::Drinkr.Resource.Dimension.abc_text_size_body_2_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_button_material = global::Drinkr.Resource.Dimension.abc_text_size_button_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_caption_material = global::Drinkr.Resource.Dimension.abc_text_size_caption_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_display_1_material = global::Drinkr.Resource.Dimension.abc_text_size_display_1_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_display_2_material = global::Drinkr.Resource.Dimension.abc_text_size_display_2_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_display_3_material = global::Drinkr.Resource.Dimension.abc_text_size_display_3_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_display_4_material = global::Drinkr.Resource.Dimension.abc_text_size_display_4_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_headline_material = global::Drinkr.Resource.Dimension.abc_text_size_headline_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_large_material = global::Drinkr.Resource.Dimension.abc_text_size_large_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_medium_material = global::Drinkr.Resource.Dimension.abc_text_size_medium_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_menu_header_material = global::Drinkr.Resource.Dimension.abc_text_size_menu_header_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_menu_material = global::Drinkr.Resource.Dimension.abc_text_size_menu_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_small_material = global::Drinkr.Resource.Dimension.abc_text_size_small_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_subhead_material = global::Drinkr.Resource.Dimension.abc_text_size_subhead_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Drinkr.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::AppIntro.Resource.Dimension.abc_text_size_title_material = global::Drinkr.Resource.Dimension.abc_text_size_title_material;
+			global::AppIntro.Resource.Dimension.abc_text_size_title_material_toolbar = global::Drinkr.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::AppIntro.Resource.Dimension.appIntro2BottomBarHeight = global::Drinkr.Resource.Dimension.appIntro2BottomBarHeight;
+			global::AppIntro.Resource.Dimension.appIntroBottomBarHeight = global::Drinkr.Resource.Dimension.appIntroBottomBarHeight;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingBottom = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingBottom;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingBottomIntro1 = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingBottomIntro1;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingBottomIntro2 = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingBottomIntro2;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingLeft = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingLeft;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingRight = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingRight;
+			global::AppIntro.Resource.Dimension.appIntroDefaultPaddingTop = global::Drinkr.Resource.Dimension.appIntroDefaultPaddingTop;
+			global::AppIntro.Resource.Dimension.appIntroHeadingTextSize = global::Drinkr.Resource.Dimension.appIntroHeadingTextSize;
+			global::AppIntro.Resource.Dimension.disabled_alpha_material_dark = global::Drinkr.Resource.Dimension.disabled_alpha_material_dark;
+			global::AppIntro.Resource.Dimension.disabled_alpha_material_light = global::Drinkr.Resource.Dimension.disabled_alpha_material_light;
+			global::AppIntro.Resource.Dimension.highlight_alpha_material_colored = global::Drinkr.Resource.Dimension.highlight_alpha_material_colored;
+			global::AppIntro.Resource.Dimension.highlight_alpha_material_dark = global::Drinkr.Resource.Dimension.highlight_alpha_material_dark;
+			global::AppIntro.Resource.Dimension.highlight_alpha_material_light = global::Drinkr.Resource.Dimension.highlight_alpha_material_light;
+			global::AppIntro.Resource.Dimension.notification_large_icon_height = global::Drinkr.Resource.Dimension.notification_large_icon_height;
+			global::AppIntro.Resource.Dimension.notification_large_icon_width = global::Drinkr.Resource.Dimension.notification_large_icon_width;
+			global::AppIntro.Resource.Dimension.notification_subtext_size = global::Drinkr.Resource.Dimension.notification_subtext_size;
+			global::AppIntro.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_action_bar_item_background_material = global::Drinkr.Resource.Drawable.abc_action_bar_item_background_material;
+			global::AppIntro.Resource.Drawable.abc_btn_borderless_material = global::Drinkr.Resource.Drawable.abc_btn_borderless_material;
+			global::AppIntro.Resource.Drawable.abc_btn_check_material = global::Drinkr.Resource.Drawable.abc_btn_check_material;
+			global::AppIntro.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Drinkr.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::AppIntro.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Drinkr.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::AppIntro.Resource.Drawable.abc_btn_colored_material = global::Drinkr.Resource.Drawable.abc_btn_colored_material;
+			global::AppIntro.Resource.Drawable.abc_btn_default_mtrl_shape = global::Drinkr.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::AppIntro.Resource.Drawable.abc_btn_radio_material = global::Drinkr.Resource.Drawable.abc_btn_radio_material;
+			global::AppIntro.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Drinkr.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::AppIntro.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Drinkr.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::AppIntro.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Drinkr.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::AppIntro.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Drinkr.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::AppIntro.Resource.Drawable.abc_cab_background_internal_bg = global::Drinkr.Resource.Drawable.abc_cab_background_internal_bg;
+			global::AppIntro.Resource.Drawable.abc_cab_background_top_material = global::Drinkr.Resource.Drawable.abc_cab_background_top_material;
+			global::AppIntro.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_control_background_material = global::Drinkr.Resource.Drawable.abc_control_background_material;
+			global::AppIntro.Resource.Drawable.abc_dialog_material_background = global::Drinkr.Resource.Drawable.abc_dialog_material_background;
+			global::AppIntro.Resource.Drawable.abc_edit_text_material = global::Drinkr.Resource.Drawable.abc_edit_text_material;
+			global::AppIntro.Resource.Drawable.abc_ic_ab_back_material = global::Drinkr.Resource.Drawable.abc_ic_ab_back_material;
+			global::AppIntro.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Drinkr.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::AppIntro.Resource.Drawable.abc_ic_clear_material = global::Drinkr.Resource.Drawable.abc_ic_clear_material;
+			global::AppIntro.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_go_search_api_material = global::Drinkr.Resource.Drawable.abc_ic_go_search_api_material;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Drinkr.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_overflow_material = global::Drinkr.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Drinkr.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_ic_search_api_material = global::Drinkr.Resource.Drawable.abc_ic_search_api_material;
+			global::AppIntro.Resource.Drawable.abc_ic_star_black_16dp = global::Drinkr.Resource.Drawable.abc_ic_star_black_16dp;
+			global::AppIntro.Resource.Drawable.abc_ic_star_black_36dp = global::Drinkr.Resource.Drawable.abc_ic_star_black_36dp;
+			global::AppIntro.Resource.Drawable.abc_ic_star_black_48dp = global::Drinkr.Resource.Drawable.abc_ic_star_black_48dp;
+			global::AppIntro.Resource.Drawable.abc_ic_star_half_black_16dp = global::Drinkr.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::AppIntro.Resource.Drawable.abc_ic_star_half_black_36dp = global::Drinkr.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::AppIntro.Resource.Drawable.abc_ic_star_half_black_48dp = global::Drinkr.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::AppIntro.Resource.Drawable.abc_ic_voice_search_api_material = global::Drinkr.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::AppIntro.Resource.Drawable.abc_item_background_holo_dark = global::Drinkr.Resource.Drawable.abc_item_background_holo_dark;
+			global::AppIntro.Resource.Drawable.abc_item_background_holo_light = global::Drinkr.Resource.Drawable.abc_item_background_holo_light;
+			global::AppIntro.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_list_focused_holo = global::Drinkr.Resource.Drawable.abc_list_focused_holo;
+			global::AppIntro.Resource.Drawable.abc_list_longpressed_holo = global::Drinkr.Resource.Drawable.abc_list_longpressed_holo;
+			global::AppIntro.Resource.Drawable.abc_list_pressed_holo_dark = global::Drinkr.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::AppIntro.Resource.Drawable.abc_list_pressed_holo_light = global::Drinkr.Resource.Drawable.abc_list_pressed_holo_light;
+			global::AppIntro.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Drinkr.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::AppIntro.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Drinkr.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::AppIntro.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Drinkr.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::AppIntro.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Drinkr.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::AppIntro.Resource.Drawable.abc_list_selector_holo_dark = global::Drinkr.Resource.Drawable.abc_list_selector_holo_dark;
+			global::AppIntro.Resource.Drawable.abc_list_selector_holo_light = global::Drinkr.Resource.Drawable.abc_list_selector_holo_light;
+			global::AppIntro.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Drinkr.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::AppIntro.Resource.Drawable.abc_popup_background_mtrl_mult = global::Drinkr.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::AppIntro.Resource.Drawable.abc_ratingbar_indicator_material = global::Drinkr.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::AppIntro.Resource.Drawable.abc_ratingbar_material = global::Drinkr.Resource.Drawable.abc_ratingbar_material;
+			global::AppIntro.Resource.Drawable.abc_ratingbar_small_material = global::Drinkr.Resource.Drawable.abc_ratingbar_small_material;
+			global::AppIntro.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Drinkr.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::AppIntro.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Drinkr.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::AppIntro.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_seekbar_thumb_material = global::Drinkr.Resource.Drawable.abc_seekbar_thumb_material;
+			global::AppIntro.Resource.Drawable.abc_seekbar_tick_mark_material = global::Drinkr.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::AppIntro.Resource.Drawable.abc_seekbar_track_material = global::Drinkr.Resource.Drawable.abc_seekbar_track_material;
+			global::AppIntro.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Drinkr.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::AppIntro.Resource.Drawable.abc_spinner_textfield_background_material = global::Drinkr.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::AppIntro.Resource.Drawable.abc_switch_thumb_material = global::Drinkr.Resource.Drawable.abc_switch_thumb_material;
+			global::AppIntro.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_tab_indicator_material = global::Drinkr.Resource.Drawable.abc_tab_indicator_material;
+			global::AppIntro.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_text_cursor_material = global::Drinkr.Resource.Drawable.abc_text_cursor_material;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Drinkr.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Drinkr.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Drinkr.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Drinkr.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Drinkr.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::AppIntro.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Drinkr.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::AppIntro.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Drinkr.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::AppIntro.Resource.Drawable.abc_textfield_search_material = global::Drinkr.Resource.Drawable.abc_textfield_search_material;
+			global::AppIntro.Resource.Drawable.abc_vector_test = global::Drinkr.Resource.Drawable.abc_vector_test;
+			global::AppIntro.Resource.Drawable.ic_arrow_back_white = global::Drinkr.Resource.Drawable.ic_arrow_back_white;
+			global::AppIntro.Resource.Drawable.ic_arrow_forward_white = global::Drinkr.Resource.Drawable.ic_arrow_forward_white;
+			global::AppIntro.Resource.Drawable.ic_done_white = global::Drinkr.Resource.Drawable.ic_done_white;
+			global::AppIntro.Resource.Drawable.ic_navigate_before_white = global::Drinkr.Resource.Drawable.ic_navigate_before_white;
+			global::AppIntro.Resource.Drawable.ic_navigate_next_white = global::Drinkr.Resource.Drawable.ic_navigate_next_white;
+			global::AppIntro.Resource.Drawable.ic_skip_white = global::Drinkr.Resource.Drawable.ic_skip_white;
+			global::AppIntro.Resource.Drawable.indicator_dot_grey = global::Drinkr.Resource.Drawable.indicator_dot_grey;
+			global::AppIntro.Resource.Drawable.indicator_dot_white = global::Drinkr.Resource.Drawable.indicator_dot_white;
+			global::AppIntro.Resource.Drawable.notification_template_icon_bg = global::Drinkr.Resource.Drawable.notification_template_icon_bg;
+			global::AppIntro.Resource.Id.action0 = global::Drinkr.Resource.Id.action0;
+			global::AppIntro.Resource.Id.action_bar = global::Drinkr.Resource.Id.action_bar;
+			global::AppIntro.Resource.Id.action_bar_activity_content = global::Drinkr.Resource.Id.action_bar_activity_content;
+			global::AppIntro.Resource.Id.action_bar_container = global::Drinkr.Resource.Id.action_bar_container;
+			global::AppIntro.Resource.Id.action_bar_root = global::Drinkr.Resource.Id.action_bar_root;
+			global::AppIntro.Resource.Id.action_bar_spinner = global::Drinkr.Resource.Id.action_bar_spinner;
+			global::AppIntro.Resource.Id.action_bar_subtitle = global::Drinkr.Resource.Id.action_bar_subtitle;
+			global::AppIntro.Resource.Id.action_bar_title = global::Drinkr.Resource.Id.action_bar_title;
+			global::AppIntro.Resource.Id.action_context_bar = global::Drinkr.Resource.Id.action_context_bar;
+			global::AppIntro.Resource.Id.action_divider = global::Drinkr.Resource.Id.action_divider;
+			global::AppIntro.Resource.Id.action_menu_divider = global::Drinkr.Resource.Id.action_menu_divider;
+			global::AppIntro.Resource.Id.action_menu_presenter = global::Drinkr.Resource.Id.action_menu_presenter;
+			global::AppIntro.Resource.Id.action_mode_bar = global::Drinkr.Resource.Id.action_mode_bar;
+			global::AppIntro.Resource.Id.action_mode_bar_stub = global::Drinkr.Resource.Id.action_mode_bar_stub;
+			global::AppIntro.Resource.Id.action_mode_close_button = global::Drinkr.Resource.Id.action_mode_close_button;
+			global::AppIntro.Resource.Id.activity_chooser_view_content = global::Drinkr.Resource.Id.activity_chooser_view_content;
+			global::AppIntro.Resource.Id.add = global::Drinkr.Resource.Id.add;
+			global::AppIntro.Resource.Id.alertTitle = global::Drinkr.Resource.Id.alertTitle;
+			global::AppIntro.Resource.Id.always = global::Drinkr.Resource.Id.always;
+			global::AppIntro.Resource.Id.back = global::Drinkr.Resource.Id.back;
+			global::AppIntro.Resource.Id.background = global::Drinkr.Resource.Id.background;
+			global::AppIntro.Resource.Id.beginning = global::Drinkr.Resource.Id.beginning;
+			global::AppIntro.Resource.Id.bottom = global::Drinkr.Resource.Id.bottom;
+			global::AppIntro.Resource.Id.bottom_separator = global::Drinkr.Resource.Id.bottom_separator;
+			global::AppIntro.Resource.Id.buttonPanel = global::Drinkr.Resource.Id.buttonPanel;
+			global::AppIntro.Resource.Id.cancel_action = global::Drinkr.Resource.Id.cancel_action;
+			global::AppIntro.Resource.Id.checkbox = global::Drinkr.Resource.Id.checkbox;
+			global::AppIntro.Resource.Id.chronometer = global::Drinkr.Resource.Id.chronometer;
+			global::AppIntro.Resource.Id.collapseActionView = global::Drinkr.Resource.Id.collapseActionView;
+			global::AppIntro.Resource.Id.contentPanel = global::Drinkr.Resource.Id.contentPanel;
+			global::AppIntro.Resource.Id.custom = global::Drinkr.Resource.Id.custom;
+			global::AppIntro.Resource.Id.customPanel = global::Drinkr.Resource.Id.customPanel;
+			global::AppIntro.Resource.Id.decor_content_parent = global::Drinkr.Resource.Id.decor_content_parent;
+			global::AppIntro.Resource.Id.default_activity_button = global::Drinkr.Resource.Id.default_activity_button;
+			global::AppIntro.Resource.Id.description = global::Drinkr.Resource.Id.description;
+			global::AppIntro.Resource.Id.disableHome = global::Drinkr.Resource.Id.disableHome;
+			global::AppIntro.Resource.Id.done = global::Drinkr.Resource.Id.done;
+			global::AppIntro.Resource.Id.edit_query = global::Drinkr.Resource.Id.edit_query;
+			global::AppIntro.Resource.Id.end = global::Drinkr.Resource.Id.end;
+			global::AppIntro.Resource.Id.end_padder = global::Drinkr.Resource.Id.end_padder;
+			global::AppIntro.Resource.Id.expand_activities_button = global::Drinkr.Resource.Id.expand_activities_button;
+			global::AppIntro.Resource.Id.expanded_menu = global::Drinkr.Resource.Id.expanded_menu;
+			global::AppIntro.Resource.Id.home = global::Drinkr.Resource.Id.home;
+			global::AppIntro.Resource.Id.homeAsUp = global::Drinkr.Resource.Id.homeAsUp;
+			global::AppIntro.Resource.Id.icon = global::Drinkr.Resource.Id.icon;
+			global::AppIntro.Resource.Id.ifRoom = global::Drinkr.Resource.Id.ifRoom;
+			global::AppIntro.Resource.Id.image = global::Drinkr.Resource.Id.image;
+			global::AppIntro.Resource.Id.indicator_container = global::Drinkr.Resource.Id.indicator_container;
+			global::AppIntro.Resource.Id.info = global::Drinkr.Resource.Id.info;
+			global::AppIntro.Resource.Id.line1 = global::Drinkr.Resource.Id.line1;
+			global::AppIntro.Resource.Id.line3 = global::Drinkr.Resource.Id.line3;
+			global::AppIntro.Resource.Id.listMode = global::Drinkr.Resource.Id.listMode;
+			global::AppIntro.Resource.Id.list_item = global::Drinkr.Resource.Id.list_item;
+			global::AppIntro.Resource.Id.main = global::Drinkr.Resource.Id.main;
+			global::AppIntro.Resource.Id.media_actions = global::Drinkr.Resource.Id.media_actions;
+			global::AppIntro.Resource.Id.middle = global::Drinkr.Resource.Id.middle;
+			global::AppIntro.Resource.Id.multiply = global::Drinkr.Resource.Id.multiply;
+			global::AppIntro.Resource.Id.never = global::Drinkr.Resource.Id.never;
+			global::AppIntro.Resource.Id.next = global::Drinkr.Resource.Id.next;
+			global::AppIntro.Resource.Id.none = global::Drinkr.Resource.Id.none;
+			global::AppIntro.Resource.Id.normal = global::Drinkr.Resource.Id.normal;
+			global::AppIntro.Resource.Id.parentPanel = global::Drinkr.Resource.Id.parentPanel;
+			global::AppIntro.Resource.Id.progress_circular = global::Drinkr.Resource.Id.progress_circular;
+			global::AppIntro.Resource.Id.progress_horizontal = global::Drinkr.Resource.Id.progress_horizontal;
+			global::AppIntro.Resource.Id.radio = global::Drinkr.Resource.Id.radio;
+			global::AppIntro.Resource.Id.screen = global::Drinkr.Resource.Id.screen;
+			global::AppIntro.Resource.Id.scrollIndicatorDown = global::Drinkr.Resource.Id.scrollIndicatorDown;
+			global::AppIntro.Resource.Id.scrollIndicatorUp = global::Drinkr.Resource.Id.scrollIndicatorUp;
+			global::AppIntro.Resource.Id.scrollView = global::Drinkr.Resource.Id.scrollView;
+			global::AppIntro.Resource.Id.search_badge = global::Drinkr.Resource.Id.search_badge;
+			global::AppIntro.Resource.Id.search_bar = global::Drinkr.Resource.Id.search_bar;
+			global::AppIntro.Resource.Id.search_button = global::Drinkr.Resource.Id.search_button;
+			global::AppIntro.Resource.Id.search_close_btn = global::Drinkr.Resource.Id.search_close_btn;
+			global::AppIntro.Resource.Id.search_edit_frame = global::Drinkr.Resource.Id.search_edit_frame;
+			global::AppIntro.Resource.Id.search_go_btn = global::Drinkr.Resource.Id.search_go_btn;
+			global::AppIntro.Resource.Id.search_mag_icon = global::Drinkr.Resource.Id.search_mag_icon;
+			global::AppIntro.Resource.Id.search_plate = global::Drinkr.Resource.Id.search_plate;
+			global::AppIntro.Resource.Id.search_src_text = global::Drinkr.Resource.Id.search_src_text;
+			global::AppIntro.Resource.Id.search_voice_btn = global::Drinkr.Resource.Id.search_voice_btn;
+			global::AppIntro.Resource.Id.select_dialog_listview = global::Drinkr.Resource.Id.select_dialog_listview;
+			global::AppIntro.Resource.Id.shortcut = global::Drinkr.Resource.Id.shortcut;
+			global::AppIntro.Resource.Id.showCustom = global::Drinkr.Resource.Id.showCustom;
+			global::AppIntro.Resource.Id.showHome = global::Drinkr.Resource.Id.showHome;
+			global::AppIntro.Resource.Id.showTitle = global::Drinkr.Resource.Id.showTitle;
+			global::AppIntro.Resource.Id.skip = global::Drinkr.Resource.Id.skip;
+			global::AppIntro.Resource.Id.spacer = global::Drinkr.Resource.Id.spacer;
+			global::AppIntro.Resource.Id.split_action_bar = global::Drinkr.Resource.Id.split_action_bar;
+			global::AppIntro.Resource.Id.src_atop = global::Drinkr.Resource.Id.src_atop;
+			global::AppIntro.Resource.Id.src_in = global::Drinkr.Resource.Id.src_in;
+			global::AppIntro.Resource.Id.src_over = global::Drinkr.Resource.Id.src_over;
+			global::AppIntro.Resource.Id.status_bar_latest_event_content = global::Drinkr.Resource.Id.status_bar_latest_event_content;
+			global::AppIntro.Resource.Id.submenuarrow = global::Drinkr.Resource.Id.submenuarrow;
+			global::AppIntro.Resource.Id.submit_area = global::Drinkr.Resource.Id.submit_area;
+			global::AppIntro.Resource.Id.tabMode = global::Drinkr.Resource.Id.tabMode;
+			global::AppIntro.Resource.Id.text = global::Drinkr.Resource.Id.text;
+			global::AppIntro.Resource.Id.text2 = global::Drinkr.Resource.Id.text2;
+			global::AppIntro.Resource.Id.textSpacerNoButtons = global::Drinkr.Resource.Id.textSpacerNoButtons;
+			global::AppIntro.Resource.Id.time = global::Drinkr.Resource.Id.time;
+			global::AppIntro.Resource.Id.title = global::Drinkr.Resource.Id.title;
+			global::AppIntro.Resource.Id.title_template = global::Drinkr.Resource.Id.title_template;
+			global::AppIntro.Resource.Id.top = global::Drinkr.Resource.Id.top;
+			global::AppIntro.Resource.Id.topPanel = global::Drinkr.Resource.Id.topPanel;
+			global::AppIntro.Resource.Id.up = global::Drinkr.Resource.Id.up;
+			global::AppIntro.Resource.Id.useLogo = global::Drinkr.Resource.Id.useLogo;
+			global::AppIntro.Resource.Id.view_pager = global::Drinkr.Resource.Id.view_pager;
+			global::AppIntro.Resource.Id.withText = global::Drinkr.Resource.Id.withText;
+			global::AppIntro.Resource.Id.wrap_content = global::Drinkr.Resource.Id.wrap_content;
+			global::AppIntro.Resource.Integer.abc_config_activityDefaultDur = global::Drinkr.Resource.Integer.abc_config_activityDefaultDur;
+			global::AppIntro.Resource.Integer.abc_config_activityShortDur = global::Drinkr.Resource.Integer.abc_config_activityShortDur;
+			global::AppIntro.Resource.Integer.cancel_button_image_alpha = global::Drinkr.Resource.Integer.cancel_button_image_alpha;
+			global::AppIntro.Resource.Integer.status_bar_notification_info_maxnum = global::Drinkr.Resource.Integer.status_bar_notification_info_maxnum;
+			global::AppIntro.Resource.Layout.abc_action_bar_title_item = global::Drinkr.Resource.Layout.abc_action_bar_title_item;
+			global::AppIntro.Resource.Layout.abc_action_bar_up_container = global::Drinkr.Resource.Layout.abc_action_bar_up_container;
+			global::AppIntro.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Drinkr.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::AppIntro.Resource.Layout.abc_action_menu_item_layout = global::Drinkr.Resource.Layout.abc_action_menu_item_layout;
+			global::AppIntro.Resource.Layout.abc_action_menu_layout = global::Drinkr.Resource.Layout.abc_action_menu_layout;
+			global::AppIntro.Resource.Layout.abc_action_mode_bar = global::Drinkr.Resource.Layout.abc_action_mode_bar;
+			global::AppIntro.Resource.Layout.abc_action_mode_close_item_material = global::Drinkr.Resource.Layout.abc_action_mode_close_item_material;
+			global::AppIntro.Resource.Layout.abc_activity_chooser_view = global::Drinkr.Resource.Layout.abc_activity_chooser_view;
+			global::AppIntro.Resource.Layout.abc_activity_chooser_view_list_item = global::Drinkr.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::AppIntro.Resource.Layout.abc_alert_dialog_button_bar_material = global::Drinkr.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::AppIntro.Resource.Layout.abc_alert_dialog_material = global::Drinkr.Resource.Layout.abc_alert_dialog_material;
+			global::AppIntro.Resource.Layout.abc_dialog_title_material = global::Drinkr.Resource.Layout.abc_dialog_title_material;
+			global::AppIntro.Resource.Layout.abc_expanded_menu_layout = global::Drinkr.Resource.Layout.abc_expanded_menu_layout;
+			global::AppIntro.Resource.Layout.abc_list_menu_item_checkbox = global::Drinkr.Resource.Layout.abc_list_menu_item_checkbox;
+			global::AppIntro.Resource.Layout.abc_list_menu_item_icon = global::Drinkr.Resource.Layout.abc_list_menu_item_icon;
+			global::AppIntro.Resource.Layout.abc_list_menu_item_layout = global::Drinkr.Resource.Layout.abc_list_menu_item_layout;
+			global::AppIntro.Resource.Layout.abc_list_menu_item_radio = global::Drinkr.Resource.Layout.abc_list_menu_item_radio;
+			global::AppIntro.Resource.Layout.abc_popup_menu_header_item_layout = global::Drinkr.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::AppIntro.Resource.Layout.abc_popup_menu_item_layout = global::Drinkr.Resource.Layout.abc_popup_menu_item_layout;
+			global::AppIntro.Resource.Layout.abc_screen_content_include = global::Drinkr.Resource.Layout.abc_screen_content_include;
+			global::AppIntro.Resource.Layout.abc_screen_simple = global::Drinkr.Resource.Layout.abc_screen_simple;
+			global::AppIntro.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Drinkr.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::AppIntro.Resource.Layout.abc_screen_toolbar = global::Drinkr.Resource.Layout.abc_screen_toolbar;
+			global::AppIntro.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Drinkr.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::AppIntro.Resource.Layout.abc_search_view = global::Drinkr.Resource.Layout.abc_search_view;
+			global::AppIntro.Resource.Layout.abc_select_dialog_material = global::Drinkr.Resource.Layout.abc_select_dialog_material;
+			global::AppIntro.Resource.Layout.default_indicator = global::Drinkr.Resource.Layout.default_indicator;
+			global::AppIntro.Resource.Layout.fragment_intro = global::Drinkr.Resource.Layout.fragment_intro;
+			global::AppIntro.Resource.Layout.fragment_intro2 = global::Drinkr.Resource.Layout.fragment_intro2;
+			global::AppIntro.Resource.Layout.fragment_intro_content = global::Drinkr.Resource.Layout.fragment_intro_content;
+			global::AppIntro.Resource.Layout.intro_layout = global::Drinkr.Resource.Layout.intro_layout;
+			global::AppIntro.Resource.Layout.intro_layout2 = global::Drinkr.Resource.Layout.intro_layout2;
+			global::AppIntro.Resource.Layout.notification_media_action = global::Drinkr.Resource.Layout.notification_media_action;
+			global::AppIntro.Resource.Layout.notification_media_cancel_action = global::Drinkr.Resource.Layout.notification_media_cancel_action;
+			global::AppIntro.Resource.Layout.notification_template_big_media = global::Drinkr.Resource.Layout.notification_template_big_media;
+			global::AppIntro.Resource.Layout.notification_template_big_media_narrow = global::Drinkr.Resource.Layout.notification_template_big_media_narrow;
+			global::AppIntro.Resource.Layout.notification_template_media = global::Drinkr.Resource.Layout.notification_template_media;
+			global::AppIntro.Resource.Layout.notification_template_part_chronometer = global::Drinkr.Resource.Layout.notification_template_part_chronometer;
+			global::AppIntro.Resource.Layout.notification_template_part_time = global::Drinkr.Resource.Layout.notification_template_part_time;
+			global::AppIntro.Resource.Layout.progress_indicator = global::Drinkr.Resource.Layout.progress_indicator;
+			global::AppIntro.Resource.Layout.select_dialog_item_material = global::Drinkr.Resource.Layout.select_dialog_item_material;
+			global::AppIntro.Resource.Layout.select_dialog_multichoice_material = global::Drinkr.Resource.Layout.select_dialog_multichoice_material;
+			global::AppIntro.Resource.Layout.select_dialog_singlechoice_material = global::Drinkr.Resource.Layout.select_dialog_singlechoice_material;
+			global::AppIntro.Resource.Layout.support_simple_spinner_dropdown_item = global::Drinkr.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::AppIntro.Resource.String.abc_action_bar_home_description = global::Drinkr.Resource.String.abc_action_bar_home_description;
+			global::AppIntro.Resource.String.abc_action_bar_home_description_format = global::Drinkr.Resource.String.abc_action_bar_home_description_format;
+			global::AppIntro.Resource.String.abc_action_bar_home_subtitle_description_format = global::Drinkr.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::AppIntro.Resource.String.abc_action_bar_up_description = global::Drinkr.Resource.String.abc_action_bar_up_description;
+			global::AppIntro.Resource.String.abc_action_menu_overflow_description = global::Drinkr.Resource.String.abc_action_menu_overflow_description;
+			global::AppIntro.Resource.String.abc_action_mode_done = global::Drinkr.Resource.String.abc_action_mode_done;
+			global::AppIntro.Resource.String.abc_activity_chooser_view_see_all = global::Drinkr.Resource.String.abc_activity_chooser_view_see_all;
+			global::AppIntro.Resource.String.abc_activitychooserview_choose_application = global::Drinkr.Resource.String.abc_activitychooserview_choose_application;
+			global::AppIntro.Resource.String.abc_capital_off = global::Drinkr.Resource.String.abc_capital_off;
+			global::AppIntro.Resource.String.abc_capital_on = global::Drinkr.Resource.String.abc_capital_on;
+			global::AppIntro.Resource.String.abc_font_family_body_1_material = global::Drinkr.Resource.String.abc_font_family_body_1_material;
+			global::AppIntro.Resource.String.abc_font_family_body_2_material = global::Drinkr.Resource.String.abc_font_family_body_2_material;
+			global::AppIntro.Resource.String.abc_font_family_button_material = global::Drinkr.Resource.String.abc_font_family_button_material;
+			global::AppIntro.Resource.String.abc_font_family_caption_material = global::Drinkr.Resource.String.abc_font_family_caption_material;
+			global::AppIntro.Resource.String.abc_font_family_display_1_material = global::Drinkr.Resource.String.abc_font_family_display_1_material;
+			global::AppIntro.Resource.String.abc_font_family_display_2_material = global::Drinkr.Resource.String.abc_font_family_display_2_material;
+			global::AppIntro.Resource.String.abc_font_family_display_3_material = global::Drinkr.Resource.String.abc_font_family_display_3_material;
+			global::AppIntro.Resource.String.abc_font_family_display_4_material = global::Drinkr.Resource.String.abc_font_family_display_4_material;
+			global::AppIntro.Resource.String.abc_font_family_headline_material = global::Drinkr.Resource.String.abc_font_family_headline_material;
+			global::AppIntro.Resource.String.abc_font_family_menu_material = global::Drinkr.Resource.String.abc_font_family_menu_material;
+			global::AppIntro.Resource.String.abc_font_family_subhead_material = global::Drinkr.Resource.String.abc_font_family_subhead_material;
+			global::AppIntro.Resource.String.abc_font_family_title_material = global::Drinkr.Resource.String.abc_font_family_title_material;
+			global::AppIntro.Resource.String.abc_search_hint = global::Drinkr.Resource.String.abc_search_hint;
+			global::AppIntro.Resource.String.abc_searchview_description_clear = global::Drinkr.Resource.String.abc_searchview_description_clear;
+			global::AppIntro.Resource.String.abc_searchview_description_query = global::Drinkr.Resource.String.abc_searchview_description_query;
+			global::AppIntro.Resource.String.abc_searchview_description_search = global::Drinkr.Resource.String.abc_searchview_description_search;
+			global::AppIntro.Resource.String.abc_searchview_description_submit = global::Drinkr.Resource.String.abc_searchview_description_submit;
+			global::AppIntro.Resource.String.abc_searchview_description_voice = global::Drinkr.Resource.String.abc_searchview_description_voice;
+			global::AppIntro.Resource.String.abc_shareactionprovider_share_with = global::Drinkr.Resource.String.abc_shareactionprovider_share_with;
+			global::AppIntro.Resource.String.abc_shareactionprovider_share_with_application = global::Drinkr.Resource.String.abc_shareactionprovider_share_with_application;
+			global::AppIntro.Resource.String.abc_toolbar_collapse_description = global::Drinkr.Resource.String.abc_toolbar_collapse_description;
+			global::AppIntro.Resource.String.app_intro_done_button = global::Drinkr.Resource.String.app_intro_done_button;
+			global::AppIntro.Resource.String.app_intro_skip_button = global::Drinkr.Resource.String.app_intro_skip_button;
+			global::AppIntro.Resource.String.define_appintro = global::Drinkr.Resource.String.define_appintro;
+			global::AppIntro.Resource.String.library_appintro_author = global::Drinkr.Resource.String.library_appintro_author;
+			global::AppIntro.Resource.String.library_appintro_authorWebsite = global::Drinkr.Resource.String.library_appintro_authorWebsite;
+			global::AppIntro.Resource.String.library_appintro_classPath = global::Drinkr.Resource.String.library_appintro_classPath;
+			global::AppIntro.Resource.String.library_appintro_isOpenSource = global::Drinkr.Resource.String.library_appintro_isOpenSource;
+			global::AppIntro.Resource.String.library_appintro_libraryDescription = global::Drinkr.Resource.String.library_appintro_libraryDescription;
+			global::AppIntro.Resource.String.library_appintro_libraryName = global::Drinkr.Resource.String.library_appintro_libraryName;
+			global::AppIntro.Resource.String.library_appintro_libraryVersion = global::Drinkr.Resource.String.library_appintro_libraryVersion;
+			global::AppIntro.Resource.String.library_appintro_libraryWebsite = global::Drinkr.Resource.String.library_appintro_libraryWebsite;
+			global::AppIntro.Resource.String.library_appintro_licenseId = global::Drinkr.Resource.String.library_appintro_licenseId;
+			global::AppIntro.Resource.String.library_appintro_repositoryLink = global::Drinkr.Resource.String.library_appintro_repositoryLink;
+			global::AppIntro.Resource.String.search_menu_title = global::Drinkr.Resource.String.search_menu_title;
+			global::AppIntro.Resource.String.status_bar_notification_info_overflow = global::Drinkr.Resource.String.status_bar_notification_info_overflow;
+			global::AppIntro.Resource.Style.AlertDialog_AppCompat = global::Drinkr.Resource.Style.AlertDialog_AppCompat;
+			global::AppIntro.Resource.Style.AlertDialog_AppCompat_Light = global::Drinkr.Resource.Style.AlertDialog_AppCompat_Light;
+			global::AppIntro.Resource.Style.Animation_AppCompat_Dialog = global::Drinkr.Resource.Style.Animation_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Animation_AppCompat_DropDownUp = global::Drinkr.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::AppIntro.Resource.Style.AppIntroButtonStyleCompat = global::Drinkr.Resource.Style.AppIntroButtonStyleCompat;
+			global::AppIntro.Resource.Style.AppIntroDefaultHeading = global::Drinkr.Resource.Style.AppIntroDefaultHeading;
+			global::AppIntro.Resource.Style.AppIntroDefaultPadding = global::Drinkr.Resource.Style.AppIntroDefaultPadding;
+			global::AppIntro.Resource.Style.AppIntroDefaultPadding_Intro1 = global::Drinkr.Resource.Style.AppIntroDefaultPadding_Intro1;
+			global::AppIntro.Resource.Style.AppIntroDefaultPadding_Intro2 = global::Drinkr.Resource.Style.AppIntroDefaultPadding_Intro2;
+			global::AppIntro.Resource.Style.AppIntroDefaultText = global::Drinkr.Resource.Style.AppIntroDefaultText;
+			global::AppIntro.Resource.Style.Base_AlertDialog_AppCompat = global::Drinkr.Resource.Style.Base_AlertDialog_AppCompat;
+			global::AppIntro.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Drinkr.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_Animation_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Drinkr.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::AppIntro.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Drinkr.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::AppIntro.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Drinkr.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::AppIntro.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Drinkr.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AppIntro.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Drinkr.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AppIntro.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Drinkr.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AppIntro.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Drinkr.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat = global::Drinkr.Resource.Style.Base_Theme_AppCompat;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Drinkr.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Drinkr.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AppIntro.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Drinkr.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AppIntro.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Drinkr.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Drinkr.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::AppIntro.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Drinkr.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::AppIntro.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Drinkr.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::AppIntro.Resource.Style.Base_V21_Theme_AppCompat = global::Drinkr.Resource.Style.Base_V21_Theme_AppCompat;
+			global::AppIntro.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Drinkr.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Drinkr.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::AppIntro.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V22_Theme_AppCompat = global::Drinkr.Resource.Style.Base_V22_Theme_AppCompat;
+			global::AppIntro.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Drinkr.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_V23_Theme_AppCompat = global::Drinkr.Resource.Style.Base_V23_Theme_AppCompat;
+			global::AppIntro.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Drinkr.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_V7_Theme_AppCompat = global::Drinkr.Resource.Style.Base_V7_Theme_AppCompat;
+			global::AppIntro.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Drinkr.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Drinkr.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::AppIntro.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Drinkr.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Drinkr.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::AppIntro.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Drinkr.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Drinkr.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Drinkr.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Drinkr.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Drinkr.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Drinkr.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Drinkr.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_EditText = global::Drinkr.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ListView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Drinkr.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Drinkr.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Drinkr.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Drinkr.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Drinkr.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Drinkr.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_SearchView = global::Drinkr.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Drinkr.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Spinner = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Drinkr.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::AppIntro.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Drinkr.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AppIntro.Resource.Style.Platform_AppCompat = global::Drinkr.Resource.Style.Platform_AppCompat;
+			global::AppIntro.Resource.Style.Platform_AppCompat_Light = global::Drinkr.Resource.Style.Platform_AppCompat_Light;
+			global::AppIntro.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Drinkr.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::AppIntro.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Drinkr.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::AppIntro.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Drinkr.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::AppIntro.Resource.Style.Platform_V11_AppCompat = global::Drinkr.Resource.Style.Platform_V11_AppCompat;
+			global::AppIntro.Resource.Style.Platform_V11_AppCompat_Light = global::Drinkr.Resource.Style.Platform_V11_AppCompat_Light;
+			global::AppIntro.Resource.Style.Platform_V14_AppCompat = global::Drinkr.Resource.Style.Platform_V14_AppCompat;
+			global::AppIntro.Resource.Style.Platform_V14_AppCompat_Light = global::Drinkr.Resource.Style.Platform_V14_AppCompat_Light;
+			global::AppIntro.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Drinkr.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::AppIntro.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Drinkr.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::AppIntro.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Drinkr.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::AppIntro.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Drinkr.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::AppIntro.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Drinkr.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat = global::Drinkr.Resource.Style.TextAppearance_AppCompat;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Body1 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Body2 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Button = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Button;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Caption = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Display1 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Display2 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Display3 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Display4 = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Headline = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Large = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Large;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Medium = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Menu = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Drinkr.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Drinkr.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Small = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Small;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Subhead = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Title = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Title;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::AppIntro.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Drinkr.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AppIntro.Resource.Style.TextAppearance_StatusBar_EventContent = global::Drinkr.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::AppIntro.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Drinkr.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::AppIntro.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Drinkr.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::AppIntro.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Drinkr.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::AppIntro.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Drinkr.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::AppIntro.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Drinkr.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AppIntro.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Drinkr.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AppIntro.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Drinkr.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AppIntro.Resource.Style.Theme_AppCompat = global::Drinkr.Resource.Style.Theme_AppCompat;
+			global::AppIntro.Resource.Style.Theme_AppCompat_CompactMenu = global::Drinkr.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Drinkr.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Dialog = global::Drinkr.Resource.Style.Theme_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Drinkr.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Drinkr.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::AppIntro.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Drinkr.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light = global::Drinkr.Resource.Style.Theme_AppCompat_Light;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Drinkr.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_Dialog = global::Drinkr.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Drinkr.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Drinkr.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Drinkr.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::AppIntro.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Drinkr.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::AppIntro.Resource.Style.Theme_AppCompat_NoActionBar = global::Drinkr.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AppIntro.Resource.Style.ThemeOverlay_AppCompat_Light = global::Drinkr.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionBar = global::Drinkr.Resource.Style.Widget_AppCompat_ActionBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Drinkr.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Drinkr.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Drinkr.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Drinkr.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionButton = global::Drinkr.Resource.Style.Widget_AppCompat_ActionButton;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Drinkr.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Drinkr.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActionMode = global::Drinkr.Resource.Style.Widget_AppCompat_ActionMode;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Drinkr.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Drinkr.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button = global::Drinkr.Resource.Style.Widget_AppCompat_Button;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button_Borderless = global::Drinkr.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Drinkr.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Drinkr.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button_Colored = global::Drinkr.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Button_Small = global::Drinkr.Resource.Style.Widget_AppCompat_Button_Small;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ButtonBar = global::Drinkr.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Drinkr.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AppIntro.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Drinkr.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::AppIntro.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Drinkr.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::AppIntro.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Drinkr.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::AppIntro.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Drinkr.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::AppIntro.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Drinkr.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::AppIntro.Resource.Style.Widget_AppCompat_EditText = global::Drinkr.Resource.Style.Widget_AppCompat_EditText;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ImageButton = global::Drinkr.Resource.Style.Widget_AppCompat_ImageButton;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Drinkr.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Drinkr.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Drinkr.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Drinkr.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Drinkr.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_SearchView = global::Drinkr.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Drinkr.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ListMenuView = global::Drinkr.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Drinkr.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ListView = global::Drinkr.Resource.Style.Widget_AppCompat_ListView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Drinkr.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ListView_Menu = global::Drinkr.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::AppIntro.Resource.Style.Widget_AppCompat_PopupMenu = global::Drinkr.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::AppIntro.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Drinkr.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_PopupWindow = global::Drinkr.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ProgressBar = global::Drinkr.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Drinkr.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::AppIntro.Resource.Style.Widget_AppCompat_RatingBar = global::Drinkr.Resource.Style.Widget_AppCompat_RatingBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Drinkr.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::AppIntro.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Drinkr.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::AppIntro.Resource.Style.Widget_AppCompat_SearchView = global::Drinkr.Resource.Style.Widget_AppCompat_SearchView;
+			global::AppIntro.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Drinkr.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_SeekBar = global::Drinkr.Resource.Style.Widget_AppCompat_SeekBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Drinkr.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Spinner = global::Drinkr.Resource.Style.Widget_AppCompat_Spinner;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Drinkr.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Drinkr.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Drinkr.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::AppIntro.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Drinkr.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Toolbar = global::Drinkr.Resource.Style.Widget_AppCompat_Toolbar;
+			global::AppIntro.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Drinkr.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AppIntro.Resource.Styleable.ActionBar = global::Drinkr.Resource.Styleable.ActionBar;
+			global::AppIntro.Resource.Styleable.ActionBar_background = global::Drinkr.Resource.Styleable.ActionBar_background;
+			global::AppIntro.Resource.Styleable.ActionBar_backgroundSplit = global::Drinkr.Resource.Styleable.ActionBar_backgroundSplit;
+			global::AppIntro.Resource.Styleable.ActionBar_backgroundStacked = global::Drinkr.Resource.Styleable.ActionBar_backgroundStacked;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetEnd = global::Drinkr.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Drinkr.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetLeft = global::Drinkr.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetRight = global::Drinkr.Resource.Styleable.ActionBar_contentInsetRight;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetStart = global::Drinkr.Resource.Styleable.ActionBar_contentInsetStart;
+			global::AppIntro.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Drinkr.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::AppIntro.Resource.Styleable.ActionBar_customNavigationLayout = global::Drinkr.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::AppIntro.Resource.Styleable.ActionBar_displayOptions = global::Drinkr.Resource.Styleable.ActionBar_displayOptions;
+			global::AppIntro.Resource.Styleable.ActionBar_divider = global::Drinkr.Resource.Styleable.ActionBar_divider;
+			global::AppIntro.Resource.Styleable.ActionBar_elevation = global::Drinkr.Resource.Styleable.ActionBar_elevation;
+			global::AppIntro.Resource.Styleable.ActionBar_height = global::Drinkr.Resource.Styleable.ActionBar_height;
+			global::AppIntro.Resource.Styleable.ActionBar_hideOnContentScroll = global::Drinkr.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::AppIntro.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Drinkr.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::AppIntro.Resource.Styleable.ActionBar_homeLayout = global::Drinkr.Resource.Styleable.ActionBar_homeLayout;
+			global::AppIntro.Resource.Styleable.ActionBar_icon = global::Drinkr.Resource.Styleable.ActionBar_icon;
+			global::AppIntro.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Drinkr.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::AppIntro.Resource.Styleable.ActionBar_itemPadding = global::Drinkr.Resource.Styleable.ActionBar_itemPadding;
+			global::AppIntro.Resource.Styleable.ActionBar_logo = global::Drinkr.Resource.Styleable.ActionBar_logo;
+			global::AppIntro.Resource.Styleable.ActionBar_navigationMode = global::Drinkr.Resource.Styleable.ActionBar_navigationMode;
+			global::AppIntro.Resource.Styleable.ActionBar_popupTheme = global::Drinkr.Resource.Styleable.ActionBar_popupTheme;
+			global::AppIntro.Resource.Styleable.ActionBar_progressBarPadding = global::Drinkr.Resource.Styleable.ActionBar_progressBarPadding;
+			global::AppIntro.Resource.Styleable.ActionBar_progressBarStyle = global::Drinkr.Resource.Styleable.ActionBar_progressBarStyle;
+			global::AppIntro.Resource.Styleable.ActionBar_subtitle = global::Drinkr.Resource.Styleable.ActionBar_subtitle;
+			global::AppIntro.Resource.Styleable.ActionBar_subtitleTextStyle = global::Drinkr.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::AppIntro.Resource.Styleable.ActionBar_title = global::Drinkr.Resource.Styleable.ActionBar_title;
+			global::AppIntro.Resource.Styleable.ActionBar_titleTextStyle = global::Drinkr.Resource.Styleable.ActionBar_titleTextStyle;
+			global::AppIntro.Resource.Styleable.ActionBarLayout = global::Drinkr.Resource.Styleable.ActionBarLayout;
+			global::AppIntro.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Drinkr.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::AppIntro.Resource.Styleable.ActionMenuItemView = global::Drinkr.Resource.Styleable.ActionMenuItemView;
+			global::AppIntro.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Drinkr.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::AppIntro.Resource.Styleable.ActionMenuView = global::Drinkr.Resource.Styleable.ActionMenuView;
+			global::AppIntro.Resource.Styleable.ActionMode = global::Drinkr.Resource.Styleable.ActionMode;
+			global::AppIntro.Resource.Styleable.ActionMode_background = global::Drinkr.Resource.Styleable.ActionMode_background;
+			global::AppIntro.Resource.Styleable.ActionMode_backgroundSplit = global::Drinkr.Resource.Styleable.ActionMode_backgroundSplit;
+			global::AppIntro.Resource.Styleable.ActionMode_closeItemLayout = global::Drinkr.Resource.Styleable.ActionMode_closeItemLayout;
+			global::AppIntro.Resource.Styleable.ActionMode_height = global::Drinkr.Resource.Styleable.ActionMode_height;
+			global::AppIntro.Resource.Styleable.ActionMode_subtitleTextStyle = global::Drinkr.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::AppIntro.Resource.Styleable.ActionMode_titleTextStyle = global::Drinkr.Resource.Styleable.ActionMode_titleTextStyle;
+			global::AppIntro.Resource.Styleable.ActivityChooserView = global::Drinkr.Resource.Styleable.ActivityChooserView;
+			global::AppIntro.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Drinkr.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::AppIntro.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Drinkr.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::AppIntro.Resource.Styleable.AlertDialog = global::Drinkr.Resource.Styleable.AlertDialog;
+			global::AppIntro.Resource.Styleable.AlertDialog_android_layout = global::Drinkr.Resource.Styleable.AlertDialog_android_layout;
+			global::AppIntro.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Drinkr.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::AppIntro.Resource.Styleable.AlertDialog_listItemLayout = global::Drinkr.Resource.Styleable.AlertDialog_listItemLayout;
+			global::AppIntro.Resource.Styleable.AlertDialog_listLayout = global::Drinkr.Resource.Styleable.AlertDialog_listLayout;
+			global::AppIntro.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Drinkr.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::AppIntro.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Drinkr.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::AppIntro.Resource.Styleable.AppCompatImageView = global::Drinkr.Resource.Styleable.AppCompatImageView;
+			global::AppIntro.Resource.Styleable.AppCompatImageView_android_src = global::Drinkr.Resource.Styleable.AppCompatImageView_android_src;
+			global::AppIntro.Resource.Styleable.AppCompatImageView_srcCompat = global::Drinkr.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::AppIntro.Resource.Styleable.AppCompatSeekBar = global::Drinkr.Resource.Styleable.AppCompatSeekBar;
+			global::AppIntro.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Drinkr.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::AppIntro.Resource.Styleable.AppCompatSeekBar_tickMark = global::Drinkr.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::AppIntro.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Drinkr.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::AppIntro.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Drinkr.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper = global::Drinkr.Resource.Styleable.AppCompatTextHelper;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::AppIntro.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Drinkr.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::AppIntro.Resource.Styleable.AppCompatTextView = global::Drinkr.Resource.Styleable.AppCompatTextView;
+			global::AppIntro.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Drinkr.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::AppIntro.Resource.Styleable.AppCompatTextView_textAllCaps = global::Drinkr.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::AppIntro.Resource.Styleable.AppCompatTheme = global::Drinkr.Resource.Styleable.AppCompatTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarSize = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Drinkr.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Drinkr.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Drinkr.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Drinkr.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Drinkr.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Drinkr.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorAccent = global::Drinkr.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Drinkr.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Drinkr.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Drinkr.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Drinkr.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Drinkr.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorPrimary = global::Drinkr.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Drinkr.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Drinkr.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_controlBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Drinkr.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dialogTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Drinkr.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dividerVertical = global::Drinkr.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Drinkr.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_editTextBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_editTextColor = global::Drinkr.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_editTextStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Drinkr.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Drinkr.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Drinkr.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Drinkr.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Drinkr.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Drinkr.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Drinkr.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Drinkr.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_panelBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Drinkr.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Drinkr.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Drinkr.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Drinkr.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Drinkr.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Drinkr.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_switchStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Drinkr.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Drinkr.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Drinkr.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Drinkr.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowActionBar = global::Drinkr.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Drinkr.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Drinkr.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Drinkr.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::AppIntro.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Drinkr.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::AppIntro.Resource.Styleable.ButtonBarLayout = global::Drinkr.Resource.Styleable.ButtonBarLayout;
+			global::AppIntro.Resource.Styleable.ButtonBarLayout_allowStacking = global::Drinkr.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::AppIntro.Resource.Styleable.ColorStateListItem = global::Drinkr.Resource.Styleable.ColorStateListItem;
+			global::AppIntro.Resource.Styleable.ColorStateListItem_alpha = global::Drinkr.Resource.Styleable.ColorStateListItem_alpha;
+			global::AppIntro.Resource.Styleable.ColorStateListItem_android_alpha = global::Drinkr.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::AppIntro.Resource.Styleable.ColorStateListItem_android_color = global::Drinkr.Resource.Styleable.ColorStateListItem_android_color;
+			global::AppIntro.Resource.Styleable.CompoundButton = global::Drinkr.Resource.Styleable.CompoundButton;
+			global::AppIntro.Resource.Styleable.CompoundButton_android_button = global::Drinkr.Resource.Styleable.CompoundButton_android_button;
+			global::AppIntro.Resource.Styleable.CompoundButton_buttonTint = global::Drinkr.Resource.Styleable.CompoundButton_buttonTint;
+			global::AppIntro.Resource.Styleable.CompoundButton_buttonTintMode = global::Drinkr.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle = global::Drinkr.Resource.Styleable.DrawerArrowToggle;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Drinkr.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Drinkr.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_barLength = global::Drinkr.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_color = global::Drinkr.Resource.Styleable.DrawerArrowToggle_color;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Drinkr.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Drinkr.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_spinBars = global::Drinkr.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::AppIntro.Resource.Styleable.DrawerArrowToggle_thickness = global::Drinkr.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat = global::Drinkr.Resource.Styleable.LinearLayoutCompat;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Drinkr.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Drinkr.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Drinkr.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Drinkr.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Drinkr.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_divider = global::Drinkr.Resource.Styleable.LinearLayoutCompat_divider;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Drinkr.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Drinkr.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_showDividers = global::Drinkr.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_Layout = global::Drinkr.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Drinkr.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Drinkr.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Drinkr.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::AppIntro.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Drinkr.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::AppIntro.Resource.Styleable.ListPopupWindow = global::Drinkr.Resource.Styleable.ListPopupWindow;
+			global::AppIntro.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Drinkr.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::AppIntro.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Drinkr.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::AppIntro.Resource.Styleable.MenuGroup = global::Drinkr.Resource.Styleable.MenuGroup;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Drinkr.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_enabled = global::Drinkr.Resource.Styleable.MenuGroup_android_enabled;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_id = global::Drinkr.Resource.Styleable.MenuGroup_android_id;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_menuCategory = global::Drinkr.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_orderInCategory = global::Drinkr.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::AppIntro.Resource.Styleable.MenuGroup_android_visible = global::Drinkr.Resource.Styleable.MenuGroup_android_visible;
+			global::AppIntro.Resource.Styleable.MenuItem = global::Drinkr.Resource.Styleable.MenuItem;
+			global::AppIntro.Resource.Styleable.MenuItem_actionLayout = global::Drinkr.Resource.Styleable.MenuItem_actionLayout;
+			global::AppIntro.Resource.Styleable.MenuItem_actionProviderClass = global::Drinkr.Resource.Styleable.MenuItem_actionProviderClass;
+			global::AppIntro.Resource.Styleable.MenuItem_actionViewClass = global::Drinkr.Resource.Styleable.MenuItem_actionViewClass;
+			global::AppIntro.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Drinkr.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::AppIntro.Resource.Styleable.MenuItem_android_checkable = global::Drinkr.Resource.Styleable.MenuItem_android_checkable;
+			global::AppIntro.Resource.Styleable.MenuItem_android_checked = global::Drinkr.Resource.Styleable.MenuItem_android_checked;
+			global::AppIntro.Resource.Styleable.MenuItem_android_enabled = global::Drinkr.Resource.Styleable.MenuItem_android_enabled;
+			global::AppIntro.Resource.Styleable.MenuItem_android_icon = global::Drinkr.Resource.Styleable.MenuItem_android_icon;
+			global::AppIntro.Resource.Styleable.MenuItem_android_id = global::Drinkr.Resource.Styleable.MenuItem_android_id;
+			global::AppIntro.Resource.Styleable.MenuItem_android_menuCategory = global::Drinkr.Resource.Styleable.MenuItem_android_menuCategory;
+			global::AppIntro.Resource.Styleable.MenuItem_android_numericShortcut = global::Drinkr.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::AppIntro.Resource.Styleable.MenuItem_android_onClick = global::Drinkr.Resource.Styleable.MenuItem_android_onClick;
+			global::AppIntro.Resource.Styleable.MenuItem_android_orderInCategory = global::Drinkr.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::AppIntro.Resource.Styleable.MenuItem_android_title = global::Drinkr.Resource.Styleable.MenuItem_android_title;
+			global::AppIntro.Resource.Styleable.MenuItem_android_titleCondensed = global::Drinkr.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::AppIntro.Resource.Styleable.MenuItem_android_visible = global::Drinkr.Resource.Styleable.MenuItem_android_visible;
+			global::AppIntro.Resource.Styleable.MenuItem_showAsAction = global::Drinkr.Resource.Styleable.MenuItem_showAsAction;
+			global::AppIntro.Resource.Styleable.MenuView = global::Drinkr.Resource.Styleable.MenuView;
+			global::AppIntro.Resource.Styleable.MenuView_android_headerBackground = global::Drinkr.Resource.Styleable.MenuView_android_headerBackground;
+			global::AppIntro.Resource.Styleable.MenuView_android_horizontalDivider = global::Drinkr.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::AppIntro.Resource.Styleable.MenuView_android_itemBackground = global::Drinkr.Resource.Styleable.MenuView_android_itemBackground;
+			global::AppIntro.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Drinkr.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::AppIntro.Resource.Styleable.MenuView_android_itemTextAppearance = global::Drinkr.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::AppIntro.Resource.Styleable.MenuView_android_verticalDivider = global::Drinkr.Resource.Styleable.MenuView_android_verticalDivider;
+			global::AppIntro.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Drinkr.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::AppIntro.Resource.Styleable.MenuView_preserveIconSpacing = global::Drinkr.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::AppIntro.Resource.Styleable.MenuView_subMenuArrow = global::Drinkr.Resource.Styleable.MenuView_subMenuArrow;
+			global::AppIntro.Resource.Styleable.PopupWindow = global::Drinkr.Resource.Styleable.PopupWindow;
+			global::AppIntro.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Drinkr.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::AppIntro.Resource.Styleable.PopupWindow_android_popupBackground = global::Drinkr.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::AppIntro.Resource.Styleable.PopupWindow_overlapAnchor = global::Drinkr.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::AppIntro.Resource.Styleable.PopupWindowBackgroundState = global::Drinkr.Resource.Styleable.PopupWindowBackgroundState;
+			global::AppIntro.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Drinkr.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::AppIntro.Resource.Styleable.SearchView = global::Drinkr.Resource.Styleable.SearchView;
+			global::AppIntro.Resource.Styleable.SearchView_android_focusable = global::Drinkr.Resource.Styleable.SearchView_android_focusable;
+			global::AppIntro.Resource.Styleable.SearchView_android_imeOptions = global::Drinkr.Resource.Styleable.SearchView_android_imeOptions;
+			global::AppIntro.Resource.Styleable.SearchView_android_inputType = global::Drinkr.Resource.Styleable.SearchView_android_inputType;
+			global::AppIntro.Resource.Styleable.SearchView_android_maxWidth = global::Drinkr.Resource.Styleable.SearchView_android_maxWidth;
+			global::AppIntro.Resource.Styleable.SearchView_closeIcon = global::Drinkr.Resource.Styleable.SearchView_closeIcon;
+			global::AppIntro.Resource.Styleable.SearchView_commitIcon = global::Drinkr.Resource.Styleable.SearchView_commitIcon;
+			global::AppIntro.Resource.Styleable.SearchView_defaultQueryHint = global::Drinkr.Resource.Styleable.SearchView_defaultQueryHint;
+			global::AppIntro.Resource.Styleable.SearchView_goIcon = global::Drinkr.Resource.Styleable.SearchView_goIcon;
+			global::AppIntro.Resource.Styleable.SearchView_iconifiedByDefault = global::Drinkr.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::AppIntro.Resource.Styleable.SearchView_layout = global::Drinkr.Resource.Styleable.SearchView_layout;
+			global::AppIntro.Resource.Styleable.SearchView_queryBackground = global::Drinkr.Resource.Styleable.SearchView_queryBackground;
+			global::AppIntro.Resource.Styleable.SearchView_queryHint = global::Drinkr.Resource.Styleable.SearchView_queryHint;
+			global::AppIntro.Resource.Styleable.SearchView_searchHintIcon = global::Drinkr.Resource.Styleable.SearchView_searchHintIcon;
+			global::AppIntro.Resource.Styleable.SearchView_searchIcon = global::Drinkr.Resource.Styleable.SearchView_searchIcon;
+			global::AppIntro.Resource.Styleable.SearchView_submitBackground = global::Drinkr.Resource.Styleable.SearchView_submitBackground;
+			global::AppIntro.Resource.Styleable.SearchView_suggestionRowLayout = global::Drinkr.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::AppIntro.Resource.Styleable.SearchView_voiceIcon = global::Drinkr.Resource.Styleable.SearchView_voiceIcon;
+			global::AppIntro.Resource.Styleable.Spinner = global::Drinkr.Resource.Styleable.Spinner;
+			global::AppIntro.Resource.Styleable.Spinner_android_dropDownWidth = global::Drinkr.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::AppIntro.Resource.Styleable.Spinner_android_entries = global::Drinkr.Resource.Styleable.Spinner_android_entries;
+			global::AppIntro.Resource.Styleable.Spinner_android_popupBackground = global::Drinkr.Resource.Styleable.Spinner_android_popupBackground;
+			global::AppIntro.Resource.Styleable.Spinner_android_prompt = global::Drinkr.Resource.Styleable.Spinner_android_prompt;
+			global::AppIntro.Resource.Styleable.Spinner_popupTheme = global::Drinkr.Resource.Styleable.Spinner_popupTheme;
+			global::AppIntro.Resource.Styleable.SwitchCompat = global::Drinkr.Resource.Styleable.SwitchCompat;
+			global::AppIntro.Resource.Styleable.SwitchCompat_android_textOff = global::Drinkr.Resource.Styleable.SwitchCompat_android_textOff;
+			global::AppIntro.Resource.Styleable.SwitchCompat_android_textOn = global::Drinkr.Resource.Styleable.SwitchCompat_android_textOn;
+			global::AppIntro.Resource.Styleable.SwitchCompat_android_thumb = global::Drinkr.Resource.Styleable.SwitchCompat_android_thumb;
+			global::AppIntro.Resource.Styleable.SwitchCompat_showText = global::Drinkr.Resource.Styleable.SwitchCompat_showText;
+			global::AppIntro.Resource.Styleable.SwitchCompat_splitTrack = global::Drinkr.Resource.Styleable.SwitchCompat_splitTrack;
+			global::AppIntro.Resource.Styleable.SwitchCompat_switchMinWidth = global::Drinkr.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::AppIntro.Resource.Styleable.SwitchCompat_switchPadding = global::Drinkr.Resource.Styleable.SwitchCompat_switchPadding;
+			global::AppIntro.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Drinkr.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::AppIntro.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Drinkr.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::AppIntro.Resource.Styleable.SwitchCompat_thumbTint = global::Drinkr.Resource.Styleable.SwitchCompat_thumbTint;
+			global::AppIntro.Resource.Styleable.SwitchCompat_thumbTintMode = global::Drinkr.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::AppIntro.Resource.Styleable.SwitchCompat_track = global::Drinkr.Resource.Styleable.SwitchCompat_track;
+			global::AppIntro.Resource.Styleable.SwitchCompat_trackTint = global::Drinkr.Resource.Styleable.SwitchCompat_trackTint;
+			global::AppIntro.Resource.Styleable.SwitchCompat_trackTintMode = global::Drinkr.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::AppIntro.Resource.Styleable.TextAppearance = global::Drinkr.Resource.Styleable.TextAppearance;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_shadowColor = global::Drinkr.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_shadowDx = global::Drinkr.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_shadowDy = global::Drinkr.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_shadowRadius = global::Drinkr.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_textColor = global::Drinkr.Resource.Styleable.TextAppearance_android_textColor;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_textSize = global::Drinkr.Resource.Styleable.TextAppearance_android_textSize;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_textStyle = global::Drinkr.Resource.Styleable.TextAppearance_android_textStyle;
+			global::AppIntro.Resource.Styleable.TextAppearance_android_typeface = global::Drinkr.Resource.Styleable.TextAppearance_android_typeface;
+			global::AppIntro.Resource.Styleable.TextAppearance_textAllCaps = global::Drinkr.Resource.Styleable.TextAppearance_textAllCaps;
+			global::AppIntro.Resource.Styleable.Toolbar = global::Drinkr.Resource.Styleable.Toolbar;
+			global::AppIntro.Resource.Styleable.Toolbar_android_gravity = global::Drinkr.Resource.Styleable.Toolbar_android_gravity;
+			global::AppIntro.Resource.Styleable.Toolbar_android_minHeight = global::Drinkr.Resource.Styleable.Toolbar_android_minHeight;
+			global::AppIntro.Resource.Styleable.Toolbar_buttonGravity = global::Drinkr.Resource.Styleable.Toolbar_buttonGravity;
+			global::AppIntro.Resource.Styleable.Toolbar_collapseContentDescription = global::Drinkr.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::AppIntro.Resource.Styleable.Toolbar_collapseIcon = global::Drinkr.Resource.Styleable.Toolbar_collapseIcon;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetEnd = global::Drinkr.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Drinkr.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetLeft = global::Drinkr.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetRight = global::Drinkr.Resource.Styleable.Toolbar_contentInsetRight;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetStart = global::Drinkr.Resource.Styleable.Toolbar_contentInsetStart;
+			global::AppIntro.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Drinkr.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::AppIntro.Resource.Styleable.Toolbar_logo = global::Drinkr.Resource.Styleable.Toolbar_logo;
+			global::AppIntro.Resource.Styleable.Toolbar_logoDescription = global::Drinkr.Resource.Styleable.Toolbar_logoDescription;
+			global::AppIntro.Resource.Styleable.Toolbar_maxButtonHeight = global::Drinkr.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::AppIntro.Resource.Styleable.Toolbar_navigationContentDescription = global::Drinkr.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::AppIntro.Resource.Styleable.Toolbar_navigationIcon = global::Drinkr.Resource.Styleable.Toolbar_navigationIcon;
+			global::AppIntro.Resource.Styleable.Toolbar_popupTheme = global::Drinkr.Resource.Styleable.Toolbar_popupTheme;
+			global::AppIntro.Resource.Styleable.Toolbar_subtitle = global::Drinkr.Resource.Styleable.Toolbar_subtitle;
+			global::AppIntro.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Drinkr.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::AppIntro.Resource.Styleable.Toolbar_subtitleTextColor = global::Drinkr.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::AppIntro.Resource.Styleable.Toolbar_title = global::Drinkr.Resource.Styleable.Toolbar_title;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMargin = global::Drinkr.Resource.Styleable.Toolbar_titleMargin;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMarginBottom = global::Drinkr.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMarginEnd = global::Drinkr.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMarginStart = global::Drinkr.Resource.Styleable.Toolbar_titleMarginStart;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMarginTop = global::Drinkr.Resource.Styleable.Toolbar_titleMarginTop;
+			global::AppIntro.Resource.Styleable.Toolbar_titleMargins = global::Drinkr.Resource.Styleable.Toolbar_titleMargins;
+			global::AppIntro.Resource.Styleable.Toolbar_titleTextAppearance = global::Drinkr.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::AppIntro.Resource.Styleable.Toolbar_titleTextColor = global::Drinkr.Resource.Styleable.Toolbar_titleTextColor;
+			global::AppIntro.Resource.Styleable.View = global::Drinkr.Resource.Styleable.View;
+			global::AppIntro.Resource.Styleable.View_android_focusable = global::Drinkr.Resource.Styleable.View_android_focusable;
+			global::AppIntro.Resource.Styleable.View_android_theme = global::Drinkr.Resource.Styleable.View_android_theme;
+			global::AppIntro.Resource.Styleable.View_paddingEnd = global::Drinkr.Resource.Styleable.View_paddingEnd;
+			global::AppIntro.Resource.Styleable.View_paddingStart = global::Drinkr.Resource.Styleable.View_paddingStart;
+			global::AppIntro.Resource.Styleable.View_theme = global::Drinkr.Resource.Styleable.View_theme;
+			global::AppIntro.Resource.Styleable.ViewBackgroundHelper = global::Drinkr.Resource.Styleable.ViewBackgroundHelper;
+			global::AppIntro.Resource.Styleable.ViewBackgroundHelper_android_background = global::Drinkr.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::AppIntro.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Drinkr.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::AppIntro.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Drinkr.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::AppIntro.Resource.Styleable.ViewStubCompat = global::Drinkr.Resource.Styleable.ViewStubCompat;
+			global::AppIntro.Resource.Styleable.ViewStubCompat_android_id = global::Drinkr.Resource.Styleable.ViewStubCompat_android_id;
+			global::AppIntro.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Drinkr.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::AppIntro.Resource.Styleable.ViewStubCompat_android_layout = global::Drinkr.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -73,6 +1465,22 @@ namespace Drinkr
 			}
 			
 			private Animation()
+			{
+			}
+		}
+		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0c0000
+			public const int moodID = 2131492864;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
 			{
 			}
 		}
@@ -559,6 +1967,33 @@ namespace Drinkr
 			
 			// aapt resource value: 0x7f010108
 			public const int logoDescription = 2130772232;
+			
+			// aapt resource value: 0x7f010111
+			public const int lottie_autoPlay = 2130772241;
+			
+			// aapt resource value: 0x7f010116
+			public const int lottie_cacheStrategy = 2130772246;
+			
+			// aapt resource value: 0x7f010117
+			public const int lottie_colorFilter = 2130772247;
+			
+			// aapt resource value: 0x7f010115
+			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772245;
+			
+			// aapt resource value: 0x7f010110
+			public const int lottie_fileName = 2130772240;
+			
+			// aapt resource value: 0x7f010113
+			public const int lottie_imageAssetsFolder = 2130772243;
+			
+			// aapt resource value: 0x7f010112
+			public const int lottie_loop = 2130772242;
+			
+			// aapt resource value: 0x7f010114
+			public const int lottie_progress = 2130772244;
+			
+			// aapt resource value: 0x7f010118
+			public const int lottie_scale = 2130772248;
 			
 			// aapt resource value: 0x7f010000
 			public const int mapType = 2130771968;
@@ -1493,11 +2928,38 @@ namespace Drinkr
 			// aapt resource value: 0x7f060014
 			public const int abc_text_size_title_material_toolbar = 2131099668;
 			
-			// aapt resource value: 0x7f060072
-			public const int activity_horizontal_margin = 2131099762;
+			// aapt resource value: 0x7f06007b
+			public const int activity_horizontal_margin = 2131099771;
+			
+			// aapt resource value: 0x7f06007c
+			public const int activity_vertical_margin = 2131099772;
 			
 			// aapt resource value: 0x7f060073
-			public const int activity_vertical_margin = 2131099763;
+			public const int appIntro2BottomBarHeight = 2131099763;
+			
+			// aapt resource value: 0x7f060072
+			public const int appIntroBottomBarHeight = 2131099762;
+			
+			// aapt resource value: 0x7f060077
+			public const int appIntroDefaultPaddingBottom = 2131099767;
+			
+			// aapt resource value: 0x7f060078
+			public const int appIntroDefaultPaddingBottomIntro1 = 2131099768;
+			
+			// aapt resource value: 0x7f060079
+			public const int appIntroDefaultPaddingBottomIntro2 = 2131099769;
+			
+			// aapt resource value: 0x7f060075
+			public const int appIntroDefaultPaddingLeft = 2131099765;
+			
+			// aapt resource value: 0x7f060076
+			public const int appIntroDefaultPaddingRight = 2131099766;
+			
+			// aapt resource value: 0x7f060074
+			public const int appIntroDefaultPaddingTop = 2131099764;
+			
+			// aapt resource value: 0x7f06007a
+			public const int appIntroHeadingTextSize = 2131099770;
 			
 			// aapt resource value: 0x7f06000d
 			public const int cardview_compat_inset_shadow = 2131099661;
@@ -1508,8 +2970,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f06000f
 			public const int cardview_default_radius = 2131099663;
 			
-			// aapt resource value: 0x7f06007a
-			public const int desc_padding = 2131099770;
+			// aapt resource value: 0x7f060083
+			public const int desc_padding = 2131099779;
 			
 			// aapt resource value: 0x7f06005e
 			public const int disabled_alpha_material_dark = 2131099742;
@@ -1517,14 +2979,14 @@ namespace Drinkr
 			// aapt resource value: 0x7f06005f
 			public const int disabled_alpha_material_light = 2131099743;
 			
-			// aapt resource value: 0x7f060075
-			public const int dots_height = 2131099765;
+			// aapt resource value: 0x7f06007e
+			public const int dots_height = 2131099774;
 			
-			// aapt resource value: 0x7f060076
-			public const int dots_margin_bottom = 2131099766;
+			// aapt resource value: 0x7f06007f
+			public const int dots_margin_bottom = 2131099775;
 			
-			// aapt resource value: 0x7f060074
-			public const int fab_margin = 2131099764;
+			// aapt resource value: 0x7f06007d
+			public const int fab_margin = 2131099773;
 			
 			// aapt resource value: 0x7f060060
 			public const int highlight_alpha_material_colored = 2131099744;
@@ -1547,8 +3009,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f060066
 			public const int hint_pressed_alpha_material_light = 2131099750;
 			
-			// aapt resource value: 0x7f060077
-			public const int img_width_height = 2131099767;
+			// aapt resource value: 0x7f060080
+			public const int img_width_height = 2131099776;
 			
 			// aapt resource value: 0x7f06000a
 			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099658;
@@ -1634,11 +3096,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f060009
 			public const int place_autocomplete_separator_start = 2131099657;
 			
-			// aapt resource value: 0x7f060079
-			public const int slide_desc = 2131099769;
+			// aapt resource value: 0x7f060082
+			public const int slide_desc = 2131099778;
 			
-			// aapt resource value: 0x7f060078
-			public const int slide_title = 2131099768;
+			// aapt resource value: 0x7f060081
+			public const int slide_title = 2131099777;
 			
 			static Dimension()
 			{
@@ -1969,58 +3431,82 @@ namespace Drinkr
 			public const int googleg_standard_color_18 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int Icon = 2130837609;
+			public const int ic_arrow_back_white = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_action_background = 2130837610;
+			public const int ic_arrow_forward_white = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg = 2130837611;
+			public const int ic_done_white = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low = 2130837612;
+			public const int ic_navigate_before_white = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low_normal = 2130837613;
+			public const int ic_navigate_next_white = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_low_pressed = 2130837614;
+			public const int ic_skip_white = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_bg_normal = 2130837615;
+			public const int Icon = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_bg_normal_pressed = 2130837616;
+			public const int indicator_dot_grey = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_icon_background = 2130837617;
-			
-			// aapt resource value: 0x7f020079
-			public const int notification_template_icon_bg = 2130837625;
-			
-			// aapt resource value: 0x7f02007a
-			public const int notification_template_icon_low_bg = 2130837626;
+			public const int indicator_dot_white = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_tile_bg = 2130837618;
+			public const int notification_action_background = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int notify_panel_notification_icon_bg = 2130837619;
+			public const int notification_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int places_ic_clear = 2130837620;
+			public const int notification_bg_low = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int places_ic_search = 2130837621;
+			public const int notification_bg_low_normal = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int powered_by_google_dark = 2130837622;
+			public const int notification_bg_low_pressed = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int powered_by_google_light = 2130837623;
+			public const int notification_bg_normal = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int upset = 2130837624;
+			public const int notification_bg_normal_pressed = 2130837624;
+			
+			// aapt resource value: 0x7f020079
+			public const int notification_icon_background = 2130837625;
+			
+			// aapt resource value: 0x7f020081
+			public const int notification_template_icon_bg = 2130837633;
+			
+			// aapt resource value: 0x7f020082
+			public const int notification_template_icon_low_bg = 2130837634;
+			
+			// aapt resource value: 0x7f02007a
+			public const int notification_tile_bg = 2130837626;
+			
+			// aapt resource value: 0x7f02007b
+			public const int notify_panel_notification_icon_bg = 2130837627;
+			
+			// aapt resource value: 0x7f02007c
+			public const int places_ic_clear = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int places_ic_search = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int powered_by_google_dark = 2130837630;
+			
+			// aapt resource value: 0x7f02007f
+			public const int powered_by_google_light = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int upset = 2130837632;
 			
 			static Drawable()
 			{
@@ -2035,47 +3521,47 @@ namespace Drinkr
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090077
-			public const int DrinksRecyclerView = 2131296375;
+			// aapt resource value: 0x7f090086
+			public const int DrinksRecyclerView = 2131296390;
 			
-			// aapt resource value: 0x7f09009e
-			public const int SCROLLER_ID = 2131296414;
+			// aapt resource value: 0x7f0900ad
+			public const int SCROLLER_ID = 2131296429;
 			
-			// aapt resource value: 0x7f09007b
-			public const int action0 = 2131296379;
+			// aapt resource value: 0x7f09008a
+			public const int action0 = 2131296394;
 			
-			// aapt resource value: 0x7f090053
-			public const int action_bar = 2131296339;
+			// aapt resource value: 0x7f090056
+			public const int action_bar = 2131296342;
 			
 			// aapt resource value: 0x7f090001
 			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f090052
-			public const int action_bar_container = 2131296338;
+			// aapt resource value: 0x7f090055
+			public const int action_bar_container = 2131296341;
 			
-			// aapt resource value: 0x7f09004e
-			public const int action_bar_root = 2131296334;
+			// aapt resource value: 0x7f090051
+			public const int action_bar_root = 2131296337;
 			
 			// aapt resource value: 0x7f090002
 			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f090031
-			public const int action_bar_subtitle = 2131296305;
+			// aapt resource value: 0x7f090034
+			public const int action_bar_subtitle = 2131296308;
 			
-			// aapt resource value: 0x7f090030
-			public const int action_bar_title = 2131296304;
+			// aapt resource value: 0x7f090033
+			public const int action_bar_title = 2131296307;
 			
-			// aapt resource value: 0x7f090078
-			public const int action_container = 2131296376;
+			// aapt resource value: 0x7f090087
+			public const int action_container = 2131296391;
 			
-			// aapt resource value: 0x7f090054
-			public const int action_context_bar = 2131296340;
+			// aapt resource value: 0x7f090057
+			public const int action_context_bar = 2131296343;
 			
-			// aapt resource value: 0x7f09007f
-			public const int action_divider = 2131296383;
+			// aapt resource value: 0x7f09008e
+			public const int action_divider = 2131296398;
 			
-			// aapt resource value: 0x7f090079
-			public const int action_image = 2131296377;
+			// aapt resource value: 0x7f090088
+			public const int action_image = 2131296392;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -2083,248 +3569,281 @@ namespace Drinkr
 			// aapt resource value: 0x7f090004
 			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f090050
-			public const int action_mode_bar = 2131296336;
+			// aapt resource value: 0x7f090053
+			public const int action_mode_bar = 2131296339;
 			
-			// aapt resource value: 0x7f09004f
-			public const int action_mode_bar_stub = 2131296335;
+			// aapt resource value: 0x7f090052
+			public const int action_mode_bar_stub = 2131296338;
 			
-			// aapt resource value: 0x7f090032
-			public const int action_mode_close_button = 2131296306;
+			// aapt resource value: 0x7f090035
+			public const int action_mode_close_button = 2131296309;
 			
-			// aapt resource value: 0x7f09007a
-			public const int action_text = 2131296378;
+			// aapt resource value: 0x7f090089
+			public const int action_text = 2131296393;
 			
-			// aapt resource value: 0x7f090088
-			public const int actions = 2131296392;
-			
-			// aapt resource value: 0x7f090033
-			public const int activity_chooser_view_content = 2131296307;
-			
-			// aapt resource value: 0x7f09001f
-			public const int add = 2131296287;
-			
-			// aapt resource value: 0x7f09000f
-			public const int adjust_height = 2131296271;
-			
-			// aapt resource value: 0x7f090010
-			public const int adjust_width = 2131296272;
-			
-			// aapt resource value: 0x7f090047
-			public const int alertTitle = 2131296327;
-			
-			// aapt resource value: 0x7f090029
-			public const int always = 2131296297;
-			
-			// aapt resource value: 0x7f090014
-			public const int auto = 2131296276;
-			
-			// aapt resource value: 0x7f090026
-			public const int beginning = 2131296294;
-			
-			// aapt resource value: 0x7f09002e
-			public const int bottom = 2131296302;
-			
-			// aapt resource value: 0x7f090072
-			public const int btnAdmin = 2131296370;
-			
-			// aapt resource value: 0x7f09009a
-			public const int btnBack = 2131296410;
-			
-			// aapt resource value: 0x7f09009c
-			public const int btnDone = 2131296412;
-			
-			// aapt resource value: 0x7f090071
-			public const int btnEnter = 2131296369;
-			
-			// aapt resource value: 0x7f09006c
-			public const int btnFindNearBy = 2131296364;
-			
-			// aapt resource value: 0x7f09006b
-			public const int btnFindRecipe = 2131296363;
-			
-			// aapt resource value: 0x7f09009b
-			public const int btnNext = 2131296411;
-			
-			// aapt resource value: 0x7f09003a
-			public const int buttonPanel = 2131296314;
-			
-			// aapt resource value: 0x7f09007c
-			public const int cancel_action = 2131296380;
-			
-			// aapt resource value: 0x7f09004a
-			public const int checkbox = 2131296330;
-			
-			// aapt resource value: 0x7f090084
-			public const int chronometer = 2131296388;
-			
-			// aapt resource value: 0x7f09002a
-			public const int collapseActionView = 2131296298;
-			
-			// aapt resource value: 0x7f09003d
-			public const int contentPanel = 2131296317;
-			
-			// aapt resource value: 0x7f090044
-			public const int custom = 2131296324;
-			
-			// aapt resource value: 0x7f090043
-			public const int customPanel = 2131296323;
-			
-			// aapt resource value: 0x7f090015
-			public const int dark = 2131296277;
-			
-			// aapt resource value: 0x7f090051
-			public const int decor_content_parent = 2131296337;
+			// aapt resource value: 0x7f090097
+			public const int actions = 2131296407;
 			
 			// aapt resource value: 0x7f090036
-			public const int default_activity_button = 2131296310;
+			public const int activity_chooser_view_content = 2131296310;
 			
-			// aapt resource value: 0x7f090019
-			public const int disableHome = 2131296281;
+			// aapt resource value: 0x7f090020
+			public const int add = 2131296288;
 			
-			// aapt resource value: 0x7f090067
-			public const int drinkDetailFragContainer = 2131296359;
+			// aapt resource value: 0x7f090010
+			public const int adjust_height = 2131296272;
 			
-			// aapt resource value: 0x7f090063
-			public const int editText1 = 2131296355;
+			// aapt resource value: 0x7f090011
+			public const int adjust_width = 2131296273;
 			
-			// aapt resource value: 0x7f090065
-			public const int editText2 = 2131296357;
+			// aapt resource value: 0x7f09004a
+			public const int alertTitle = 2131296330;
 			
-			// aapt resource value: 0x7f090055
-			public const int edit_query = 2131296341;
+			// aapt resource value: 0x7f09002a
+			public const int always = 2131296298;
+			
+			// aapt resource value: 0x7f09007f
+			public const int animation_view = 2131296383;
+			
+			// aapt resource value: 0x7f090015
+			public const int auto = 2131296277;
+			
+			// aapt resource value: 0x7f090077
+			public const int back = 2131296375;
+			
+			// aapt resource value: 0x7f09007a
+			public const int background = 2131296378;
 			
 			// aapt resource value: 0x7f090027
-			public const int end = 2131296295;
+			public const int beginning = 2131296295;
 			
-			// aapt resource value: 0x7f09008e
-			public const int end_padder = 2131296398;
+			// aapt resource value: 0x7f09002f
+			public const int bottom = 2131296303;
 			
-			// aapt resource value: 0x7f090034
-			public const int expand_activities_button = 2131296308;
+			// aapt resource value: 0x7f090074
+			public const int bottom_separator = 2131296372;
 			
-			// aapt resource value: 0x7f090049
-			public const int expanded_menu = 2131296329;
+			// aapt resource value: 0x7f090069
+			public const int btnAddDrink = 2131296361;
 			
-			// aapt resource value: 0x7f090073
-			public const int fragmentContainer = 2131296371;
+			// aapt resource value: 0x7f090081
+			public const int btnAdmin = 2131296385;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int btnBack = 2131296425;
+			
+			// aapt resource value: 0x7f0900ab
+			public const int btnDone = 2131296427;
+			
+			// aapt resource value: 0x7f090080
+			public const int btnEnter = 2131296384;
+			
+			// aapt resource value: 0x7f090070
+			public const int btnFindNearBy = 2131296368;
+			
+			// aapt resource value: 0x7f09006f
+			public const int btnFindRecipe = 2131296367;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int btnNext = 2131296426;
+			
+			// aapt resource value: 0x7f09003d
+			public const int buttonPanel = 2131296317;
+			
+			// aapt resource value: 0x7f09008b
+			public const int cancel_action = 2131296395;
+			
+			// aapt resource value: 0x7f09004d
+			public const int checkbox = 2131296333;
+			
+			// aapt resource value: 0x7f090093
+			public const int chronometer = 2131296403;
+			
+			// aapt resource value: 0x7f09002b
+			public const int collapseActionView = 2131296299;
+			
+			// aapt resource value: 0x7f090040
+			public const int contentPanel = 2131296320;
+			
+			// aapt resource value: 0x7f090047
+			public const int custom = 2131296327;
+			
+			// aapt resource value: 0x7f090046
+			public const int customPanel = 2131296326;
+			
+			// aapt resource value: 0x7f090016
+			public const int dark = 2131296278;
+			
+			// aapt resource value: 0x7f090054
+			public const int decor_content_parent = 2131296340;
+			
+			// aapt resource value: 0x7f090039
+			public const int default_activity_button = 2131296313;
+			
+			// aapt resource value: 0x7f090072
+			public const int description = 2131296370;
+			
+			// aapt resource value: 0x7f09001a
+			public const int disableHome = 2131296282;
+			
+			// aapt resource value: 0x7f090079
+			public const int done = 2131296377;
+			
+			// aapt resource value: 0x7f09006b
+			public const int drinkDetailFragContainer = 2131296363;
+			
+			// aapt resource value: 0x7f090068
+			public const int editTxtDesc = 2131296360;
+			
+			// aapt resource value: 0x7f090066
+			public const int editTxtDrinkName = 2131296358;
+			
+			// aapt resource value: 0x7f090058
+			public const int edit_query = 2131296344;
+			
+			// aapt resource value: 0x7f090028
+			public const int end = 2131296296;
+			
+			// aapt resource value: 0x7f09009d
+			public const int end_padder = 2131296413;
+			
+			// aapt resource value: 0x7f090037
+			public const int expand_activities_button = 2131296311;
+			
+			// aapt resource value: 0x7f09004c
+			public const int expanded_menu = 2131296332;
+			
+			// aapt resource value: 0x7f090082
+			public const int fragmentContainer = 2131296386;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
 			
-			// aapt resource value: 0x7f09001a
-			public const int homeAsUp = 2131296282;
+			// aapt resource value: 0x7f09001b
+			public const int homeAsUp = 2131296283;
 			
-			// aapt resource value: 0x7f09000a
-			public const int hybrid = 2131296266;
+			// aapt resource value: 0x7f09000b
+			public const int hybrid = 2131296267;
+			
+			// aapt resource value: 0x7f09003b
+			public const int icon = 2131296315;
+			
+			// aapt resource value: 0x7f090098
+			public const int icon_group = 2131296408;
+			
+			// aapt resource value: 0x7f090012
+			public const int icon_only = 2131296274;
+			
+			// aapt resource value: 0x7f09002c
+			public const int ifRoom = 2131296300;
 			
 			// aapt resource value: 0x7f090038
-			public const int icon = 2131296312;
+			public const int image = 2131296312;
 			
-			// aapt resource value: 0x7f090089
-			public const int icon_group = 2131296393;
+			// aapt resource value: 0x7f09006a
+			public const int imageView1 = 2131296362;
 			
-			// aapt resource value: 0x7f090011
-			public const int icon_only = 2131296273;
+			// aapt resource value: 0x7f0900af
+			public const int imgDrink = 2131296431;
 			
-			// aapt resource value: 0x7f09002b
-			public const int ifRoom = 2131296299;
+			// aapt resource value: 0x7f090075
+			public const int indicator_container = 2131296373;
 			
-			// aapt resource value: 0x7f090035
-			public const int image = 2131296309;
-			
-			// aapt resource value: 0x7f090066
-			public const int imageView1 = 2131296358;
-			
-			// aapt resource value: 0x7f0900a0
-			public const int imgDrink = 2131296416;
-			
-			// aapt resource value: 0x7f090085
-			public const int info = 2131296389;
+			// aapt resource value: 0x7f090094
+			public const int info = 2131296404;
 			
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f090016
-			public const int light = 2131296278;
-			
-			// aapt resource value: 0x7f09008a
-			public const int line1 = 2131296394;
-			
-			// aapt resource value: 0x7f09008c
-			public const int line3 = 2131296396;
-			
 			// aapt resource value: 0x7f090017
-			public const int listMode = 2131296279;
-			
-			// aapt resource value: 0x7f090037
-			public const int list_item = 2131296311;
-			
-			// aapt resource value: 0x7f090068
-			public const int llDrinkDetail = 2131296360;
-			
-			// aapt resource value: 0x7f09006e
-			public const int llIntro = 2131296366;
+			public const int light = 2131296279;
 			
 			// aapt resource value: 0x7f090099
-			public const int lvAnswers = 2131296409;
+			public const int line1 = 2131296409;
 			
-			// aapt resource value: 0x7f090074
-			public const int map = 2131296372;
+			// aapt resource value: 0x7f09009b
+			public const int line3 = 2131296411;
 			
-			// aapt resource value: 0x7f09007e
-			public const int media_actions = 2131296382;
+			// aapt resource value: 0x7f090018
+			public const int listMode = 2131296280;
 			
-			// aapt resource value: 0x7f090028
-			public const int middle = 2131296296;
+			// aapt resource value: 0x7f09003a
+			public const int list_item = 2131296314;
 			
-			// aapt resource value: 0x7f090020
-			public const int multiply = 2131296288;
+			// aapt resource value: 0x7f09006c
+			public const int llDrinkDetail = 2131296364;
 			
-			// aapt resource value: 0x7f09002c
-			public const int never = 2131296300;
+			// aapt resource value: 0x7f09007c
+			public const int llIntro = 2131296380;
 			
-			// aapt resource value: 0x7f09000b
-			public const int none = 2131296267;
+			// aapt resource value: 0x7f09000a
+			public const int lottie_layer_name = 2131296266;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int lvAnswers = 2131296424;
+			
+			// aapt resource value: 0x7f090071
+			public const int main = 2131296369;
+			
+			// aapt resource value: 0x7f090083
+			public const int map = 2131296387;
+			
+			// aapt resource value: 0x7f09008d
+			public const int media_actions = 2131296397;
+			
+			// aapt resource value: 0x7f090029
+			public const int middle = 2131296297;
+			
+			// aapt resource value: 0x7f090021
+			public const int multiply = 2131296289;
+			
+			// aapt resource value: 0x7f09002d
+			public const int never = 2131296301;
+			
+			// aapt resource value: 0x7f090078
+			public const int next = 2131296376;
 			
 			// aapt resource value: 0x7f09000c
-			public const int normal = 2131296268;
+			public const int none = 2131296268;
 			
-			// aapt resource value: 0x7f090087
-			public const int notification_background = 2131296391;
-			
-			// aapt resource value: 0x7f090081
-			public const int notification_main_column = 2131296385;
-			
-			// aapt resource value: 0x7f090080
-			public const int notification_main_column_container = 2131296384;
-			
-			// aapt resource value: 0x7f09003c
-			public const int parentPanel = 2131296316;
-			
-			// aapt resource value: 0x7f090091
-			public const int place_autocomplete_clear_button = 2131296401;
-			
-			// aapt resource value: 0x7f090093
-			public const int place_autocomplete_powered_by_google = 2131296403;
-			
-			// aapt resource value: 0x7f090095
-			public const int place_autocomplete_prediction_primary_text = 2131296405;
+			// aapt resource value: 0x7f09000d
+			public const int normal = 2131296269;
 			
 			// aapt resource value: 0x7f090096
-			public const int place_autocomplete_prediction_secondary_text = 2131296406;
-			
-			// aapt resource value: 0x7f090094
-			public const int place_autocomplete_progress = 2131296404;
-			
-			// aapt resource value: 0x7f09008f
-			public const int place_autocomplete_search_button = 2131296399;
+			public const int notification_background = 2131296406;
 			
 			// aapt resource value: 0x7f090090
-			public const int place_autocomplete_search_input = 2131296400;
+			public const int notification_main_column = 2131296400;
 			
-			// aapt resource value: 0x7f090092
-			public const int place_autocomplete_separator = 2131296402;
+			// aapt resource value: 0x7f09008f
+			public const int notification_main_column_container = 2131296399;
+			
+			// aapt resource value: 0x7f09003f
+			public const int parentPanel = 2131296319;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int place_autocomplete_clear_button = 2131296416;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int place_autocomplete_powered_by_google = 2131296418;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int place_autocomplete_prediction_primary_text = 2131296420;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int place_autocomplete_prediction_secondary_text = 2131296421;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int place_autocomplete_progress = 2131296419;
+			
+			// aapt resource value: 0x7f09009e
+			public const int place_autocomplete_search_button = 2131296414;
+			
+			// aapt resource value: 0x7f09009f
+			public const int place_autocomplete_search_input = 2131296415;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int place_autocomplete_separator = 2131296417;
 			
 			// aapt resource value: 0x7f090006
 			public const int progress_circular = 2131296262;
@@ -2332,194 +3851,206 @@ namespace Drinkr
 			// aapt resource value: 0x7f090007
 			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f09004c
-			public const int radio = 2131296332;
+			// aapt resource value: 0x7f09004f
+			public const int radio = 2131296335;
 			
-			// aapt resource value: 0x7f09006d
-			public const int radioButton1 = 2131296365;
+			// aapt resource value: 0x7f09007b
+			public const int radioButton1 = 2131296379;
 			
-			// aapt resource value: 0x7f09006a
-			public const int relativeLayout1 = 2131296362;
+			// aapt resource value: 0x7f09006e
+			public const int relativeLayout1 = 2131296366;
 			
-			// aapt resource value: 0x7f090086
-			public const int right_icon = 2131296390;
+			// aapt resource value: 0x7f090095
+			public const int right_icon = 2131296405;
 			
-			// aapt resource value: 0x7f090082
-			public const int right_side = 2131296386;
+			// aapt resource value: 0x7f090091
+			public const int right_side = 2131296401;
 			
-			// aapt resource value: 0x7f090098
-			public const int rlAnswers = 2131296408;
+			// aapt resource value: 0x7f0900a7
+			public const int rlAnswers = 2131296423;
 			
-			// aapt resource value: 0x7f09000d
-			public const int satellite = 2131296269;
+			// aapt resource value: 0x7f09000e
+			public const int satellite = 2131296270;
 			
-			// aapt resource value: 0x7f090021
-			public const int screen = 2131296289;
+			// aapt resource value: 0x7f090022
+			public const int screen = 2131296290;
+			
+			// aapt resource value: 0x7f090045
+			public const int scrollIndicatorDown = 2131296325;
+			
+			// aapt resource value: 0x7f090041
+			public const int scrollIndicatorUp = 2131296321;
 			
 			// aapt resource value: 0x7f090042
-			public const int scrollIndicatorDown = 2131296322;
-			
-			// aapt resource value: 0x7f09003e
-			public const int scrollIndicatorUp = 2131296318;
-			
-			// aapt resource value: 0x7f09003f
-			public const int scrollView = 2131296319;
-			
-			// aapt resource value: 0x7f090057
-			public const int search_badge = 2131296343;
-			
-			// aapt resource value: 0x7f090056
-			public const int search_bar = 2131296342;
-			
-			// aapt resource value: 0x7f090058
-			public const int search_button = 2131296344;
-			
-			// aapt resource value: 0x7f09005d
-			public const int search_close_btn = 2131296349;
-			
-			// aapt resource value: 0x7f090059
-			public const int search_edit_frame = 2131296345;
-			
-			// aapt resource value: 0x7f09005f
-			public const int search_go_btn = 2131296351;
+			public const int scrollView = 2131296322;
 			
 			// aapt resource value: 0x7f09005a
-			public const int search_mag_icon = 2131296346;
+			public const int search_badge = 2131296346;
+			
+			// aapt resource value: 0x7f090059
+			public const int search_bar = 2131296345;
 			
 			// aapt resource value: 0x7f09005b
-			public const int search_plate = 2131296347;
-			
-			// aapt resource value: 0x7f09005c
-			public const int search_src_text = 2131296348;
+			public const int search_button = 2131296347;
 			
 			// aapt resource value: 0x7f090060
-			public const int search_voice_btn = 2131296352;
+			public const int search_close_btn = 2131296352;
 			
-			// aapt resource value: 0x7f090061
-			public const int select_dialog_listview = 2131296353;
+			// aapt resource value: 0x7f09005c
+			public const int search_edit_frame = 2131296348;
 			
-			// aapt resource value: 0x7f09004b
-			public const int shortcut = 2131296331;
+			// aapt resource value: 0x7f090062
+			public const int search_go_btn = 2131296354;
 			
-			// aapt resource value: 0x7f09001b
-			public const int showCustom = 2131296283;
+			// aapt resource value: 0x7f09005d
+			public const int search_mag_icon = 2131296349;
 			
-			// aapt resource value: 0x7f09001c
-			public const int showHome = 2131296284;
+			// aapt resource value: 0x7f09005e
+			public const int search_plate = 2131296350;
 			
-			// aapt resource value: 0x7f09001d
-			public const int showTitle = 2131296285;
+			// aapt resource value: 0x7f09005f
+			public const int search_src_text = 2131296351;
 			
-			// aapt resource value: 0x7f09003b
-			public const int spacer = 2131296315;
+			// aapt resource value: 0x7f090063
+			public const int search_voice_btn = 2131296355;
 			
 			// aapt resource value: 0x7f090064
-			public const int spinner1 = 2131296356;
+			public const int select_dialog_listview = 2131296356;
+			
+			// aapt resource value: 0x7f09004e
+			public const int shortcut = 2131296334;
+			
+			// aapt resource value: 0x7f09001c
+			public const int showCustom = 2131296284;
+			
+			// aapt resource value: 0x7f09001d
+			public const int showHome = 2131296285;
+			
+			// aapt resource value: 0x7f09001e
+			public const int showTitle = 2131296286;
+			
+			// aapt resource value: 0x7f090076
+			public const int skip = 2131296374;
+			
+			// aapt resource value: 0x7f09003e
+			public const int spacer = 2131296318;
+			
+			// aapt resource value: 0x7f090067
+			public const int spinner1 = 2131296359;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
 			
-			// aapt resource value: 0x7f090022
-			public const int src_atop = 2131296290;
-			
 			// aapt resource value: 0x7f090023
-			public const int src_in = 2131296291;
+			public const int src_atop = 2131296291;
 			
 			// aapt resource value: 0x7f090024
-			public const int src_over = 2131296292;
+			public const int src_in = 2131296292;
 			
-			// aapt resource value: 0x7f090012
-			public const int standard = 2131296274;
+			// aapt resource value: 0x7f090025
+			public const int src_over = 2131296293;
 			
-			// aapt resource value: 0x7f09007d
-			public const int status_bar_latest_event_content = 2131296381;
+			// aapt resource value: 0x7f090013
+			public const int standard = 2131296275;
 			
-			// aapt resource value: 0x7f09004d
-			public const int submenuarrow = 2131296333;
+			// aapt resource value: 0x7f09008c
+			public const int status_bar_latest_event_content = 2131296396;
 			
-			// aapt resource value: 0x7f09005e
-			public const int submit_area = 2131296350;
+			// aapt resource value: 0x7f090031
+			public const int strong = 2131296305;
 			
-			// aapt resource value: 0x7f090018
-			public const int tabMode = 2131296280;
+			// aapt resource value: 0x7f090050
+			public const int submenuarrow = 2131296336;
 			
-			// aapt resource value: 0x7f09000e
-			public const int terrain = 2131296270;
+			// aapt resource value: 0x7f090061
+			public const int submit_area = 2131296353;
 			
-			// aapt resource value: 0x7f09008d
-			public const int text = 2131296397;
+			// aapt resource value: 0x7f090019
+			public const int tabMode = 2131296281;
 			
-			// aapt resource value: 0x7f09008b
-			public const int text2 = 2131296395;
+			// aapt resource value: 0x7f09000f
+			public const int terrain = 2131296271;
 			
-			// aapt resource value: 0x7f090041
-			public const int textSpacerNoButtons = 2131296321;
+			// aapt resource value: 0x7f09009c
+			public const int text = 2131296412;
 			
-			// aapt resource value: 0x7f090040
-			public const int textSpacerNoTitle = 2131296320;
+			// aapt resource value: 0x7f09009a
+			public const int text2 = 2131296410;
 			
-			// aapt resource value: 0x7f090062
-			public const int textView1 = 2131296354;
+			// aapt resource value: 0x7f090044
+			public const int textSpacerNoButtons = 2131296324;
 			
-			// aapt resource value: 0x7f090076
-			public const int textView3 = 2131296374;
+			// aapt resource value: 0x7f090043
+			public const int textSpacerNoTitle = 2131296323;
 			
-			// aapt resource value: 0x7f090083
-			public const int time = 2131296387;
+			// aapt resource value: 0x7f090065
+			public const int textView1 = 2131296357;
 			
-			// aapt resource value: 0x7f090039
-			public const int title = 2131296313;
+			// aapt resource value: 0x7f090085
+			public const int textView3 = 2131296389;
+			
+			// aapt resource value: 0x7f090092
+			public const int time = 2131296402;
+			
+			// aapt resource value: 0x7f09003c
+			public const int title = 2131296316;
+			
+			// aapt resource value: 0x7f09004b
+			public const int titleDividerNoCustom = 2131296331;
+			
+			// aapt resource value: 0x7f090049
+			public const int title_template = 2131296329;
+			
+			// aapt resource value: 0x7f090030
+			public const int top = 2131296304;
 			
 			// aapt resource value: 0x7f090048
-			public const int titleDividerNoCustom = 2131296328;
+			public const int topPanel = 2131296328;
 			
-			// aapt resource value: 0x7f090046
-			public const int title_template = 2131296326;
+			// aapt resource value: 0x7f09007e
+			public const int txtDesc = 2131296382;
 			
-			// aapt resource value: 0x7f09002f
-			public const int top = 2131296303;
+			// aapt resource value: 0x7f09006d
+			public const int txtDrinkDesc = 2131296365;
 			
-			// aapt resource value: 0x7f090045
-			public const int topPanel = 2131296325;
+			// aapt resource value: 0x7f0900b0
+			public const int txtDrinkName = 2131296432;
 			
-			// aapt resource value: 0x7f090070
-			public const int txtDesc = 2131296368;
+			// aapt resource value: 0x7f0900ac
+			public const int txtDrinkTitle = 2131296428;
 			
-			// aapt resource value: 0x7f090069
-			public const int txtDrinkDesc = 2131296361;
+			// aapt resource value: 0x7f090084
+			public const int txtMood = 2131296388;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int txtDrinkName = 2131296417;
+			// aapt resource value: 0x7f0900a6
+			public const int txtQuestion = 2131296422;
 			
-			// aapt resource value: 0x7f09009d
-			public const int txtDrinkTitle = 2131296413;
+			// aapt resource value: 0x7f0900ae
+			public const int txtRecipe = 2131296430;
 			
-			// aapt resource value: 0x7f090075
-			public const int txtMood = 2131296373;
-			
-			// aapt resource value: 0x7f090097
-			public const int txtQuestion = 2131296407;
-			
-			// aapt resource value: 0x7f09009f
-			public const int txtRecipe = 2131296415;
-			
-			// aapt resource value: 0x7f09006f
-			public const int txtTitle = 2131296367;
+			// aapt resource value: 0x7f09007d
+			public const int txtTitle = 2131296381;
 			
 			// aapt resource value: 0x7f090009
 			public const int up = 2131296265;
 			
-			// aapt resource value: 0x7f09001e
-			public const int useLogo = 2131296286;
+			// aapt resource value: 0x7f09001f
+			public const int useLogo = 2131296287;
 			
-			// aapt resource value: 0x7f090013
-			public const int wide = 2131296275;
+			// aapt resource value: 0x7f090073
+			public const int view_pager = 2131296371;
 			
-			// aapt resource value: 0x7f09002d
-			public const int withText = 2131296301;
+			// aapt resource value: 0x7f090032
+			public const int weak = 2131296306;
 			
-			// aapt resource value: 0x7f090025
-			public const int wrap_content = 2131296293;
+			// aapt resource value: 0x7f090014
+			public const int wide = 2131296276;
+			
+			// aapt resource value: 0x7f09002e
+			public const int withText = 2131296302;
+			
+			// aapt resource value: 0x7f090026
+			public const int wrap_content = 2131296294;
 			
 			static Id()
 			{
@@ -2647,97 +4178,118 @@ namespace Drinkr
 			public const int Admin = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int DrinkDetail = 2130903068;
+			public const int default_indicator = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int ListviewAnswer = 2130903069;
+			public const int DrinkDetail = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int Main = 2130903070;
+			public const int fragment_intro = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int Map = 2130903071;
+			public const int fragment_intro2 = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int MoodResult = 2130903072;
+			public const int fragment_intro_content = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_action = 2130903073;
+			public const int intro_layout = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_action_tombstone = 2130903074;
+			public const int intro_layout2 = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_media_action = 2130903075;
+			public const int ListviewAnswer = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_media_cancel_action = 2130903076;
+			public const int Main = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_template_big_media = 2130903077;
+			public const int Map = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_big_media_custom = 2130903078;
+			public const int MoodResult = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_big_media_narrow = 2130903079;
+			public const int notification_action = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_big_media_narrow_custom = 2130903080;
+			public const int notification_action_tombstone = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_custom_big = 2130903081;
+			public const int notification_media_action = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_icon_group = 2130903082;
+			public const int notification_media_cancel_action = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_lines_media = 2130903083;
+			public const int notification_template_big_media = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_template_media = 2130903084;
+			public const int notification_template_big_media_custom = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_template_media_custom = 2130903085;
+			public const int notification_template_big_media_narrow = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_template_part_chronometer = 2130903086;
+			public const int notification_template_big_media_narrow_custom = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_part_time = 2130903087;
+			public const int notification_template_custom_big = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int place_autocomplete_fragment = 2130903088;
+			public const int notification_template_icon_group = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int place_autocomplete_item_powered_by_google = 2130903089;
+			public const int notification_template_lines_media = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int place_autocomplete_item_prediction = 2130903090;
+			public const int notification_template_media = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int place_autocomplete_progress = 2130903091;
+			public const int notification_template_media_custom = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int Question = 2130903092;
+			public const int notification_template_part_chronometer = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int Recipe = 2130903093;
+			public const int notification_template_part_time = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int RecyclerViewItem = 2130903094;
+			public const int place_autocomplete_fragment = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int select_dialog_item_material = 2130903095;
+			public const int place_autocomplete_item_powered_by_google = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int select_dialog_multichoice_material = 2130903096;
+			public const int place_autocomplete_item_prediction = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int select_dialog_singlechoice_material = 2130903097;
+			public const int place_autocomplete_progress = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int support_simple_spinner_dropdown_item = 2130903098;
+			public const int progress_indicator = 2130903098;
+			
+			// aapt resource value: 0x7f03003b
+			public const int Question = 2130903099;
+			
+			// aapt resource value: 0x7f03003c
+			public const int Recipe = 2130903100;
+			
+			// aapt resource value: 0x7f03003d
+			public const int RecyclerViewItem = 2130903101;
+			
+			// aapt resource value: 0x7f03003e
+			public const int select_dialog_item_material = 2130903102;
+			
+			// aapt resource value: 0x7f03003f
+			public const int select_dialog_multichoice_material = 2130903103;
+			
+			// aapt resource value: 0x7f030040
+			public const int select_dialog_singlechoice_material = 2130903104;
+			
+			// aapt resource value: 0x7f030041
+			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			static Layout()
 			{
@@ -2752,8 +4304,8 @@ namespace Drinkr
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070034
-			public const int ApplicationName = 2131165236;
+			// aapt resource value: 0x7f070041
+			public const int ApplicationName = 2131165249;
 			
 			// aapt resource value: 0x7f070013
 			public const int abc_action_bar_home_description = 2131165203;
@@ -2848,6 +4400,12 @@ namespace Drinkr
 			// aapt resource value: 0x7f070025
 			public const int abc_toolbar_collapse_description = 2131165221;
 			
+			// aapt resource value: 0x7f070040
+			public const int app_intro_done_button = 2131165248;
+			
+			// aapt resource value: 0x7f07003f
+			public const int app_intro_skip_button = 2131165247;
+			
 			// aapt resource value: 0x7f070003
 			public const int common_google_play_services_enable_button = 2131165187;
 			
@@ -2899,11 +4457,44 @@ namespace Drinkr
 			// aapt resource value: 0x7f070012
 			public const int common_signin_button_text_long = 2131165202;
 			
-			// aapt resource value: 0x7f07003a
-			public const int google_maps_key = 2131165242;
+			// aapt resource value: 0x7f070034
+			public const int define_appintro = 2131165236;
+			
+			// aapt resource value: 0x7f070047
+			public const int google_maps_key = 2131165255;
 			
 			// aapt resource value: 0x7f070035
-			public const int next = 2131165237;
+			public const int library_appintro_author = 2131165237;
+			
+			// aapt resource value: 0x7f070036
+			public const int library_appintro_authorWebsite = 2131165238;
+			
+			// aapt resource value: 0x7f07003d
+			public const int library_appintro_classPath = 2131165245;
+			
+			// aapt resource value: 0x7f07003b
+			public const int library_appintro_isOpenSource = 2131165243;
+			
+			// aapt resource value: 0x7f070038
+			public const int library_appintro_libraryDescription = 2131165240;
+			
+			// aapt resource value: 0x7f070037
+			public const int library_appintro_libraryName = 2131165239;
+			
+			// aapt resource value: 0x7f07003a
+			public const int library_appintro_libraryVersion = 2131165242;
+			
+			// aapt resource value: 0x7f070039
+			public const int library_appintro_libraryWebsite = 2131165241;
+			
+			// aapt resource value: 0x7f07003e
+			public const int library_appintro_licenseId = 2131165246;
+			
+			// aapt resource value: 0x7f07003c
+			public const int library_appintro_repositoryLink = 2131165244;
+			
+			// aapt resource value: 0x7f070042
+			public const int next = 2131165250;
 			
 			// aapt resource value: 0x7f070000
 			public const int place_autocomplete_clear_button = 2131165184;
@@ -2914,17 +4505,17 @@ namespace Drinkr
 			// aapt resource value: 0x7f070026
 			public const int search_menu_title = 2131165222;
 			
-			// aapt resource value: 0x7f070036
-			public const int skip = 2131165238;
+			// aapt resource value: 0x7f070043
+			public const int skip = 2131165251;
 			
-			// aapt resource value: 0x7f070039
-			public const int slide_1_desc = 2131165241;
+			// aapt resource value: 0x7f070046
+			public const int slide_1_desc = 2131165254;
 			
-			// aapt resource value: 0x7f070038
-			public const int slide_1_title = 2131165240;
+			// aapt resource value: 0x7f070045
+			public const int slide_1_title = 2131165253;
 			
-			// aapt resource value: 0x7f070037
-			public const int start = 2131165239;
+			// aapt resource value: 0x7f070044
+			public const int start = 2131165252;
 			
 			// aapt resource value: 0x7f070027
 			public const int status_bar_notification_info_overflow = 2131165223;
@@ -2953,6 +4544,24 @@ namespace Drinkr
 			
 			// aapt resource value: 0x7f0a00a6
 			public const int Animation_AppCompat_DropDownUp = 2131361958;
+			
+			// aapt resource value: 0x7f0a0163
+			public const int AppIntroButtonStyleCompat = 2131362147;
+			
+			// aapt resource value: 0x7f0a0167
+			public const int AppIntroDefaultHeading = 2131362151;
+			
+			// aapt resource value: 0x7f0a0164
+			public const int AppIntroDefaultPadding = 2131362148;
+			
+			// aapt resource value: 0x7f0a0165
+			public const int AppIntroDefaultPadding_Intro1 = 2131362149;
+			
+			// aapt resource value: 0x7f0a0166
+			public const int AppIntroDefaultPadding_Intro2 = 2131362150;
+			
+			// aapt resource value: 0x7f0a0168
+			public const int AppIntroDefaultText = 2131362152;
 			
 			// aapt resource value: 0x7f0a00a7
 			public const int Base_AlertDialog_AppCompat = 2131361959;
@@ -3422,11 +5031,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f0a0003
 			public const int CardView_Light = 2131361795;
 			
-			// aapt resource value: 0x7f0a0163
-			public const int MyTheme = 2131362147;
+			// aapt resource value: 0x7f0a0169
+			public const int MyTheme = 2131362153;
 			
-			// aapt resource value: 0x7f0a0164
-			public const int MyTheme_Base = 2131362148;
+			// aapt resource value: 0x7f0a016a
+			public const int MyTheme_Base = 2131362154;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int Platform_AppCompat = 2131361826;
@@ -4955,6 +6564,44 @@ namespace Drinkr
 			
 			// aapt resource value: 0
 			public const int LoadingImageView_imageAspectRatioAdjust = 0;
+			
+			public static int[] LottieAnimationView = new int[] {
+					2130772240,
+					2130772241,
+					2130772242,
+					2130772243,
+					2130772244,
+					2130772245,
+					2130772246,
+					2130772247,
+					2130772248};
+			
+			// aapt resource value: 1
+			public const int LottieAnimationView_lottie_autoPlay = 1;
+			
+			// aapt resource value: 6
+			public const int LottieAnimationView_lottie_cacheStrategy = 6;
+			
+			// aapt resource value: 7
+			public const int LottieAnimationView_lottie_colorFilter = 7;
+			
+			// aapt resource value: 5
+			public const int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = 5;
+			
+			// aapt resource value: 0
+			public const int LottieAnimationView_lottie_fileName = 0;
+			
+			// aapt resource value: 3
+			public const int LottieAnimationView_lottie_imageAssetsFolder = 3;
+			
+			// aapt resource value: 2
+			public const int LottieAnimationView_lottie_loop = 2;
+			
+			// aapt resource value: 4
+			public const int LottieAnimationView_lottie_progress = 4;
+			
+			// aapt resource value: 8
+			public const int LottieAnimationView_lottie_scale = 8;
 			
 			public static int[] MapAttrs = new int[] {
 					2130771968,

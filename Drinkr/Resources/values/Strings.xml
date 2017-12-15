@@ -16,5 +16,12 @@
   <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
 
   <string name="google_maps_key">AIzaSyC8ivqxZGmjdWno61T-b1lZgdyKqETPBsI</string>
-  
+
+  <string-array name="moodID">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+  </string-array>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -27,6 +28,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_fileName="drinks.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center_vertical"
+            app:lottie_scale="0.5" />
         <Button
             android:text="Find a drink!"
             android:layout_width="match_parent"
@@ -35,7 +45,7 @@
             android:height="60dp"
             android:layout_alignParentBottom="true"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="120dp" />
+            android:layout_marginTop="20dp" />
         <Button
             android:text="Admin"
             android:layout_width="match_parent"
