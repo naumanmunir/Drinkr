@@ -3521,14 +3521,14 @@ namespace Drinkr
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090086
-			public const int DrinksRecyclerView = 2131296390;
+			// aapt resource value: 0x7f090087
+			public const int DrinksRecyclerView = 2131296391;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int SCROLLER_ID = 2131296429;
+			// aapt resource value: 0x7f0900ae
+			public const int SCROLLER_ID = 2131296430;
 			
-			// aapt resource value: 0x7f09008a
-			public const int action0 = 2131296394;
+			// aapt resource value: 0x7f09008b
+			public const int action0 = 2131296395;
 			
 			// aapt resource value: 0x7f090056
 			public const int action_bar = 2131296342;
@@ -3551,17 +3551,17 @@ namespace Drinkr
 			// aapt resource value: 0x7f090033
 			public const int action_bar_title = 2131296307;
 			
-			// aapt resource value: 0x7f090087
-			public const int action_container = 2131296391;
+			// aapt resource value: 0x7f090088
+			public const int action_container = 2131296392;
 			
 			// aapt resource value: 0x7f090057
 			public const int action_context_bar = 2131296343;
 			
-			// aapt resource value: 0x7f09008e
-			public const int action_divider = 2131296398;
+			// aapt resource value: 0x7f09008f
+			public const int action_divider = 2131296399;
 			
-			// aapt resource value: 0x7f090088
-			public const int action_image = 2131296392;
+			// aapt resource value: 0x7f090089
+			public const int action_image = 2131296393;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3578,11 +3578,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f090035
 			public const int action_mode_close_button = 2131296309;
 			
-			// aapt resource value: 0x7f090089
-			public const int action_text = 2131296393;
+			// aapt resource value: 0x7f09008a
+			public const int action_text = 2131296394;
 			
-			// aapt resource value: 0x7f090097
-			public const int actions = 2131296407;
+			// aapt resource value: 0x7f090098
+			public const int actions = 2131296408;
 			
 			// aapt resource value: 0x7f090036
 			public const int activity_chooser_view_content = 2131296310;
@@ -3629,11 +3629,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f090081
 			public const int btnAdmin = 2131296385;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int btnBack = 2131296425;
+			// aapt resource value: 0x7f0900aa
+			public const int btnBack = 2131296426;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int btnDone = 2131296427;
+			// aapt resource value: 0x7f0900ac
+			public const int btnDone = 2131296428;
 			
 			// aapt resource value: 0x7f090080
 			public const int btnEnter = 2131296384;
@@ -3644,20 +3644,23 @@ namespace Drinkr
 			// aapt resource value: 0x7f09006f
 			public const int btnFindRecipe = 2131296367;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int btnNext = 2131296426;
+			// aapt resource value: 0x7f0900ab
+			public const int btnNext = 2131296427;
 			
 			// aapt resource value: 0x7f09003d
 			public const int buttonPanel = 2131296317;
 			
-			// aapt resource value: 0x7f09008b
-			public const int cancel_action = 2131296395;
+			// aapt resource value: 0x7f09008c
+			public const int cancel_action = 2131296396;
+			
+			// aapt resource value: 0x7f090084
+			public const int chart = 2131296388;
 			
 			// aapt resource value: 0x7f09004d
 			public const int checkbox = 2131296333;
 			
-			// aapt resource value: 0x7f090093
-			public const int chronometer = 2131296403;
+			// aapt resource value: 0x7f090094
+			public const int chronometer = 2131296404;
 			
 			// aapt resource value: 0x7f09002b
 			public const int collapseActionView = 2131296299;
@@ -3704,8 +3707,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090028
 			public const int end = 2131296296;
 			
-			// aapt resource value: 0x7f09009d
-			public const int end_padder = 2131296413;
+			// aapt resource value: 0x7f09009e
+			public const int end_padder = 2131296414;
 			
 			// aapt resource value: 0x7f090037
 			public const int expand_activities_button = 2131296311;
@@ -3728,8 +3731,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f09003b
 			public const int icon = 2131296315;
 			
-			// aapt resource value: 0x7f090098
-			public const int icon_group = 2131296408;
+			// aapt resource value: 0x7f090099
+			public const int icon_group = 2131296409;
 			
 			// aapt resource value: 0x7f090012
 			public const int icon_only = 2131296274;
@@ -3743,14 +3746,14 @@ namespace Drinkr
 			// aapt resource value: 0x7f09006a
 			public const int imageView1 = 2131296362;
 			
-			// aapt resource value: 0x7f0900af
-			public const int imgDrink = 2131296431;
+			// aapt resource value: 0x7f0900b0
+			public const int imgDrink = 2131296432;
 			
 			// aapt resource value: 0x7f090075
 			public const int indicator_container = 2131296373;
 			
-			// aapt resource value: 0x7f090094
-			public const int info = 2131296404;
+			// aapt resource value: 0x7f090095
+			public const int info = 2131296405;
 			
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
@@ -3758,11 +3761,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f090017
 			public const int light = 2131296279;
 			
-			// aapt resource value: 0x7f090099
-			public const int line1 = 2131296409;
+			// aapt resource value: 0x7f09009a
+			public const int line1 = 2131296410;
 			
-			// aapt resource value: 0x7f09009b
-			public const int line3 = 2131296411;
+			// aapt resource value: 0x7f09009c
+			public const int line3 = 2131296412;
 			
 			// aapt resource value: 0x7f090018
 			public const int listMode = 2131296280;
@@ -3779,8 +3782,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f09000a
 			public const int lottie_layer_name = 2131296266;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int lvAnswers = 2131296424;
+			// aapt resource value: 0x7f0900a9
+			public const int lvAnswers = 2131296425;
 			
 			// aapt resource value: 0x7f090071
 			public const int main = 2131296369;
@@ -3788,8 +3791,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090083
 			public const int map = 2131296387;
 			
-			// aapt resource value: 0x7f09008d
-			public const int media_actions = 2131296397;
+			// aapt resource value: 0x7f09008e
+			public const int media_actions = 2131296398;
 			
 			// aapt resource value: 0x7f090029
 			public const int middle = 2131296297;
@@ -3809,41 +3812,41 @@ namespace Drinkr
 			// aapt resource value: 0x7f09000d
 			public const int normal = 2131296269;
 			
-			// aapt resource value: 0x7f090096
-			public const int notification_background = 2131296406;
+			// aapt resource value: 0x7f090097
+			public const int notification_background = 2131296407;
+			
+			// aapt resource value: 0x7f090091
+			public const int notification_main_column = 2131296401;
 			
 			// aapt resource value: 0x7f090090
-			public const int notification_main_column = 2131296400;
-			
-			// aapt resource value: 0x7f09008f
-			public const int notification_main_column_container = 2131296399;
+			public const int notification_main_column_container = 2131296400;
 			
 			// aapt resource value: 0x7f09003f
 			public const int parentPanel = 2131296319;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int place_autocomplete_clear_button = 2131296416;
-			
-			// aapt resource value: 0x7f0900a2
-			public const int place_autocomplete_powered_by_google = 2131296418;
-			
-			// aapt resource value: 0x7f0900a4
-			public const int place_autocomplete_prediction_primary_text = 2131296420;
-			
-			// aapt resource value: 0x7f0900a5
-			public const int place_autocomplete_prediction_secondary_text = 2131296421;
+			// aapt resource value: 0x7f0900a1
+			public const int place_autocomplete_clear_button = 2131296417;
 			
 			// aapt resource value: 0x7f0900a3
-			public const int place_autocomplete_progress = 2131296419;
+			public const int place_autocomplete_powered_by_google = 2131296419;
 			
-			// aapt resource value: 0x7f09009e
-			public const int place_autocomplete_search_button = 2131296414;
+			// aapt resource value: 0x7f0900a5
+			public const int place_autocomplete_prediction_primary_text = 2131296421;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int place_autocomplete_prediction_secondary_text = 2131296422;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int place_autocomplete_progress = 2131296420;
 			
 			// aapt resource value: 0x7f09009f
-			public const int place_autocomplete_search_input = 2131296415;
+			public const int place_autocomplete_search_button = 2131296415;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int place_autocomplete_separator = 2131296417;
+			// aapt resource value: 0x7f0900a0
+			public const int place_autocomplete_search_input = 2131296416;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int place_autocomplete_separator = 2131296418;
 			
 			// aapt resource value: 0x7f090006
 			public const int progress_circular = 2131296262;
@@ -3860,14 +3863,14 @@ namespace Drinkr
 			// aapt resource value: 0x7f09006e
 			public const int relativeLayout1 = 2131296366;
 			
-			// aapt resource value: 0x7f090095
-			public const int right_icon = 2131296405;
+			// aapt resource value: 0x7f090096
+			public const int right_icon = 2131296406;
 			
-			// aapt resource value: 0x7f090091
-			public const int right_side = 2131296401;
+			// aapt resource value: 0x7f090092
+			public const int right_side = 2131296402;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int rlAnswers = 2131296423;
+			// aapt resource value: 0x7f0900a8
+			public const int rlAnswers = 2131296424;
 			
 			// aapt resource value: 0x7f09000e
 			public const int satellite = 2131296270;
@@ -3914,6 +3917,9 @@ namespace Drinkr
 			// aapt resource value: 0x7f090063
 			public const int search_voice_btn = 2131296355;
 			
+			// aapt resource value: 0x7f090085
+			public const int seekBar1 = 2131296389;
+			
 			// aapt resource value: 0x7f090064
 			public const int select_dialog_listview = 2131296356;
 			
@@ -3953,8 +3959,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090013
 			public const int standard = 2131296275;
 			
-			// aapt resource value: 0x7f09008c
-			public const int status_bar_latest_event_content = 2131296396;
+			// aapt resource value: 0x7f09008d
+			public const int status_bar_latest_event_content = 2131296397;
 			
 			// aapt resource value: 0x7f090031
 			public const int strong = 2131296305;
@@ -3971,11 +3977,11 @@ namespace Drinkr
 			// aapt resource value: 0x7f09000f
 			public const int terrain = 2131296271;
 			
-			// aapt resource value: 0x7f09009c
-			public const int text = 2131296412;
+			// aapt resource value: 0x7f09009d
+			public const int text = 2131296413;
 			
-			// aapt resource value: 0x7f09009a
-			public const int text2 = 2131296410;
+			// aapt resource value: 0x7f09009b
+			public const int text2 = 2131296411;
 			
 			// aapt resource value: 0x7f090044
 			public const int textSpacerNoButtons = 2131296324;
@@ -3986,11 +3992,8 @@ namespace Drinkr
 			// aapt resource value: 0x7f090065
 			public const int textView1 = 2131296357;
 			
-			// aapt resource value: 0x7f090085
-			public const int textView3 = 2131296389;
-			
-			// aapt resource value: 0x7f090092
-			public const int time = 2131296402;
+			// aapt resource value: 0x7f090093
+			public const int time = 2131296403;
 			
 			// aapt resource value: 0x7f09003c
 			public const int title = 2131296316;
@@ -4013,20 +4016,20 @@ namespace Drinkr
 			// aapt resource value: 0x7f09006d
 			public const int txtDrinkDesc = 2131296365;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int txtDrinkName = 2131296432;
+			// aapt resource value: 0x7f0900b1
+			public const int txtDrinkName = 2131296433;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int txtDrinkTitle = 2131296428;
+			// aapt resource value: 0x7f0900ad
+			public const int txtDrinkTitle = 2131296429;
 			
-			// aapt resource value: 0x7f090084
-			public const int txtMood = 2131296388;
+			// aapt resource value: 0x7f0900a7
+			public const int txtQuestion = 2131296423;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int txtQuestion = 2131296422;
+			// aapt resource value: 0x7f0900af
+			public const int txtRecipe = 2131296431;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int txtRecipe = 2131296430;
+			// aapt resource value: 0x7f090086
+			public const int txtRecommendedDrinks = 2131296390;
 			
 			// aapt resource value: 0x7f09007d
 			public const int txtTitle = 2131296381;
