@@ -105,13 +105,18 @@ namespace Drinkr.Data
             return drinkList;
         }
 
-        public async Task<string> AddDrink(string name, string moodID, string desc)
+        public async Task<string> AddDrink(string name, string moodID, string desc, string uploadString)
         {
             string res = null;
+            var uploadContent = new MultipartFormDataContent()
+            {
+                { new StringContent(uploadString),  "ImageData" }
+            };
 
             try
             {
-                var response = client.GetAsync("/api/question/adddrink/" + name + "/" + moodID + "/" + desc).Result;
+
+                var response = client.PostAsync("/api/question/adddrink/" + name + "/" + moodID + "/" + desc, uploadContent).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();

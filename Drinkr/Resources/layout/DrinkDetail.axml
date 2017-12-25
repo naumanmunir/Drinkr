@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ImageView
-        android:src="@drawable/drinkimg1"
+    <LinearLayout
+        android:id="@+id/llTopDrinkImage"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:id="@+id/imageView1"
-        android:scaleType="fitXY" 
-        />
-  <FrameLayout
-    android:id="@+id/drinkDetailFragContainer"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:visibility="gone"
-    />
+        android:layout_height="130dp"
+        android:background="#FFBC13">
+        <FFImageLoading.Views.ImageViewAsync
+            android:src="@drawable/drinkimg1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/imageView1" />
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/llDrinkDetail"
         android:orientation="vertical"
@@ -51,4 +51,8 @@
                 android:layout_alignParentBottom="true" />
         </RelativeLayout>
     </LinearLayout>
+    <FrameLayout
+        android:id="@+id/drinkDetailFragContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

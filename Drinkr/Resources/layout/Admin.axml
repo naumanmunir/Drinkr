@@ -33,6 +33,16 @@
         android:hint="Description"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgUpload" />
+    <Button
+        android:text="Add Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddImage" />
     <Button
         android:text="Add Drink"
         android:layout_width="match_parent"
@@ -40,6 +50,7 @@
         android:id="@+id/btnAddDrink"
         android:height="60dp"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="center_vertical"
-        android:layout_marginTop="20dp" />
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:background="#269F43" />
 </LinearLayout>

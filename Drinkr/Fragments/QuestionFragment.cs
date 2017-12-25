@@ -51,6 +51,8 @@ namespace Drinkr.Fragments
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             view = inflater.Inflate(Resource.Layout.Question, container, false);
 
+            currQuestion = 0;
+
             btnNext = view.FindViewById<Button>(Resource.Id.btnNext);
             btnBack = view.FindViewById<Button>(Resource.Id.btnBack);
             btnDone = view.FindViewById<Button>(Resource.Id.btnDone);

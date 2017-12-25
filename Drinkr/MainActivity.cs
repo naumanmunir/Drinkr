@@ -83,6 +83,10 @@ namespace Drinkr
             ShowFragment(qf);
         }
 
+        //public override void OnBackPressed()
+        //{
+            
+        //}
 
         private void ShowFragment(SupportFragment frag)
         {

@@ -22,6 +22,7 @@ namespace Drinkr.Fragments
         TextView drinkDesc;
         FrameLayout frameLayout;
         LinearLayout linearLayout;
+        Android.Support.V4.App.Fragment currSelectedFrag;
 
         public DrinkDetailFragment() { }
 
@@ -51,6 +52,8 @@ namespace Drinkr.Fragments
             btnGetRecipe = view.FindViewById<Button>(Resource.Id.btnFindRecipe);
             drinkDesc = view.FindViewById<TextView>(Resource.Id.txtDrinkDesc);
 
+            //currSelectedFrag = new DrinkDetailFragment();
+
             btnGetRecipe.Click += BtnGetRecipe_Click;
             btnFindNearBy.Click += BtnFindNearBy_Click;
 
@@ -58,6 +61,8 @@ namespace Drinkr.Fragments
             {
                 btnGetRecipe.Visibility = ViewStates.Gone;
             }
+
+
 
             drinkDesc.Text = drink.Description;
 
@@ -67,10 +72,12 @@ namespace Drinkr.Fragments
         private void BtnGetRecipe_Click(object sender, EventArgs e)
         {
             //linearLayout.Visibility = ViewStates.Visible;
-            frameLayout.Visibility = ViewStates.Visible;
+            //frameLayout.Visibility = ViewStates.Visible;
             RecipeFragment rf = new RecipeFragment(drink);
             ShowFragment(rf);
         }
+
+        
 
         private void BtnFindNearBy_Click(object sender, EventArgs e)
         {
@@ -91,6 +98,8 @@ namespace Drinkr.Fragments
             if (!frag.IsVisible)
             {
                 var trans = FragmentManager.BeginTransaction();
+
+                //currSelectedFrag = frag;
 
                 trans.Add(Resource.Id.fragmentContainer, frag);
 
