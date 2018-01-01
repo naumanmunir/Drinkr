@@ -9,6 +9,7 @@ using Android.App;
 using Android.Support.V7.App;
 using System.Collections.Generic;
 using Drinkr.Models;
+using Android.Graphics;
 
 namespace Drinkr.Adapters
 {
@@ -42,7 +43,14 @@ namespace Drinkr.Adapters
             // Replace the contents of the view with that element
             var holder = viewHolder as DrinkRecyclerAdapterViewHolder;
             holder.txtDrinkName.Text = DrinkList[position].Name;
-            holder.drink = DrinkList[position];
+            holder.drink = DrinkList[position] as Drink;
+
+            if (holder.drink.Image != null)
+            {
+                Bitmap bm = BitmapFactory.DecodeByteArray(holder.drink.Image, 0, holder.drink.Image.Length);
+                holder.btnDrink.SetImageBitmap(bm);
+            }
+
         }
 
     }
@@ -59,6 +67,7 @@ namespace Drinkr.Adapters
             Context = context;
             txtDrinkName = itemView.FindViewById<TextView>(Resource.Id.txtDrinkName);
             btnDrink = itemView.FindViewById<ImageButton>(Resource.Id.imgDrink);
+
 
             btnDrink.Click += BtnDrink_Click;
         }

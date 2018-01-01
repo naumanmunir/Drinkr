@@ -38,9 +38,9 @@ namespace Drinkr.Data
             return restService.GetDrinks(currMood);
         }
 
-        public Task<string> AddDrink(string name, string moodID, string desc, string uploadString)
+        public Task<string> AddDrink(string name, string moodID, string desc, byte[] uploadByte)
         {
-            return restService.AddDrink(name, moodID, desc, uploadString);
+            return restService.AddDrink(name, moodID, desc, uploadByte);
         }
     }
 }

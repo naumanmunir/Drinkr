@@ -22,6 +22,6 @@ namespace Drinkr.Data
 
         Task<List<Drink>> GetDrinks(string currMood);
 
-        Task<string> AddDrink(string name, string moodID, string desc, string uploadString);
+        Task<string> AddDrink(string name, string moodID, string desc, byte[] uploadByte);
     }
 }

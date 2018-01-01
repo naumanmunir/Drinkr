@@ -79,15 +79,19 @@ namespace Drinkr.Fragments
             var drinkDesc = txtDesc.Text;
 
             Bitmap bm = ((BitmapDrawable)imgUpload.Drawable).Bitmap;
-
+            
             MemoryStream ms = new MemoryStream();
             bm.Compress(Bitmap.CompressFormat.Jpeg, 100, ms);
 
             var data = ms.ToArray();
-            var uploadContent = Convert.ToBase64String(data);
-            RestManager.AddDrink(drinkName, moodID, drinkDesc, uploadContent);
+            //var uploadContent = Convert.ToBase64String(data);
+            RestManager.AddDrink(drinkName, moodID, drinkDesc, data);
 
-         }
+            
+            txtName.Text = string.Empty;
+            txtDesc.Text = string.Empty;
+
+        }
 
         public override void OnActivityResult(int requestCode, int resultCode, Intent data)
         {

@@ -105,13 +105,12 @@ namespace Drinkr.Data
             return drinkList;
         }
 
-        public async Task<string> AddDrink(string name, string moodID, string desc, string uploadString)
+        public async Task<string> AddDrink(string name, string moodID, string desc, byte[] uploadByte)
         {
             string res = null;
-            var uploadContent = new MultipartFormDataContent()
-            {
-                { new StringContent(uploadString),  "ImageData" }
-            };
+            var uploadContent = new MultipartFormDataContent();
+
+            uploadContent.Add(new ByteArrayContent(uploadByte), "ImageData");
 
             try
             {

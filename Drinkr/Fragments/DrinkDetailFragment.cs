@@ -11,6 +11,15 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Drinkr.Models;
+using FFImageLoading.Views;
+using FFImageLoading;
+using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
+using Android.Graphics;
+
+using FFImageLoading.Transformations;
+using Android.Graphics.Drawables;
 
 namespace Drinkr.Fragments
 {
@@ -20,6 +29,8 @@ namespace Drinkr.Fragments
         Button btnGetRecipe;
         Button btnFindNearBy;
         TextView drinkDesc;
+        FFImageLoading.Views.ImageViewAsync imgDrink;
+
         FrameLayout frameLayout;
         LinearLayout linearLayout;
         Android.Support.V4.App.Fragment currSelectedFrag;
@@ -51,6 +62,7 @@ namespace Drinkr.Fragments
             btnFindNearBy = view.FindViewById<Button>(Resource.Id.btnFindNearBy);
             btnGetRecipe = view.FindViewById<Button>(Resource.Id.btnFindRecipe);
             drinkDesc = view.FindViewById<TextView>(Resource.Id.txtDrinkDesc);
+            imgDrink = view.FindViewById<FFImageLoading.Views.ImageViewAsync>(Resource.Id.imgDrink);
 
             //currSelectedFrag = new DrinkDetailFragment();
 
@@ -62,11 +74,29 @@ namespace Drinkr.Fragments
                 btnGetRecipe.Visibility = ViewStates.Gone;
             }
 
+            //Bitmap bm = BitmapFactory.DecodeByteArray(drink.Image, 0, drink.Image.Length);
 
+            
+            
+            ImageService.Instance.LoadStream((token) => { return SomeMethodWhichReturnsStream(token); }).Into(imgDrink);
+            
+            //imgDrink.SetImageBitmap(bm);
 
             drinkDesc.Text = drink.Description;
 
             return view;
+        }
+
+        private async Task<Stream> SomeMethodWhichReturnsStream(CancellationToken token)
+        {
+            if (drink.Image.Length > 0)
+            {
+                MemoryStream ms = new MemoryStream(drink.Image);
+
+                return await Task.FromResult(ms);
+            }
+
+            return null;
         }
 
         private void BtnGetRecipe_Click(object sender, EventArgs e)

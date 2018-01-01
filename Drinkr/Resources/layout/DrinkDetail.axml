@@ -6,15 +6,29 @@
     android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/llTopDrinkImage"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="130dp"
+        android:gravity="center_horizontal|center_vertical"
         android:background="#FFBC13">
-        <FFImageLoading.Views.ImageViewAsync
-            android:src="@drawable/drinkimg1"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:id="@+id/imageView1" />
+        <android.support.v7.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="50dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.0">
+            <FFImageLoading.Views.ImageViewAsync
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:id="@+id/imgDrink"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </android.support.v7.widget.CardView>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/llDrinkDetail"

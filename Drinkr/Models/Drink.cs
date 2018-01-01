@@ -17,5 +17,6 @@ namespace Drinkr.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string Recipe { get; set; }
+        public byte[] Image { get; set; }
     }
 }
