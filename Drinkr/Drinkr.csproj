@@ -139,6 +139,7 @@
     <Compile Include="Data\RestService.cs" />
     <Compile Include="Fragments\AdminFragment.cs" />
     <Compile Include="Fragments\DrinkDetailFragment.cs" />
+    <Compile Include="Fragments\MainFragment.cs" />
     <Compile Include="Fragments\MapFragment.cs" />
     <Compile Include="Fragments\MoodFragment.cs" />
     <Compile Include="Fragments\QuestionFragment.cs" />

@@ -20,6 +20,7 @@ using Android.Graphics;
 
 using FFImageLoading.Transformations;
 using Android.Graphics.Drawables;
+using Android.Support.V4.Graphics.Drawable;
 
 namespace Drinkr.Fragments
 {
@@ -76,15 +77,30 @@ namespace Drinkr.Fragments
 
             //Bitmap bm = BitmapFactory.DecodeByteArray(drink.Image, 0, drink.Image.Length);
 
-            
-            
-            ImageService.Instance.LoadStream((token) => { return SomeMethodWhichReturnsStream(token); }).Into(imgDrink);
-            
+            DisplayHeaderImage();
+
+            //ImageService.Instance.LoadStream((token) => { return SomeMethodWhichReturnsStream(token); }).Into(imgDrink);
+
             //imgDrink.SetImageBitmap(bm);
 
             drinkDesc.Text = drink.Description;
 
             return view;
+        }
+
+        private void DisplayHeaderImage()
+        {
+            if (drink.Image != null)
+            {
+                Bitmap bitMap = BitmapFactory.DecodeByteArray(drink.Image, 0, drink.Image.Length);
+                RoundedBitmapDrawable rbd = RoundedBitmapDrawableFactory.Create(Resources, bitMap);
+                rbd.Circular = true;
+                imgDrink.SetImageDrawable(rbd);
+            }
+            else
+            {
+                //placeholder image
+            }
         }
 
         private async Task<Stream> SomeMethodWhichReturnsStream(CancellationToken token)

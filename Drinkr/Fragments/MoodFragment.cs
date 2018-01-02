@@ -61,13 +61,6 @@ namespace Drinkr.Fragments
             //currMood = view.FindViewById<TextView>(Resource.Id.txtMood);
             DrinksRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.DrinksRecyclerView);
 
-            //tvX = (TextView)view.FindViewById(Resource.Id.tvXMax);
-            //tvY = (TextView)view.FindViewById(Resource.Id.tvYMax);
-
-            //mSeekBarX = (SeekBar)view.FindViewById(Resource.Id.seekBar1);
-            //mSeekBarY = (SeekBar)view.FindViewById(Resource.Id.seekBar2);
-            //mSeekBarX.SetProgress(4, true);
-            //mSeekBarY.SetProgress(10, true);
 
             mChart = (PieChart)view.FindViewById(Resource.Id.chart);
 

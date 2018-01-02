@@ -43,15 +43,9 @@ namespace Drinkr
             frameLayout.Visibility = Android.Views.ViewStates.Gone;
             btnEnter.Click += BtnEnter_Click;
             btnAdmin.Click += BtnAdmin_Click;
-            //var questionsList = RestManager.GetQuestionsAsync().Result;
 
-            //QuestionFragment qf = new QuestionFragment(questionsList);
-
-            //ShowFragment(qf);
-
-            //List<QuestionFragment> fff = new List<QuestionFragment>();
             StartActivity(intent);
-            //fff.Add()
+            
         }
 
         private void BtnAdmin_Click(object sender, System.EventArgs e)
@@ -83,27 +77,22 @@ namespace Drinkr
             ShowFragment(qf);
         }
 
-        //public override void OnBackPressed()
-        //{
-            
-        //}
 
         private void ShowFragment(SupportFragment frag)
         {
-            if (!frag.IsVisible)
-            {
+            //if (!frag.IsVisible)
+            //{
 
                 var trans = SupportFragmentManager.BeginTransaction();
 
-                trans.Add(Resource.Id.fragmentContainer, frag);
+                //trans.Add(Resource.Id.fragmentContainer, frag);
+                trans.Replace(Resource.Id.fragmentContainer, frag);
 
-                //trans.Hide(currSelectedFrag);
-                trans.Show(frag);
+                //trans.Show(frag);
                 trans.AddToBackStack(null);
                 trans.Commit();
 
-                //currSelectedFrag = frag;
-            }
+            //}
         }
     }
 }
